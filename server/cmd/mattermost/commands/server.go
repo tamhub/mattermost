@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package commands
@@ -27,7 +27,7 @@ import (
 
 var serverCmd = &cobra.Command{
 	Use:          "server",
-	Short:        "Run the Mattermost server",
+	Short:        "Run the Tam Dev server",
 	RunE:         serverCmdF,
 	SilenceUsage: true,
 }
@@ -41,7 +41,7 @@ func serverCmdF(command *cobra.Command, args []string) error {
 	interruptChan := make(chan os.Signal, 1)
 
 	if err := utils.TranslationsPreInit(); err != nil {
-		return errors.Wrap(err, "unable to load Mattermost translation files")
+		return errors.Wrap(err, "unable to load Tam Dev translation files")
 	}
 
 	customDefaults, err := loadCustomDefaults()

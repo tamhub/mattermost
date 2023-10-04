@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -16,9 +16,9 @@ const LDAPFeatureDiscovery: React.FC = () => {
             featureName='ldap'
             minimumSKURequiredForFeature={LicenseSkus.Professional}
             titleID='admin.ldap_feature_discovery.title'
-            titleDefault='Integrate Active Directory/LDAP with Mattermost Professional'
+            titleDefault='Integrate Active Directory/LDAP with Tam Dev Professional'
             copyID='admin.ldap_feature_discovery.copy'
-            copyDefault={'When you connect Mattermost with your organization\'s Active Directory/LDAP, users can log in without having to create new usernames and passwords.'}
+            copyDefault={'When you connect Tam Dev with your organization\'s Active Directory/LDAP, users can log in without having to create new usernames and passwords.'}
             learnMoreURL='https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=product-feature-discovery&utm_content=adldap'
             featureDiscoveryImage={<LdapSVG/>}
         />

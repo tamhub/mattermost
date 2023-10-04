@@ -194,7 +194,7 @@
         Must have `manage_system` permission.
       operationId: TestEmail
       requestBody:
-        description: Mattermost configuration
+        description: Tam Dev configuration
         required: true
         content:
           application/json:
@@ -271,7 +271,7 @@
         __Minimum server version__: 4.8
       operationId: TestS3Connection
       requestBody:
-        description: Mattermost configuration
+        description: Tam Dev configuration
         required: true
         content:
           application/json:
@@ -329,7 +329,7 @@
         Must have `manage_system` permission.
       operationId: UpdateConfig
       requestBody:
-        description: Mattermost configuration
+        description: Tam Dev configuration
         required: true
         content:
           application/json:
@@ -449,7 +449,7 @@
         to update a plugins configurations.
       operationId: PatchConfig
       requestBody:
-        description: Mattermost configuration
+        description: Tam Dev configuration
         required: true
         content:
           application/json:
@@ -686,7 +686,7 @@
         - system
       summary: Invalidate all the caches
       description: >
-        Purge all the in-memory caches for the Mattermost server. This can have
+        Purge all the in-memory caches for the Tam Dev server. This can have
         a temporary negative effect on performance while the caches are
         re-populated.
 
@@ -972,7 +972,7 @@
         - system
       summary: Get an image by url
       description: >
-        Fetches an image via Mattermost image proxy.
+        Fetches an image via Tam Dev image proxy.
 
         __Minimum server version__: 3.10
 
@@ -997,9 +997,9 @@
         - system
       summary: Executes an inplace upgrade from Team Edition to Enterprise Edition
       description: >
-        It downloads the Mattermost Enterprise Edition of your current version
+        It downloads the Tam Dev Enterprise Edition of your current version
         and replace your current version with it. After the upgrade you need to
-        restart the Mattermost server.
+        restart the Tam Dev server.
 
         __Minimum server version__: 5.27
 

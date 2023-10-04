@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package commands
@@ -23,7 +23,7 @@ var PluginCmd = &cobra.Command{
 var PluginAddCmd = &cobra.Command{
 	Use:     "add [plugins]",
 	Short:   "Add plugins",
-	Long:    "Add plugins to your Mattermost server.",
+	Long:    "Add plugins to your Tam Dev server.",
 	Example: `  plugin add hovercardexample.tar.gz pluginexample.tar.gz`,
 	RunE:    withClient(pluginAddCmdF),
 	Args:    cobra.MinimumNArgs(1),
@@ -45,7 +45,7 @@ var PluginInstallURLCmd = &cobra.Command{
 var PluginDeleteCmd = &cobra.Command{
 	Use:     "delete [plugins]",
 	Short:   "Delete plugins",
-	Long:    "Delete previously uploaded plugins from your Mattermost server.",
+	Long:    "Delete previously uploaded plugins from your Tam Dev server.",
 	Example: `  plugin delete hovercardexample pluginexample`,
 	RunE:    withClient(pluginDeleteCmdF),
 	Args:    cobra.MinimumNArgs(1),
@@ -54,7 +54,7 @@ var PluginDeleteCmd = &cobra.Command{
 var PluginEnableCmd = &cobra.Command{
 	Use:     "enable [plugins]",
 	Short:   "Enable plugins",
-	Long:    "Enable plugins for use on your Mattermost server.",
+	Long:    "Enable plugins for use on your Tam Dev server.",
 	Example: `  plugin enable hovercardexample pluginexample`,
 	RunE:    withClient(pluginEnableCmdF),
 	Args:    cobra.MinimumNArgs(1),
@@ -72,7 +72,7 @@ var PluginDisableCmd = &cobra.Command{
 var PluginListCmd = &cobra.Command{
 	Use:     "list",
 	Short:   "List plugins",
-	Long:    "List all enabled and disabled plugins installed on your Mattermost server.",
+	Long:    "List all enabled and disabled plugins installed on your Tam Dev server.",
 	Example: `  plugin list`,
 	RunE:    withClient(pluginListCmdF),
 }

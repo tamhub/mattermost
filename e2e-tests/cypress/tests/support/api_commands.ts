@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {ChainableT, ResponseT} from 'tests/types';
@@ -8,7 +8,7 @@ import {getAdminAccount, User} from './env';
 // *****************************************************************************
 // Read more:
 // - https://on.cypress.io/custom-commands on writing Cypress commands
-// - https://api.mattermost.com/ for Mattermost API reference
+// - https://api.mattermost.com/ for Tam Dev API reference
 // *****************************************************************************
 
 // *****************************************************************************

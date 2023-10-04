@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -46,8 +46,8 @@ describe('Authentication', () => {
         // # Click "Save"
         cy.findByText('Save').scrollIntoView().click();
 
-        // # Wait until we are at the Mattermost Teams page
-        cy.findByText('Mattermost Teams', {timeout: TIMEOUTS.ONE_MIN}).should('be.visible');
+        // # Wait until we are at the Tam Dev Teams page
+        cy.findByText('Tam Dev Teams', {timeout: TIMEOUTS.ONE_MIN}).should('be.visible');
 
         cy.apiLogout().visit(`/signup_user_complete/?id=${testTeam.invite_id}`);
 

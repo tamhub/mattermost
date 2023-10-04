@@ -163,7 +163,7 @@ exports[`components/ElasticSearchSettings should match snapshot, disabled 1`] = 
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="When true, Mattermost will not require the Elasticsearch certificate to be signed by a trusted Certificate Authority."
+            defaultMessage="When true, Tam Dev will not require the Elasticsearch certificate to be signed by a trusted Certificate Authority."
             id="admin.elasticsearch.skipTLSVerificationDescription"
           />
         }
@@ -271,7 +271,7 @@ exports[`components/ElasticSearchSettings should match snapshot, disabled 1`] = 
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="Tests if the Mattermost server can connect to the Elasticsearch server specified. Testing the connection only saves the configuration if the test is successful. A successful test will also re-initialize the client if you have started Elasticsearch after starting Mattermost. But this will not restart the workers. To do that, please toggle \\"Enable Elasticsearch Indexing\\"."
+            defaultMessage="Tests if the Tam Dev server can connect to the Elasticsearch server specified. Testing the connection only saves the configuration if the test is successful. A successful test will also re-initialize the client if you have started Elasticsearch after starting Tam Dev. But this will not restart the workers. To do that, please toggle \\"Enable Elasticsearch Indexing\\"."
             id="admin.elasticsearch.testHelpText"
           />
         }
@@ -650,7 +650,7 @@ exports[`components/ElasticSearchSettings should match snapshot, enabled 1`] = `
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="When true, Mattermost will not require the Elasticsearch certificate to be signed by a trusted Certificate Authority."
+            defaultMessage="When true, Tam Dev will not require the Elasticsearch certificate to be signed by a trusted Certificate Authority."
             id="admin.elasticsearch.skipTLSVerificationDescription"
           />
         }
@@ -758,7 +758,7 @@ exports[`components/ElasticSearchSettings should match snapshot, enabled 1`] = `
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="Tests if the Mattermost server can connect to the Elasticsearch server specified. Testing the connection only saves the configuration if the test is successful. A successful test will also re-initialize the client if you have started Elasticsearch after starting Mattermost. But this will not restart the workers. To do that, please toggle \\"Enable Elasticsearch Indexing\\"."
+            defaultMessage="Tests if the Tam Dev server can connect to the Elasticsearch server specified. Testing the connection only saves the configuration if the test is successful. A successful test will also re-initialize the client if you have started Elasticsearch after starting Tam Dev. But this will not restart the workers. To do that, please toggle \\"Enable Elasticsearch Indexing\\"."
             id="admin.elasticsearch.testHelpText"
           />
         }

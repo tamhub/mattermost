@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {CollapsedThreads} from '@mattermost/types/config';
@@ -108,7 +108,7 @@ const getThemePreference = createSelector(
 
 export type ThemeKey = 'denim' | 'sapphire' | 'quartz' | 'indigo' | 'onyx';
 
-export type LegacyThemeType = 'Mattermost' | 'Organization' | 'Mattermost Dark' | 'Windows Dark';
+export type LegacyThemeType = 'Tam Dev' | 'Organization' | 'Tam Dev Dark' | 'Windows Dark';
 
 export type ThemeType = 'Denim' | 'Sapphire' | 'Quartz' | 'Indigo' | 'Onyx';
 

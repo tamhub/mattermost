@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -69,7 +69,7 @@ context('Okta', () => {
 
     let testSettings;
 
-    //Note: the assumption is that this test suite runs on a clean setup (empty DB) which would ensure that the users are not present in the Mattermost instance beforehand
+    //Note: the assumption is that this test suite runs on a clean setup (empty DB) which would ensure that the users are not present in the Tam Dev instance beforehand
     describe('SAML Login flow', () => {
         before(() => {
             // * Check if server has license for SAML

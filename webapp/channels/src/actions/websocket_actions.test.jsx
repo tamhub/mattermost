@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {ChannelTypes, UserTypes, CloudTypes} from 'mattermost-redux/action_types';
@@ -840,7 +840,7 @@ describe('handlePluginEnabled/handlePluginDisabled', () => {
     describe('handlePluginEnabled', () => {
         const baseManifest = {
             name: 'Demo Plugin',
-            description: 'This plugin demonstrates the capabilities of a Mattermost plugin.',
+            description: 'This plugin demonstrates the capabilities of a Tam Dev plugin.',
             version: '0.2.0',
             min_server_version: '5.12.0',
             server: {
@@ -1020,7 +1020,7 @@ describe('handlePluginEnabled/handlePluginDisabled', () => {
     describe('handlePluginDisabled', () => {
         const baseManifest = {
             name: 'Demo Plugin',
-            description: 'This plugin demonstrates the capabilities of a Mattermost plugin.',
+            description: 'This plugin demonstrates the capabilities of a Tam Dev plugin.',
             version: '0.2.0',
             min_server_version: '5.12.0',
             server: {

@@ -37,7 +37,7 @@ For more information on Groups, please see <link>documentation</link>."
       <AdminPanel
         className=""
         id="ldap_groups"
-        subtitleDefault="Connect AD/LDAP and create groups in Mattermost. To get started, configure group attributes on the <link>AD/LDAP</link> configuration page."
+        subtitleDefault="Connect AD/LDAP and create groups in Tam Dev. To get started, configure group attributes on the <link>AD/LDAP</link> configuration page."
         subtitleId="admin.group_settings.ldapGroupsDescription"
         subtitleValues={
           Object {

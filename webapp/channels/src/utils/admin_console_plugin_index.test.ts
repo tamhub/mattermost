@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {samplePlugin1, samplePlugin2, samplePlugin3, samplePlugin4} from 'tests/helpers/admin_console_plugin_index_sample_pluings';

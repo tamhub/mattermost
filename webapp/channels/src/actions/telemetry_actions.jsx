@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {Client4} from 'mattermost-redux/client';
@@ -98,7 +98,7 @@ export function measure(name1, name2) {
         return {duration: -1, requestCount: -1, measurementName: ''};
     }
 
-    const displayPrefix = '🐐 Mattermost: ';
+    const displayPrefix = '🐐 Tam Dev: ';
     const measurementName = `${displayPrefix}${name1} - ${name2}`;
     performance.measure(measurementName, name1, name2);
     const duration = mostRecentDurationByEntryName(measurementName);

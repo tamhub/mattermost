@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package commands
@@ -42,7 +42,7 @@ var ExportDownloadCmd = &cobra.Command{
 
 var ExportGeneratePresignedURLCmd = &cobra.Command{
 	Use:   "generate-presigned-url [exportname]",
-	Short: "Generate a presigned url for an export file. This is helpful when an export is big and might have trouble downloading from the Mattermost server.",
+	Short: "Generate a presigned url for an export file. This is helpful when an export is big and might have trouble downloading from the Tam Dev server.",
 	Args:  cobra.ExactArgs(1),
 	RunE:  withClient(exportGeneratePresignedURLCmdF),
 }

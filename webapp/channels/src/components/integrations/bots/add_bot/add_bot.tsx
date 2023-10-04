@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -673,7 +673,7 @@ export default class AddBot extends React.PureComponent<Props, State> {
                                 <div className='form__help'>
                                     <FormattedMessage
                                         id='bot.add.post_all.help'
-                                        defaultMessage='Bot will have access to post to all Mattermost channels including direct messages.'
+                                        defaultMessage='Bot will have access to post to all Tam Dev channels including direct messages.'
                                     />
                                 </div>
                             </div>
@@ -707,7 +707,7 @@ export default class AddBot extends React.PureComponent<Props, State> {
                                 <div className='form__help'>
                                     <FormattedMessage
                                         id='bot.add.post_channels.help'
-                                        defaultMessage='Bot will have access to post to all Mattermost public channels.'
+                                        defaultMessage='Bot will have access to post to all Tam Dev public channels.'
                                     />
                                 </div>
                             </div>

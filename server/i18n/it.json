@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "La configurazione email di Mattermost è corretta!"
+    "translation": "La configurazione email di Tam Dev è corretta!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -97,7 +97,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Test delle impostazioni Email"
+    "translation": "Tam Dev - Test delle impostazioni Email"
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -345,7 +345,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Manda un email di invito al tuo gruppo Mattermost"
+    "translation": "Manda un email di invito al tuo gruppo Tam Dev"
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
@@ -621,7 +621,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Vai alla pagina di aiuto di Mattermost"
+    "translation": "Vai alla pagina di aiuto di Tam Dev"
   },
   {
     "id": "api.command_help.name",
@@ -725,7 +725,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Logout da Mattermost"
+    "translation": "Logout da Tam Dev"
   },
   {
     "id": "api.command_logout.name",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Il canale Slack {{.DisplayName}} è già esistente come canale Mattermost. Entrambi i canali sono stati uniti.\r\n"
+    "translation": "Il canale Slack {{.DisplayName}} è già esistente come canale Tam Dev. Entrambi i canali sono stati uniti.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -1533,11 +1533,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "L'utente Slack è stato unito ad un utente Mattermost con email {{.Email}} e nome-utente {{.Username}}.\r\n"
+    "translation": "L'utente Slack è stato unito ad un utente Tam Dev con email {{.Email}} e nome-utente {{.Username}}.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "L'utente Slack è stato unito ad un utente Mattermost con email {{.Email}} e nome-utente {{.Username}}, ma non è stato possibile aggiungere l'utente al team.\r\n"
+    "translation": "L'utente Slack è stato unito ad un utente Tam Dev con email {{.Email}} e nome-utente {{.Username}}, ma non è stato possibile aggiungere l'utente al team.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -3221,7 +3221,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Impossibile trovare gli utenti AD/LDAP. Controllare se il server Mattermost riesce a collegarsi al server AD/LDAP e riprovare."
+    "translation": "Impossibile trovare gli utenti AD/LDAP. Controllare se il server Tam Dev riesce a collegarsi al server AD/LDAP e riprovare."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3317,7 +3317,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Nome utente in uso da un altro utente Mattermost."
+    "translation": "Nome utente in uso da un altro utente Tam Dev."
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -3417,7 +3417,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Bollettino di Sicurezza di Mattermost"
+    "translation": "Bollettino di Sicurezza di Tam Dev"
   },
   {
     "id": "mfa.activate.bad_token.app_error",
@@ -4565,7 +4565,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "I Termini del Servizio di GitLab sono stati aggiornati. Per favore visita gitlab.com per accettarli e poi eseguire il login su Mattermost."
+    "translation": "I Termini del Servizio di GitLab sono stati aggiornati. Per favore visita gitlab.com per accettarli e poi eseguire il login su Tam Dev."
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -5113,7 +5113,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Per favore aggiungimi alle squadre e ai canali con cui vuoi che interagisca. Per farlo utilizza il browser oppure l'app desktop di Mattermost."
+    "translation": "Per favore aggiungimi alle squadre e ai canali con cui vuoi che interagisca. Per farlo utilizza il browser oppure l'app desktop di Tam Dev."
   },
   {
     "id": "api.channel.get_channel_moderations.license.error",
@@ -5465,7 +5465,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Scarica l'app Mattermost oppure utilizza un browser supportato per un'esperienza migliore."
+    "translation": "Scarica l'app Tam Dev oppure utilizza un browser supportato per un'esperienza migliore."
   },
   {
     "id": "model.config.is_valid.bleve_search.enable_autocomplete.app_error",
@@ -5653,7 +5653,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Licenza Mattermost Enteprise disabilitata."
+    "translation": "Licenza Tam Dev Enteprise disabilitata."
   },
   {
     "id": "api.user.create_user.guest_accounts.disabled.app_error",
@@ -5845,11 +5845,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Questo browser non è più supportato da Mattermost"
+    "translation": "Questo browser non è più supportato da Tam Dev"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "La versione del tuo browser non è più supportata da Mattermost"
+    "translation": "La versione del tuo browser non è più supportata da Tam Dev"
   },
   {
     "id": "web.error.unsupported_browser.open_system_browser.edge",
@@ -6001,7 +6001,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Devi accettare l'Accordo di Valutazione Software Mattermost e la Politica sulla Privacy per richiedere una licenza."
+    "translation": "Devi accettare l'Accordo di Valutazione Software Tam Dev e la Politica sulla Privacy per richiedere una licenza."
   },
   {
     "id": "api.invalid_channel",
@@ -6197,15 +6197,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
-    "translation": "Aggiorna Mattermost a edizione enterprise"
+    "translation": "Aggiorna Tam Dev a edizione enterprise"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost consiglia caldamente che le installazioni con più di 500 utenti si aggiornino a Mattermost Enterprise Edition, che offre funzionalità avanzate come la gestione utenti, il server clustering e il monitore delle performance.\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Mattermost, Inc. [Per saperne di più](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Tam Dev consiglia caldamente che le installazioni con più di 500 utenti si aggiornino a Tam Dev Enterprise Edition, che offre funzionalità avanzate come la gestione utenti, il server clustering e il monitore delle performance.\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Tam Dev, Inc. [Per saperne di più](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "Il tuo Mattermost adesso ha 200 utenti. Man mano che la tua base di utenti cresce, gestire ulteriori account può richiedere molto tempo. Ti consigliamo di aggiornare il tuo sistema a Mattermost Enterprise Edition e integrarlo nell'Active Directory/LDAP della tua organizzazione, che consentirà a chiunque con un account di accedere a Mattermost. Gli utenti potranno accedere senza dover creare nuovi nomi utente e nuove password e gli amministratori risparmieranno tempo nel gestire gli account.\n\n[Scopri di più su come integrare AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Mattermost, Inc. [Per saperne di più](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Il tuo Tam Dev adesso ha 200 utenti. Man mano che la tua base di utenti cresce, gestire ulteriori account può richiedere molto tempo. Ti consigliamo di aggiornare il tuo sistema a Tam Dev Enterprise Edition e integrarlo nell'Active Directory/LDAP della tua organizzazione, che consentirà a chiunque con un account di accedere a Tam Dev. Gli utenti potranno accedere senza dover creare nuovi nomi utente e nuove password e gli amministratori risparmieranno tempo nel gestire gli account.\n\n[Scopri di più su come integrare AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Tam Dev, Inc. [Per saperne di più](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
@@ -6217,7 +6217,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
-    "translation": "Grazie per aver contattato Mattermost. Ti daremo riscontro presto."
+    "translation": "Grazie per aver contattato Tam Dev. Ti daremo riscontro presto."
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_failure.message",
@@ -6229,7 +6229,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_subject",
-    "translation": "Richiesta di contatto con Mattermost"
+    "translation": "Richiesta di contatto con Tam Dev"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_site_url_header",
@@ -6273,7 +6273,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.subject",
-    "translation": "Richiesta di contatto con Mattermost"
+    "translation": "Richiesta di contatto con Tam Dev"
   },
   {
     "id": "ent.message_export.run_export.app_error",
@@ -6461,7 +6461,7 @@
   },
   {
     "id": "app.system.warn_metric.bot_displayname",
-    "translation": "Consigliere di Mattermost"
+    "translation": "Consigliere di Tam Dev"
   },
   {
     "id": "app.post.update.app_error",
@@ -6641,23 +6641,23 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "Richiesta di contatto con Mattermost. La mia squadra adesso ha {{.Limit}} utenti e sto considerando l'edizione Enteprise di Mattermost.\n"
+    "translation": "Richiesta di contatto con Tam Dev. La mia squadra adesso ha {{.Limit}} utenti e sto considerando l'edizione Enteprise di Tam Dev.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "Richiesta di contatto con Mattermost. La mia squadra adesso ha {{.Limit}} utenti e sto considerando l'edizione Enteprise di Mattermost.\n"
+    "translation": "Richiesta di contatto con Tam Dev. La mia squadra adesso ha {{.Limit}} utenti e sto considerando l'edizione Enteprise di Tam Dev.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
-    "translation": "Aggiorna Mattermost a edizione enterprise"
+    "translation": "Aggiorna Tam Dev a edizione enterprise"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "Il tuo Mattermost adesso ha 200 utenti. Man mano che la tua base di utenti cresce, gestire ulteriori account può richiedere molto tempo. Ti consigliamo di aggiornare il tuo sistema a Mattermost Enterprise Edition e integrarlo nell'Active Directory/LDAP della tua organizzazione, che consentirà a chiunque con un account di accedere a Mattermost. Gli utenti potranno accedere senza dover creare nuovi nomi utente e nuove password e gli amministratori risparmieranno tempo nel gestire gli account.\n\n[Scopri di più su come integrare AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Mattermost, Inc. [Per saperne di più](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Il tuo Tam Dev adesso ha 200 utenti. Man mano che la tua base di utenti cresce, gestire ulteriori account può richiedere molto tempo. Ti consigliamo di aggiornare il tuo sistema a Tam Dev Enterprise Edition e integrarlo nell'Active Directory/LDAP della tua organizzazione, che consentirà a chiunque con un account di accedere a Tam Dev. Gli utenti potranno accedere senza dover creare nuovi nomi utente e nuove password e gli amministratori risparmieranno tempo nel gestire gli account.\n\n[Scopri di più su come integrare AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Tam Dev, Inc. [Per saperne di più](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "Richiesta di contatto con Mattermost. La mia squadra adesso ha {{.Limit}} utenti e sto considerando l'edizione Enteprise di Mattermost.\n"
+    "translation": "Richiesta di contatto con Tam Dev. La mia squadra adesso ha {{.Limit}} utenti e sto considerando l'edizione Enteprise di Tam Dev.\n"
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",

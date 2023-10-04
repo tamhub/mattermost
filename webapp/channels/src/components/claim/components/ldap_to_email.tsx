@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import classNames from 'classnames';
@@ -138,7 +138,7 @@ const LDAPToEmail = (props: Props) => {
                 <p>
                     <FormattedMessage
                         id='claim.ldap_to_email.email'
-                        defaultMessage='After switching your authentication method, you will use {email} to login. Your AD/LDAP credentials will no longer allow access to Mattermost.'
+                        defaultMessage='After switching your authentication method, you will use {email} to login. Your AD/LDAP credentials will no longer allow access to Tam Dev.'
                         values={{email: props.email}}
                     />
                 </p>

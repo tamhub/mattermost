@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import marked from 'marked';
@@ -125,7 +125,7 @@ const UploadLicenseModal = (props: Props): JSX.Element | null => {
                 <div className='subtitle'>
                     <FormattedMessage
                         id='admin.license.upload-modal.subtitle'
-                        defaultMessage='Upload a license key for Mattermost Enterprise Edition to upgrade this server. '
+                        defaultMessage='Upload a license key for Tam Dev Enterprise Edition to upgrade this server. '
                     />
                 </div>
                 <div className='file-upload'>

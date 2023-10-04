@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -20,9 +20,9 @@ const professionalPaidFeatures = [
 const enterprisePaidFeatures = [
     {sidebarName: 'Groups', featureDiscoveryTitle: 'Active Directory/LDAP groups'},
     {sidebarName: 'System Roles', featureDiscoveryTitle: 'controlled access to the System Console'},
-    {sidebarName: 'Data Retention Policy', featureDiscoveryTitle: 'Create data retention schedules with Mattermost Enterprise'},
-    {sidebarName: 'Compliance Export', featureDiscoveryTitle: 'Run compliance exports with Mattermost Enterprise'},
-    {sidebarName: 'Custom Terms of Service', featureDiscoveryTitle: 'Create custom terms of service with Mattermost Enterprise'},
+    {sidebarName: 'Data Retention Policy', featureDiscoveryTitle: 'Create data retention schedules with Tam Dev Enterprise'},
+    {sidebarName: 'Compliance Export', featureDiscoveryTitle: 'Run compliance exports with Tam Dev Enterprise'},
+    {sidebarName: 'Custom Terms of Service', featureDiscoveryTitle: 'Create custom terms of service with Tam Dev Enterprise'},
 ];
 
 function withTrialBefore(trialed) {

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -30,7 +30,7 @@ export default function SelfHostedExpansionSuccessPage(props: Props) {
     const formattedSubtitleText = (
         <FormattedMessage
             id={'self_hosted_expansion.license_applied'}
-            defaultMessage={'The license has been automatically applied to your Mattermost instance. Your updated invoice will be visible in the <billing>Billing section</billing> of the system console.'}
+            defaultMessage={'The license has been automatically applied to your Tam Dev instance. Your updated invoice will be visible in the <billing>Billing section</billing> of the system console.'}
             values={{
                 billing: (billingText: React.ReactNode) => (
                     <a

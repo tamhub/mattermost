@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package commands
@@ -24,7 +24,7 @@ import (
 
 var AuthCmd = &cobra.Command{
 	Use:   "auth",
-	Short: "Manages the credentials of the remote Mattermost instances",
+	Short: "Manages the credentials of the remote Tam Dev instances",
 }
 
 var LoginCmd = &cobra.Command{

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -313,7 +313,7 @@ export default class PasswordSettings extends AdminSettings<Props, State> {
                     helpText={
                         <FormattedMessage
                             id='admin.password.enableForgotLink.description'
-                            defaultMessage='When true, “Forgot password” link appears on the Mattermost login page, which allows users to reset their password. When false, the link is hidden from users. This link can be customized to redirect to a URL of your choice from <a>Site Configuration > Customization.</a>'
+                            defaultMessage='When true, “Forgot password” link appears on the Tam Dev login page, which allows users to reset their password. When false, the link is hidden from users. This link can be customized to redirect to a URL of your choice from <a>Site Configuration > Customization.</a>'
                             values={{
                                 a: (chunks) => (
                                     <BlockableLink to='/admin_console/site_config/customization'>

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import PropTypes from 'prop-types';
@@ -1131,7 +1131,7 @@ export default class SchemaAdminSettings extends React.PureComponent {
                     // nothing to validate, and validation would fail anyways and prevent saving
                     // In practice, this only happens in custom cloud setup environments like RFQA
                     // where it sets things in the config file directly instead of in the environment
-                    // (like cloud Mattermost does)
+                    // (like cloud Tam Dev does)
                     continue;
                 }
                 const result = setting.validate(this.state[setting.key]);

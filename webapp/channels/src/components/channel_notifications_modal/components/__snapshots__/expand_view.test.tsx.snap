@@ -136,7 +136,7 @@ exports[`components/channel_notifications_modal/ExpandView gms should match snap
               className="mt-5"
             >
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="Notification sounds are available on Firefox, Edge, Safari, Chrome and Mattermost Desktop Apps."
+                defaultMessage="Notification sounds are available on Firefox, Edge, Safari, Chrome and Tam Dev Desktop Apps."
                 id="channel_notifications.sound_info"
               />
             </div>
@@ -399,7 +399,7 @@ exports[`components/channel_notifications_modal/ExpandView normal channels shoul
               className="mt-5"
             >
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="Notification sounds are available on Firefox, Edge, Safari, Chrome and Mattermost Desktop Apps."
+                defaultMessage="Notification sounds are available on Firefox, Edge, Safari, Chrome and Tam Dev Desktop Apps."
                 id="channel_notifications.sound_info"
               />
             </div>
@@ -598,7 +598,7 @@ exports[`components/channel_notifications_modal/ExpandView normal channels shoul
               className="mt-5"
             >
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="Notification sounds are available on Firefox, Edge, Safari, Chrome and Mattermost Desktop Apps."
+                defaultMessage="Notification sounds are available on Firefox, Edge, Safari, Chrome and Tam Dev Desktop Apps."
                 id="channel_notifications.sound_info"
               />
             </div>

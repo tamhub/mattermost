@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package api4
@@ -186,7 +186,7 @@ func TestLoadTestHelpCommands(t *testing.T) {
 
 	rs, _, err := client.ExecuteCommand(context.Background(), channel.Id, "/test help")
 	require.NoError(t, err)
-	require.True(t, strings.Contains(rs.Text, "Mattermost testing commands to help"), rs.Text)
+	require.True(t, strings.Contains(rs.Text, "Tam Dev testing commands to help"), rs.Text)
 
 	time.Sleep(2 * time.Second)
 }

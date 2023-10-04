@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package commands
@@ -34,7 +34,7 @@ var LdapIDMigrate = &cobra.Command{
 1. Wait for an off-peak time when your users won’t be impacted by a server restart.
 2. Run the command "mmctl ldap idmigrate objectGUID".
 3. Update the config within the System Console to the new value "objectGUID".
-4. Restart the Mattermost server.`,
+4. Restart the Tam Dev server.`,
 	Example: "  ldap idmigrate objectGUID",
 	Args:    cobra.ExactArgs(1),
 	RunE:    withClient(ldapIDMigrateCmdF),

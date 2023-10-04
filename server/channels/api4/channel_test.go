@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package api4
@@ -153,7 +153,7 @@ func TestUpdateChannel(t *testing.T) {
 	//Update a open channel
 	channel.DisplayName = "My new display name"
 	channel.Header = "My fancy header"
-	channel.Purpose = "Mattermost ftw!"
+	channel.Purpose = "Tam Dev ftw!"
 
 	newChannel, _, err := client.UpdateChannel(context.Background(), channel)
 	require.NoError(t, err)
@@ -173,7 +173,7 @@ func TestUpdateChannel(t *testing.T) {
 	//Update a private channel
 	private.DisplayName = "My new display name for private channel"
 	private.Header = "My fancy private header"
-	private.Purpose = "Mattermost ftw! in private mode"
+	private.Purpose = "Tam Dev ftw! in private mode"
 
 	newPrivateChannel, _, err := client.UpdateChannel(context.Background(), private)
 	require.NoError(t, err)

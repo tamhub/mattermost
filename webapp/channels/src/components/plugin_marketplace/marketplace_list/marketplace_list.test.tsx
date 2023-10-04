@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {shallow} from 'enzyme';
@@ -15,13 +15,13 @@ describe('components/marketplace/marketplace_list', () => {
     const samplePlugin: MarketplacePlugin = {
         homepage_url: 'https://github.com/mattermost/mattermost-plugin-nps',
         download_url: 'https://github.com/mattermost/mattermost-plugin-nps/releases/download/v1.0.3/com.mattermost.nps-1.0.3.tar.gz',
-        author_type: AuthorType.Mattermost,
+        author_type: AuthorType.Tam Dev,
         release_stage: ReleaseStage.Production,
         enterprise: false,
         manifest: {
             id: 'com.mattermost.nps',
             name: 'User Satisfaction Surveys',
-            description: 'This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Mattermost',
+            description: 'This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Tam Dev',
             version: '1.0.3',
             min_server_version: '5.14.0',
         },

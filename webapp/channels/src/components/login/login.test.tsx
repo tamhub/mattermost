@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {shallow, mount} from 'enzyme';
@@ -124,7 +124,7 @@ describe('components/login/Login', () => {
             EnableCustomBrand: 'false',
             CustomBrandText: '',
             CustomDescriptionText: '',
-            SiteName: 'Mattermost',
+            SiteName: 'Tam Dev',
             ExperimentalPrimaryTeam: '',
             PasswordEnableForgotLink: 'true',
         };

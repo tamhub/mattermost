@@ -1,8 +1,8 @@
 ---
 
-title: "Mattermost Server"
-copyright: "©2015-present Mattermost,Inc. All Rights Reserved. See LICENSE for license information."
-description: "This document includes a list of open source components used in Mattermost Server, including those that have been modified."
+title: "Tam Dev Server"
+copyright: "©2015-present Tam Dev,Inc. All Rights Reserved. See LICENSE for license information."
+description: "This document includes a list of open source components used in Tam Dev Server, including those that have been modified."
 search:
   - "go.mod"
 dependencies: []

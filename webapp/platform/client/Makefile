@@ -13,7 +13,7 @@ endif
 
 .PHONY: run
 run: node_modules ## Runs app
-	@echo Running Mattermost Web App for development
+	@echo Running Tam Dev Web App for development
 
 	npm run run
 
@@ -60,7 +60,7 @@ check-types: node_modules ## Checks TS file for TypeScript confirmity
 
 .PHONY: dist
 dist: node_modules ## Builds all web app packages
-	@echo Packaging Mattermost Web App
+	@echo Packaging Tam Dev Web App
 
 	npm run build
 

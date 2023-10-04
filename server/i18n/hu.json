@@ -497,7 +497,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost biztonsági értesítő"
+    "translation": "Tam Dev biztonsági értesítő"
   },
   {
     "id": "manaultesting.test_autolink.unable.app_error",
@@ -649,7 +649,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Ez a felhasználónév már használatban van egy másik Mattermost felhasználó által."
+    "translation": "Ez a felhasználónév már használatban van egy másik Tam Dev felhasználó által."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -781,7 +781,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Nem sikerült a felhasználók keresése az AD/LDAP-ban. Ellenőrizze, hogy a Mattermost szerver képes-e csatlakozni az AD/LDAP szerverhez, és próbálja újra."
+    "translation": "Nem sikerült a felhasználók keresése az AD/LDAP-ban. Ellenőrizze, hogy a Tam Dev szerver képes-e csatlakozni az AD/LDAP szerverhez, és próbálja újra."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -821,7 +821,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Az Ön AD/LDAP fiókjának nincs jogosultsága, hogy használja ezt a Mattermost szervert. Kérje meg a rendszergazdát, hogy ellenőrizze az AD/LDAP felhasználói szűrőt."
+    "translation": "Az Ön AD/LDAP fiókjának nincs jogosultsága, hogy használja ezt a Tam Dev szervert. Kérje meg a rendszergazdát, hogy ellenőrizze az AD/LDAP felhasználói szűrőt."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -2925,11 +2925,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "A Mattermost már nem támogatja a böngésző ezen verzióját"
+    "translation": "A Tam Dev már nem támogatja a böngésző ezen verzióját"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Ezt a böngészőt a Mattermost már nem támogatja"
+    "translation": "Ezt a böngészőt a Tam Dev már nem támogatja"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -2973,7 +2973,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Töltse le a Mattermost alkalmazást, vagy használjon támogatott böngészőt a jobb élmény érdekében."
+    "translation": "Töltse le a Tam Dev alkalmazást, vagy használjon támogatott böngészőt a jobb élmény érdekében."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -3121,7 +3121,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "A GitLab Általános Szerződési Feltételei frissültek. Kérjük, látogassa meg a {{.URL}} webhelyet, hogy elfogadja őket, majd próbáljon meg újra bejelentkezni a Mattermost-ba."
+    "translation": "A GitLab Általános Szerződési Feltételei frissültek. Kérjük, látogassa meg a {{.URL}} webhelyet, hogy elfogadja őket, majd próbáljon meg újra bejelentkezni a Tam Dev-ba."
   },
   {
     "id": "model.websocket_client.connect_fail.app_error",
@@ -4293,7 +4293,7 @@
   },
   {
     "id": "app.system.warn_metric.bot_displayname",
-    "translation": "Mattermost Tanácsadó"
+    "translation": "Tam Dev Tanácsadó"
   },
   {
     "id": "app.system.save.app_error",
@@ -4969,43 +4969,43 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re. A letöltött bináris fájl digitális aláírását nem sikerült ellenőrizni."
+    "translation": "A Tam Dev nem tudott frissíteni az Enterprise Edition-re. A letöltött bináris fájl digitális aláírását nem sikerült ellenőrizni."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re."
+    "translation": "A Tam Dev nem tudott frissíteni az Enterprise Edition-re."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re. Ez a szolgáltatás csak x86-64 architektúrájú Linux rendszereken működik."
+    "translation": "A Tam Dev nem tudott frissíteni az Enterprise Edition-re. Ez a szolgáltatás csak x86-64 architektúrájú Linux rendszereken működik."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "A Mattermost nem tudott frissíteni az Enterprise Kuadásra. A {{.MattermostUsername}} Mattermost rendszer felhasználó nem rendelkezik írási engedéllyel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a Mattermost telepítve van:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a Mattermost frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "A Tam Dev nem tudott frissíteni az Enterprise Kuadásra. A {{.MattermostUsername}} Tam Dev rendszer felhasználó nem rendelkezik írási engedéllyel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a Tam Dev telepítve van:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a Tam Dev frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "A Mattermost nem tudott frissíteni az Enterprise Kiadásra. A {{.MattermostUsername}} Mattermost rendszer felhasználó nem rendelkezik írási engedéllyel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a Mattermost telepítve van:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a Mattermost frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "A Tam Dev nem tudott frissíteni az Enterprise Kiadásra. A {{.MattermostUsername}} Tam Dev rendszer felhasználó nem rendelkezik írási engedéllyel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a Tam Dev telepítve van:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a Tam Dev frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "A Mattermost nem tudott frissíteni az Enterprise Kiadásra. A {{.MattermostUsername}} Mattermost rendszer felhasználó nem rendelkezik írási jogosultsággal a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a szerveren, amelyre a Mattermost telepítve van:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a Mattermost frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "A Tam Dev nem tudott frissíteni az Enterprise Kiadásra. A {{.MattermostUsername}} Tam Dev rendszer felhasználó nem rendelkezik írási jogosultsággal a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a szerveren, amelyre a Tam Dev telepítve van:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a Tam Dev frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re."
+    "translation": "A Tam Dev nem tudott frissíteni az Enterprise Edition-re."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "A Mattermost Enterprise Edition frissítése már fut."
+    "translation": "A Tam Dev Enterprise Edition frissítése már fut."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Nem frissíthet, mert már a Mattermost Enterprise Edition -t használja."
+    "translation": "Nem frissíthet, mert már a Tam Dev Enterprise Edition -t használja."
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Sikeresen frissített a Mattermost Enterprise Edition-re. Kérjük, indítsa újra a szervert a frissítés befejezéséhez."
+    "translation": "Sikeresen frissített a Tam Dev Enterprise Edition-re. Kérjük, indítsa újra a szervert a frissítés befejezéséhez."
   },
   {
     "id": "api.unable_to_read_file_from_backend",
@@ -5041,7 +5041,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Ezt az e-mail címet használták Mattermost fiók létrehozásához."
+    "translation": "Ezt az e-mail címet használták Tam Dev fiók létrehozásához."
   },
   {
     "id": "api.templates.welcome_body.button",
@@ -5061,7 +5061,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.subject",
-    "translation": "Mattermost kapcsolat felvételi kérelem"
+    "translation": "Tam Dev kapcsolat felvételi kérelem"
   },
   {
     "id": "api.templates.warn_metric_ack.footer",
@@ -5113,7 +5113,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Ez az e-mail cím volt használva a Mattermost fiók létrehozásakor."
+    "translation": "Ez az e-mail cím volt használva a Tam Dev fiók létrehozásakor."
   },
   {
     "id": "api.templates.verify_body.button",
@@ -5405,7 +5405,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "A Mattermost Enterprise licensz le van tiltva."
+    "translation": "A Tam Dev Enterprise licensz le van tiltva."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -5429,11 +5429,11 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
-    "translation": "Az Ön Mattermost Cloud számlája lejárt"
+    "translation": "Az Ön Tam Dev Cloud számlája lejárt"
   },
   {
     "id": "api.templates.payment_failed_no_card.subject",
-    "translation": "Fizetés esedékes a Mattermost Cloud előfizetéséhez"
+    "translation": "Fizetés esedékes a Tam Dev Cloud előfizetéséhez"
   },
   {
     "id": "api.templates.payment_failed_no_card.info3",
@@ -5441,7 +5441,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.info1",
-    "translation": "A legutóbbi számlázási időszakra vonatkozó Mattermost Cloud számlája feldolgozásra került. A fizetési adataink azonban nincsenek nyilvántartva."
+    "translation": "A legutóbbi számlázási időszakra vonatkozó Tam Dev Cloud számlája feldolgozásra került. A fizetési adataink azonban nincsenek nyilvántartva."
   },
   {
     "id": "api.templates.payment_failed_no_card.button",
@@ -5453,11 +5453,11 @@
   },
   {
     "id": "api.templates.payment_failed.subject",
-    "translation": "Művelet szükséges: Sikertelen fizetés a Mattermost {{.Plan}} csomagra"
+    "translation": "Művelet szükséges: Sikertelen fizetés a Tam Dev {{.Plan}} csomagra"
   },
   {
     "id": "api.templates.payment_failed.info3",
-    "translation": "A Mattermost {{.Plan}} zavartalan elérésének biztosítása érdekében kérjük, vegye fel a kapcsolatot a pénzintézetével a probléma megoldása érdekében, vagy frissítse fizetési adatait. A fizetési adatok frissítése után a Mattermost megpróbálja rendezni a fennmaradó egyenleget."
+    "translation": "A Tam Dev {{.Plan}} zavartalan elérésének biztosítása érdekében kérjük, vegye fel a kapcsolatot a pénzintézetével a probléma megoldása érdekében, vagy frissítse fizetési adatait. A fizetési adatok frissítése után a Tam Dev megpróbálja rendezni a fennmaradó egyenleget."
   },
   {
     "id": "api.templates.payment_failed.info2",
@@ -5465,7 +5465,7 @@
   },
   {
     "id": "api.templates.payment_failed.info1",
-    "translation": "Pénzintézete elutasította a Mattermost Cloud munkaterületéhez társított {{.CardBrand}} **** {{.LastFour}} kártyáról a fizetést."
+    "translation": "Pénzintézete elutasította a Tam Dev Cloud munkaterületéhez társított {{.CardBrand}} **** {{.LastFour}} kártyáról a fizetést."
   },
   {
     "id": "api.templates.password_change_subject",
@@ -5513,7 +5513,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Mi az a Mattermost?"
+    "translation": "Mi az a Tam Dev?"
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -5521,7 +5521,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "A Mattermost egy rugalmas, nyílt forráskódú üzenetküldő platform, amely biztonságos csapat együttműködést tesz lehetővé."
+    "translation": "A Tam Dev egy rugalmas, nyílt forráskódú üzenetküldő platform, amely biztonságos csapat együttműködést tesz lehetővé."
   },
   {
     "id": "api.templates.invite_body.title",
@@ -5529,7 +5529,7 @@
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Kezdjen el együttműködni a csapatával a Mattermost-on"
+    "translation": "Kezdjen el együttműködni a csapatával a Tam Dev-on"
   },
   {
     "id": "api.templates.invite_body.button",
@@ -5561,7 +5561,7 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© 2022 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2022 Tam Dev, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.email_footer",
@@ -5621,11 +5621,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Mattermost alkalmazás letöltése"
+    "translation": "Tam Dev alkalmazás letöltése"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Mattermost megnyitása"
+    "translation": "Tam Dev megnyitása"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -5921,7 +5921,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slack Importálás napló\n"
+    "translation": "Tam Dev Slack Importálás napló\n"
   },
   {
     "id": "api.slackimport.slack_add_users.unable_import",
@@ -5933,11 +5933,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack felhasználó összevonva egy létező Mattermost felhasználóval egyező e-mail címmel {{.Email}} és felhasználónévvel {{.Username}}, de nem sikerült hozzáadni a csapatukhoz.\n"
+    "translation": "Slack felhasználó összevonva egy létező Tam Dev felhasználóval egyező e-mail címmel {{.Email}} és felhasználónévvel {{.Username}}, de nem sikerült hozzáadni a csapatukhoz.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack felhasználó összevonva egy létező Mattermost felhasználóval egyező e-mail címmel {{.Email}} és felhasználónévvel {{.Username}}.\n"
+    "translation": "Slack felhasználó összevonva egy létező Tam Dev felhasználóval egyező e-mail címmel {{.Email}} és felhasználónévvel {{.Username}}.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -5949,7 +5949,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "A {{.DisplayName}} Slack csatorna már létezik aktív Mattermost csatornaként. Mindkét csatorna összevonva.\n"
+    "translation": "A {{.DisplayName}} Slack csatorna már létezik aktív Tam Dev csatornaként. Mindkét csatorna összevonva.\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -5977,7 +5977,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
-    "translation": "A Mattermost rendszerének jelenleg több csapata van. Sok csapatnak megvan a maga preferált módja a koordinációra és az együttműködésre, beleértve a csatornák létrehozásának módját, kik hívhatnak meg új csapat tagokat és hogy hogyan kezelik az integrációkat. A csapat felülbírálási sémái lehetővé teszik a felhasználói engedélyek testreszabását az egyes csapatokon belül, hogy megfeleljenek a saját igényeiknek.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A Tam Dev rendszerének jelenleg több csapata van. Sok csapatnak megvan a maga preferált módja a koordinációra és az együttműködésre, beleértve a csatornák létrehozásának módját, kik hívhatnak meg új csapat tagokat és hogy hogyan kezelik az integrációkat. A csapat felülbírálási sémái lehetővé teszik a felhasználói engedélyek testreszabását az egyes csapatokon belül, hogy megfeleljenek a saját igényeiknek.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Tam Dev szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_title",
@@ -5985,11 +5985,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "A Mattermost rendszerének jelenleg több csapata van. Sok csapatnak megvan a maga preferált módja a koordinációra és az együttműködésre, beleértve a csatornák létrehozásának módját, kik hívhatnak meg új csapat tagokat és hogy hogyan kezelik az integrációkat. A csapat felülbírálási sémái lehetővé teszik a felhasználói engedélyek testreszabását az egyes csapatokon belül, hogy megfeleljenek a saját igényeiknek.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A Tam Dev rendszerének jelenleg több csapata van. Sok csapatnak megvan a maga preferált módja a koordinációra és az együttműködésre, beleértve a csatornák létrehozásának módját, kik hívhatnak meg új csapat tagokat és hogy hogyan kezelik az integrációkat. A csapat felülbírálási sémái lehetővé teszik a felhasználói engedélyek testreszabását az egyes csapatokon belül, hogy megfeleljenek a saját igényeiknek.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Tam Dev, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvételi kérés. Szeretnék többet megtudni a haladó engedélyekről a csapatsémákkal.\n"
+    "translation": "Tam Dev kapcsolat felvételi kérés. Szeretnék többet megtudni a haladó engedélyekről a csapatsémákkal.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_success.message",
@@ -5997,7 +5997,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
-    "translation": "A Mattermost rendszerében nagy számú üzenet van. Az alapértelmezett Mattermost adatbázis keresés körülbelül 2,5 millió bejegyzésnél kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch segíthet elkerülni a jelentős teljesítmény problémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, ha többet szeretne megtudni és tudassa velünk, hogy hogyan tudunk segíteni.\n\n[További információk a teljesítmény javításáról](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A Tam Dev rendszerében nagy számú üzenet van. Az alapértelmezett Tam Dev adatbázis keresés körülbelül 2,5 millió bejegyzésnél kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch segíthet elkerülni a jelentős teljesítmény problémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, ha többet szeretne megtudni és tudassa velünk, hogy hogyan tudunk segíteni.\n\n[További információk a teljesítmény javításáról](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Tam Dev szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
@@ -6005,11 +6005,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "A Mattermost rendszerében nagy számú üzenet van. Az alapértelmezett Mattermost adatbázis keresés körülbelül 2,5 millió bejegyzésnél kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch segíthet elkerülni a jelentős teljesítmény problémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, ha többet szeretne megtudni és tudassa velünk, hogy hogyan tudunk segíteni.\n\n[További információk a teljesítmény javításáról](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A Tam Dev rendszerében nagy számú üzenet van. Az alapértelmezett Tam Dev adatbázis keresés körülbelül 2,5 millió bejegyzésnél kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch segíthet elkerülni a jelentős teljesítmény problémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, ha többet szeretne megtudni és tudassa velünk, hogy hogyan tudunk segíteni.\n\n[További információk a teljesítmény javításáról](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Tam Dev, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvételi kérés. Szeretnék többet megtudni a teljesítmény javításáról az Elasticsearch segítségével.\n"
+    "translation": "Tam Dev kapcsolat felvételi kérés. Szeretnék többet megtudni a teljesítmény javításáról az Elasticsearch segítségével.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_success.message",
@@ -6017,7 +6017,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
-    "translation": "A csatornák segítenek a kommunikáció javításában, de azáltal, hogy a Mattermost felhasználók csatlakoznak és létrehoznak csatornákat, nő a rendszer szervezetten tartásának kihívása. A fejlett engedélyek segítségével beállíthatja, hogy mely felhasználók vagy szerepkörök hajthatnak végre bizonyos műveleteket, ideértve a csatornák beállítását és tagjainak kezelését, @channel vagy @here használatával a felhasználók széles körének címzését, valamint új webhorog létrehozását.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A csatornák segítenek a kommunikáció javításában, de azáltal, hogy a Tam Dev felhasználók csatlakoznak és létrehoznak csatornákat, nő a rendszer szervezetten tartásának kihívása. A fejlett engedélyek segítségével beállíthatja, hogy mely felhasználók vagy szerepkörök hajthatnak végre bizonyos műveleteket, ideértve a csatornák beállítását és tagjainak kezelését, @channel vagy @here használatával a felhasználók széles körének címzését, valamint új webhorog létrehozását.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Tam Dev szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_title",
@@ -6029,11 +6029,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "A csatornák segítenek a kommunikáció javításában, de azáltal, hogy a Mattermost felhasználók csatlakoznak és létrehoznak csatornákat, nő a rendszer szervezetten tartásának kihívása. A fejlett engedélyek segítségével beállíthatja, hogy mely felhasználók vagy szerepkörök hajthatnak végre bizonyos műveleteket, ideértve a csatornák beállítását és tagjainak kezelését, @channel vagy @here használatával a felhasználók széles körének címzését, valamint új webhorog létrehozását.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A csatornák segítenek a kommunikáció javításában, de azáltal, hogy a Tam Dev felhasználók csatlakoznak és létrehoznak csatornákat, nő a rendszer szervezetten tartásának kihívása. A fejlett engedélyek segítségével beállíthatja, hogy mely felhasználók vagy szerepkörök hajthatnak végre bizonyos műveleteket, ideértve a csatornák beállítását és tagjainak kezelését, @channel vagy @here használatával a felhasználók széles körének címzését, valamint új webhorog létrehozását.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Tam Dev, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvételi kérés. Szeretnék többet megtudni a Speciális engedélyek rendszer sémákkal történő használatáról.\n"
+    "translation": "Tam Dev kapcsolat felvételi kérés. Szeretnék többet megtudni a Speciális engedélyek rendszer sémákkal történő használatáról.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_success.message",
@@ -6041,19 +6041,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
-    "translation": "A Mattermost nyomatékosan javasolja, hogy több mint 500 felhasználó telepítéséhez használja ki az olyan funkciók előnyeit, mint a felhasználó kezelés, a szerver fürtösítés és a teljesítmény figyelés. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg és tudassa velünk, hogy hogyan tudunk segíteni.\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A Tam Dev nyomatékosan javasolja, hogy több mint 500 felhasználó telepítéséhez használja ki az olyan funkciók előnyeit, mint a felhasználó kezelés, a szerver fürtösítés és a teljesítmény figyelés. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg és tudassa velünk, hogy hogyan tudunk segíteni.\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Tam Dev szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
-    "translation": "Méretezés a Mattermost segítségével"
+    "translation": "Méretezés a Tam Dev segítségével"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "A Mattermost nyomatékosan javasolja, hogy több mint 500 felhasználó telepítéséhez használja ki az olyan funkciók előnyeit, mint a felhasználó kezelés, a szerver fürtösítés és a teljesítmény figyelés. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg és tudassa velünk, hogy hogyan tudunk segíteni.\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A Tam Dev nyomatékosan javasolja, hogy több mint 500 felhasználó telepítéséhez használja ki az olyan funkciók előnyeit, mint a felhasználó kezelés, a szerver fürtösítés és a teljesítmény figyelés. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg és tudassa velünk, hogy hogyan tudunk segíteni.\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Tam Dev, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvételi kérés. A csapatomnak most 500 felhasználója van, és a Mattermost Enterprise kiadást fontolgatom.\n"
+    "translation": "Tam Dev kapcsolat felvételi kérés. A csapatomnak most 500 felhasználója van, és a Tam Dev Enterprise kiadást fontolgatom.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_title",
@@ -6065,15 +6065,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_body",
-    "translation": "Amikor rengeteg beszélgetés folyik az egész Mattermoston, kihívást jelenthet tudni, hogy hol keressünk fontos információkat. Ha nagy közönségnek szeretne üzenetet küldeni, beállíthat írásvédett bejelentési csatornákat, ahová bárki csatlakozhat, de csak a csatornák rendszergazdái küldhetnek üzeneteket.\n\n[További információk az írásvédett bejelentési csatornák létrehozásáról](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "Amikor rengeteg beszélgetés folyik az egész Mattermoston, kihívást jelenthet tudni, hogy hol keressünk fontos információkat. Ha nagy közönségnek szeretne üzenetet küldeni, beállíthat írásvédett bejelentési csatornákat, ahová bárki csatlakozhat, de csak a csatornák rendszergazdái küldhetnek üzeneteket.\n\n[További információk az írásvédett bejelentési csatornák létrehozásáról](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Tam Dev szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Amikor rengeteg beszélgetés folyik az egész Mattermoston, kihívást jelenthet tudni, hogy hol keressünk fontos információkat. Ha nagy közönségnek szeretne üzenetet küldeni, beállíthat írásvédett bejelentési csatornákat, ahová bárki csatlakozhat, de csak a csatornák rendszergazdái küldhetnek üzeneteket.\n\n[További információk az írásvédett bejelentési csatornák létrehozásáról](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Amikor rengeteg beszélgetés folyik az egész Mattermoston, kihívást jelenthet tudni, hogy hol keressünk fontos információkat. Ha nagy közönségnek szeretne üzenetet küldeni, beállíthat írásvédett bejelentési csatornákat, ahová bárki csatlakozhat, de csak a csatornák rendszergazdái küldhetnek üzeneteket.\n\n[További információk az írásvédett bejelentési csatornák létrehozásáról](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Tam Dev, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvételi kérés. Szeretnék többet megtudni az írásvédett bejelentési csatornák létrehozásáról.\n"
+    "translation": "Tam Dev kapcsolat felvételi kérés. Szeretnék többet megtudni az írásvédett bejelentési csatornák létrehozásáról.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_success.message",
@@ -6081,19 +6081,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
-    "translation": "A Mattermost rendszerének most 200 felhasználója van. Amikor összekapcsolja Mattermostot és a szervezete egyszeri bejelentkezési szolgáltatóját, a felhasználók anélkül érhetik el a Mattermostot, hogy újra meg kellene adniuk hitelesítő adataikat. Javasoljuk, hogy integrálja SAML 2.0 szolgáltatóját a Mattermost szerverével. [Tudjon meg többet a SAML 2.0 integrációról](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A Tam Dev rendszerének most 200 felhasználója van. Amikor összekapcsolja Mattermostot és a szervezete egyszeri bejelentkezési szolgáltatóját, a felhasználók anélkül érhetik el a Mattermostot, hogy újra meg kellene adniuk hitelesítő adataikat. Javasoljuk, hogy integrálja SAML 2.0 szolgáltatóját a Tam Dev szerverével. [Tudjon meg többet a SAML 2.0 integrációról](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Tam Dev szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
-    "translation": "Méretezés a Mattermost segítségével"
+    "translation": "Méretezés a Tam Dev segítségével"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "A Mattermost rendszerének most 200 felhasználója van. Amikor összekapcsolja Mattermostot és a szervezete egyszeri bejelentkezési szolgáltatóját, a felhasználók anélkül érhetik el a Mattermostot, hogy újra meg kellene adniuk hitelesítő adataikat. Javasoljuk, hogy integrálja SAML 2.0 szolgáltatóját a Mattermost szerverével. [Tudjon meg többet a SAML 2.0 integrációról](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A Tam Dev rendszerének most 200 felhasználója van. Amikor összekapcsolja Mattermostot és a szervezete egyszeri bejelentkezési szolgáltatóját, a felhasználók anélkül érhetik el a Mattermostot, hogy újra meg kellene adniuk hitelesítő adataikat. Javasoljuk, hogy integrálja SAML 2.0 szolgáltatóját a Tam Dev szerverével. [Tudjon meg többet a SAML 2.0 integrációról](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Tam Dev, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvétele kérés. A csapatomnak már 200 felhasználója van, és fontolóra veszem a Mattermost Enterprise kiadást.\n"
+    "translation": "Tam Dev kapcsolat felvétele kérés. A csapatomnak már 200 felhasználója van, és fontolóra veszem a Tam Dev Enterprise kiadást.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_success.message",
@@ -6101,19 +6101,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
-    "translation": "A Mattermost rendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok létrehozása időigényessé válhat. Javasoljuk, hogy integrálja vállalata Active Directory/LDAP-ját amely lehetővé teszi, hogy bárki, akinek van fiókja hozzáférjen a Mattermosthoz.\n\n[További információ az AD/LDAP integrációról](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A Tam Dev rendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok létrehozása időigényessé válhat. Javasoljuk, hogy integrálja vállalata Active Directory/LDAP-ját amely lehetővé teszi, hogy bárki, akinek van fiókja hozzáférjen a Mattermosthoz.\n\n[További információ az AD/LDAP integrációról](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Tam Dev szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
-    "translation": "Méretezés a Mattermost segítségével"
+    "translation": "Méretezés a Tam Dev segítségével"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "A Mattermost rendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok létrehozása időigényessé válhat. Javasoljuk, hogy integrálja vállalata Active Directory/LDAP-ját amely lehetővé teszi, hogy bárki, akinek van fiókja hozzáférjen a Mattermosthoz.\n\n[További információk az AD/LDAP integrációról](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Kapcsolat felvételi gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A Tam Dev rendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok létrehozása időigényessé válhat. Javasoljuk, hogy integrálja vállalata Active Directory/LDAP-ját amely lehetővé teszi, hogy bárki, akinek van fiókja hozzáférjen a Mattermosthoz.\n\n[További információk az AD/LDAP integrációról](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Kapcsolat felvételi gombra kattintva megosztja adatait a Tam Dev, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvételi kérés. A csapatomnak már 100 felhasználója van, és fontolóra veszem a Mattermost Enterprise kiadást.\n"
+    "translation": "Tam Dev kapcsolat felvételi kérés. A csapatomnak már 100 felhasználója van, és fontolóra veszem a Tam Dev Enterprise kiadást.\n"
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
@@ -6121,7 +6121,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
-    "translation": "Az Ön Mattermost rendszerében engedélyezve van a többtényezős hitelesítés, amely lehetővé teszi a felhasználók számára, hogy a jelszavukon felül további hitelesítéssel biztosítsák fiókjukat. A rendszer biztonságának javítása érdekében megkövetelheti az összes Mattermost fióktól, hogy többtényezős hitelesítést használjanak.\n\n[További információ a többtényezős hitelesítés kényszerítéséről](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "Az Ön Tam Dev rendszerében engedélyezve van a többtényezős hitelesítés, amely lehetővé teszi a felhasználók számára, hogy a jelszavukon felül további hitelesítéssel biztosítsák fiókjukat. A rendszer biztonságának javítása érdekében megkövetelheti az összes Tam Dev fióktól, hogy többtényezős hitelesítést használjanak.\n\n[További információ a többtényezős hitelesítés kényszerítéséről](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Tam Dev szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",
@@ -6129,11 +6129,11 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "Az Ön Mattermost rendszerében engedélyezve van a többtényezős hitelesítés, amely lehetővé teszi a felhasználók számára, hogy a jelszavukon felül további hitelesítési eszközökkel biztosítsák fiókjukat. A rendszer biztonságának javítása érdekében megkövetelheti az összes Mattermost fióktól, hogy többtényezős hitelesítést használjanak.\n\n[További információk a többtényezős hitelesítés kényszerítéséről](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Az Ön Tam Dev rendszerében engedélyezve van a többtényezős hitelesítés, amely lehetővé teszi a felhasználók számára, hogy a jelszavukon felül további hitelesítési eszközökkel biztosítsák fiókjukat. A rendszer biztonságának javítása érdekében megkövetelheti az összes Tam Dev fióktól, hogy többtényezős hitelesítést használjanak.\n\n[További információk a többtényezős hitelesítés kényszerítéséről](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Tam Dev, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvételi kérés. Szeretnék többet megtudni a többtényezős hitelesítés kényszerítéséről.\n"
+    "translation": "Tam Dev kapcsolat felvételi kérés. Szeretnék többet megtudni a többtényezős hitelesítés kényszerítéséről.\n"
   },
   {
     "id": "api.server.warn_metric.email_us",
@@ -6145,7 +6145,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
-    "translation": "A projektek gyakran érintenek vállalaton belüli és kívüli embereket egyaránt. A Vendégfiókok segítségével külső partnereket vonhat be a Mattermost rendszerébe, és meghatározhatja, kivel dolgozhatnak és mit láthatnak.\n\n[További információ a vendégfiókok engedélyezéséről](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A projektek gyakran érintenek vállalaton belüli és kívüli embereket egyaránt. A Vendégfiókok segítségével külső partnereket vonhat be a Tam Dev rendszerébe, és meghatározhatja, kivel dolgozhatnak és mit láthatnak.\n\n[További információ a vendégfiókok engedélyezéséről](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Tam Dev szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/pl/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_title",
@@ -6153,11 +6153,11 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "A projektek gyakran érintenek vállalaton belüli és kívüli embereket egyaránt. A Vendégfiókok segítségével külső partnereket vonhat be a Mattermost rendszerébe, és meghatározhatja, kivel dolgozhatnak és mit láthatnak.\n\n[További információ a vendégfiókok engedélyezéséről](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nA Kapcsolat felvétel gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "A projektek gyakran érintenek vállalaton belüli és kívüli embereket egyaránt. A Vendégfiókok segítségével külső partnereket vonhat be a Tam Dev rendszerébe, és meghatározhatja, kivel dolgozhatnak és mit láthatnak.\n\n[További információ a vendégfiókok engedélyezéséről](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nA Kapcsolat felvétel gombra kattintva megosztja adatait a Tam Dev, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvételi kérés. Szeretnék többet megtudni a vendégfiókok használatáról.\n"
+    "translation": "Tam Dev kapcsolat felvételi kérés. Szeretnék többet megtudni a vendégfiókok használatáról.\n"
   },
   {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
@@ -6165,7 +6165,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
-    "translation": "Köszönjük, hogy felvette a kapcsolatot a Mattermost-tal. Hamarosan jelentkezni fogunk."
+    "translation": "Köszönjük, hogy felvette a kapcsolatot a Tam Dev-tal. Hamarosan jelentkezni fogunk."
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_failure.message",
@@ -6177,7 +6177,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_subject",
-    "translation": "Mattermost kapcsolat felvételi kérelem"
+    "translation": "Tam Dev kapcsolat felvételi kérelem"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_site_url_header",
@@ -6820,7 +6820,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Meghív egy külső Mattermost példányt az aktuális megosztott csatornára"
+    "translation": "Meghív egy külső Tam Dev példányt az aktuális megosztott csatornára"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -6852,7 +6852,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© 2021 Mattermost, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
+    "translation": "© 2021 Tam Dev, Inc. 530 Lytton Avenue, Second floor, Palo Alto, CA, 94301"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -6888,7 +6888,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Megosztja az aktuális csatornát egy külső Mattermost példánnyal."
+    "translation": "Megosztja az aktuális csatornát egy külső Tam Dev példánnyal."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -7060,7 +7060,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Küldje el a következő AES 256 bites titkosított meghívót a külső Mattermost rendszer rendszergazdának a jelszóval együtt. A meghívás elfogadásához a `{{.Command}}` perjel parancsot fogják használni.\n\n```\n{{.Invitation}}\n```\n\n**Győződjön meg róla, hogy a biztonságos kapcsolat a** {{.SiteURL}} **cím segítségével érheti el az Ön Mattermost példányát.**"
+    "translation": "Küldje el a következő AES 256 bites titkosított meghívót a külső Tam Dev rendszer rendszergazdának a jelszóval együtt. A meghívás elfogadásához a `{{.Command}}` perjel parancsot fogják használni.\n\n```\n{{.Invitation}}\n```\n\n**Győződjön meg róla, hogy a biztonságos kapcsolat a** {{.SiteURL}} **cím segítségével érheti el az Ön Tam Dev példányát.**"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -7112,7 +7112,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Hívjon meg biztonságos kapcsolatokat a Mattermost példányok közötti kommunikációhoz."
+    "translation": "Hívjon meg biztonságos kapcsolatokat a Tam Dev példányok közötti kommunikációhoz."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -7304,7 +7304,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Küldjön egy e-mail meghívót az Ön Mattermost csapatának"
+    "translation": "Küldjön egy e-mail meghívót az Ön Tam Dev csapatának"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -7624,7 +7624,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Kérem, adjon hozzá azokhoz a csapatokhoz és csatornákhoz, amelyekben szeretné, hogy részt vegyek. Ehhez használjon egy böngészőt vagy a Mattermost alkalmazást."
+    "translation": "Kérem, adjon hozzá azokhoz a csapatokhoz és csatornákhoz, amelyekben szeretné, hogy részt vegyek. Ehhez használjon egy böngészőt vagy a Tam Dev alkalmazást."
   },
   {
     "id": "api.bot.create_disabled",
@@ -7938,7 +7938,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "A licenc igényléséhez el kell fogadnia a Mattermost szoftver használati megállapodását és az adatvédelmi irányelveit."
+    "translation": "A licenc igényléséhez el kell fogadnia a Tam Dev szoftver használati megállapodását és az adatvédelmi irányelveit."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -8098,7 +8098,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Fogadja el egy külső Mattermost példány meghívását"
+    "translation": "Fogadja el egy külső Tam Dev példány meghívását"
   },
   {
     "id": "api.command_open.name",
@@ -8326,7 +8326,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Mattermost súgó üzenet megjelenítése"
+    "translation": "Tam Dev súgó üzenet megjelenítése"
   },
   {
     "id": "api.command_groupmsg.permission.app_error",
@@ -8445,7 +8445,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - E-mail beállítások tesztelése"
+    "translation": "Tam Dev - E-mail beállítások tesztelése"
   },
   {
     "id": "api.admin.test_email.reenter_password",
@@ -8457,7 +8457,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Úgy tűnik a Mattermost e-mail helyesen van beállítva!"
+    "translation": "Úgy tűnik a Tam Dev e-mail helyesen van beállítva!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -8641,7 +8641,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Mattermost megnyitása"
+    "translation": "Tam Dev megnyitása"
   },
   {
     "id": "api.command_channel_purpose.update_channel.max_length",
@@ -8757,7 +8757,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Ez a teszt kulcs a Mattermost Enterprise kiadáshoz lejárt és már nem érvényes. Ha szeretné meghosszabbítani a próba időszakot, kérjük [vegye fel a kapcsolatot értékesítési csapatunkkal](https://mattermost.com/contact-us/)."
+    "translation": "Ez a teszt kulcs a Tam Dev Enterprise kiadáshoz lejárt és már nem érvényes. Ha szeretné meghosszabbítani a próba időszakot, kérjük [vegye fel a kapcsolatot értékesítési csapatunkkal](https://mattermost.com/contact-us/)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -8769,7 +8769,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, az előfizetése le fog járni {{.Days}} nap múlva. Reméljük, hogy megtapasztalta a rugalmas, biztonságos csoport munkát, amit a Mattermost biztosít. Újítsa meg mielőbb az előfizetését, hogy a csapata biztosan tovább élvezhesse eme szolgáltatások nyújtotta előnyöket."
+    "translation": "{{.UserName}}, az előfizetése le fog járni {{.Days}} nap múlva. Reméljük, hogy megtapasztalta a rugalmas, biztonságos csoport munkát, amit a Tam Dev biztosít. Újítsa meg mielőbb az előfizetését, hogy a csapata biztosan tovább élvezhesse eme szolgáltatások nyújtotta előnyöket."
   },
   {
     "id": "api.server.license_up_for_renewal.error_sending_email",
@@ -8777,7 +8777,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "A Mattermost előfizetése megújításra szorul"
+    "translation": "A Tam Dev előfizetése megújításra szorul"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle_two",
@@ -9105,7 +9105,7 @@
   },
   {
     "id": "api.templates.cloud_upgrade_confirmation.subject",
-    "translation": "Mattermost frissítés megerősítés"
+    "translation": "Tam Dev frissítés megerősítés"
   },
   {
     "id": "api.elasticsearch.test_elasticsearch_settings_nil.app_error",
@@ -9173,7 +9173,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "A Mattermost egy nyílt forráskódú platform a biztonságos kommunikációhoz, együttműködéshez és az eszközök és csapatok közötti munka összehangolásához.\nA Mattermost három kulcsfontosságú eszközt tartalmaz:\n\n**Csatornák** - Maradjon kapcsolatban csapatával 1:1 és csoportos üzenetküldéssel.\n**[Forgatókönyvek](/playbooks)** - Építsen és konfiguráljon megismételhető folyamatokat meghatározott és kiszámítható eredmények elérése érdekében.\n**[Táblák](/boards)** - Kezelje a projekteket és feladatokat Kanban tábla struktúrában, hogy segítse csapatát a kulcsfontosságú mérföldkövek elérésében.\n\n[Dokumentáció és útmutatók megtekintése]({{.HelpLink}})"
+    "translation": "A Tam Dev egy nyílt forráskódú platform a biztonságos kommunikációhoz, együttműködéshez és az eszközök és csapatok közötti munka összehangolásához.\nA Tam Dev három kulcsfontosságú eszközt tartalmaz:\n\n**Csatornák** - Maradjon kapcsolatban csapatával 1:1 és csoportos üzenetküldéssel.\n**[Forgatókönyvek](/playbooks)** - Építsen és konfiguráljon megismételhető folyamatokat meghatározott és kiszámítható eredmények elérése érdekében.\n**[Táblák](/boards)** - Kezelje a projekteket és feladatokat Kanban tábla struktúrában, hogy segítse csapatát a kulcsfontosságú mérföldkövek elérésében.\n\n[Dokumentáció és útmutatók megtekintése]({{.HelpLink}})"
   },
   {
     "id": "api.command_marketplace.desc",
@@ -9241,7 +9241,7 @@
   },
   {
     "id": "api.templates.delinquency_30.subject",
-    "translation": "Lépjen most, hogy megtarthassa a Mattermost {{.Plan}} funkcióit"
+    "translation": "Lépjen most, hogy megtarthassa a Tam Dev {{.Plan}} funkcióit"
   },
   {
     "id": "app.notify_admin.send_notification_post.app_error",

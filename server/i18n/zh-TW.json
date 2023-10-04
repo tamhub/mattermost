@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "看起來您的 Mattermost 電子郵件設定正確！"
+    "translation": "看起來您的 Tam Dev 電子郵件設定正確！"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -97,7 +97,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - 測試電子郵件設定"
+    "translation": "Tam Dev - 測試電子郵件設定"
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -345,7 +345,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "送個邀請函給您的 Mattermost 團隊"
+    "translation": "送個邀請函給您的 Tam Dev 團隊"
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
@@ -619,7 +619,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "顯示 Mattermost 說明頁面"
+    "translation": "顯示 Tam Dev 說明頁面"
   },
   {
     "id": "api.command_help.name",
@@ -723,7 +723,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "登出 Mattermost"
+    "translation": "登出 Tam Dev"
   },
   {
     "id": "api.command_logout.name",
@@ -1513,7 +1513,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Slack 頻道 {{.DisplayName}} 以存在於現行 Mattermost 中。已合併兩邊頻道。\r\n"
+    "translation": "Slack 頻道 {{.DisplayName}} 以存在於現行 Tam Dev 中。已合併兩邊頻道。\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -1525,11 +1525,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "由於有相同的電子郵件 {{.Email}} 與使用者名稱 {{.Username}}，Slack 帳號與現有 Mattermost 帳號已合併。\r\n"
+    "translation": "由於有相同的電子郵件 {{.Email}} 與使用者名稱 {{.Username}}，Slack 帳號與現有 Tam Dev 帳號已合併。\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "由於有相同的電子郵件 {{.Email}} 與使用者名稱 {{.Username}}，Slack 帳號與現有 Mattermost 帳號已合併，但無法新增使用者至對應團隊。\r\n"
+    "translation": "由於有相同的電子郵件 {{.Email}} 與使用者名稱 {{.Username}}，Slack 帳號與現有 Tam Dev 帳號已合併，但無法新增使用者至對應團隊。\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -1541,7 +1541,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slack 匯入記錄\r\n"
+    "translation": "Tam Dev Slack 匯入記錄\r\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -3193,7 +3193,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "您的 AD/LDAP 帳號沒有使用此 Mattermost 伺服器的權限。請向系統管理員詢問確認 AD/LDAP 使用者過濾條件。"
+    "translation": "您的 AD/LDAP 帳號沒有使用此 Tam Dev 伺服器的權限。請向系統管理員詢問確認 AD/LDAP 使用者過濾條件。"
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3213,7 +3213,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "無法用 AD/LDAP 搜尋使用者。請測試 Mattermost 是否能連線至 AD/LDAP 伺服器並重新嘗試。"
+    "translation": "無法用 AD/LDAP 搜尋使用者。請測試 Tam Dev 是否能連線至 AD/LDAP 伺服器並重新嘗試。"
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3309,7 +3309,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "使用者名稱已被其他 Mattermost 使用者使用。 "
+    "translation": "使用者名稱已被其他 Tam Dev 使用者使用。 "
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -3409,7 +3409,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost 安全性公告"
+    "translation": "Tam Dev 安全性公告"
   },
   {
     "id": "mfa.activate.bad_token.app_error",
@@ -4557,7 +4557,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "GitLab 的服務使用條款有更新。請前往 gitlab.com 接受新條款後重新嘗試登入 Mattermost。"
+    "translation": "GitLab 的服務使用條款有更新。請前往 gitlab.com 接受新條款後重新嘗試登入 Tam Dev。"
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -4721,11 +4721,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Mattermost 不再支援瀏覽器的這個版本"
+    "translation": "Tam Dev 不再支援瀏覽器的這個版本"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Mattermost 不再支援此瀏覽器"
+    "translation": "Tam Dev 不再支援此瀏覽器"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -4769,7 +4769,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "下載 Mattermost 應用程式或只用支援的瀏覽器以獲得更好的體驗。"
+    "translation": "下載 Tam Dev 應用程式或只用支援的瀏覽器以獲得更好的體驗。"
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -5537,7 +5537,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Mattermost 企業授權已被停用。"
+    "translation": "Tam Dev 企業授權已被停用。"
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -5973,7 +5973,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "要求授權前必須接受 Mattermost Software Evaluation Agreement 跟隱私權政策。"
+    "translation": "要求授權前必須接受 Tam Dev Software Evaluation Agreement 跟隱私權政策。"
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -6193,7 +6193,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
-    "translation": "感謝您對 Mattermost 有興趣，我們會盡快聯絡。"
+    "translation": "感謝您對 Tam Dev 有興趣，我們會盡快聯絡。"
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_failure.message",
@@ -6205,7 +6205,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_subject",
-    "translation": "Mattermost 聯絡我們 要求"
+    "translation": "Tam Dev 聯絡我們 要求"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_site_url_header",
@@ -6241,7 +6241,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.subject",
-    "translation": "Mattermost 聯絡我們 要求"
+    "translation": "Tam Dev 聯絡我們 要求"
   },
   {
     "id": "api.templates.warn_metric_ack.footer",
@@ -6301,7 +6301,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost 強烈建議將使用者數量超過 {limit} 的佈署升級至企業版，企業版提供使用者管理、伺服器叢集、效能監控等功能。\n\n當點下聯絡我們時，將會把您的訊息分享給 Mattermost 公司，了解更多有關升級。[了解更多](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Tam Dev 強烈建議將使用者數量超過 {limit} 的佈署升級至企業版，企業版提供使用者管理、伺服器叢集、效能監控等功能。\n\n當點下聯絡我們時，將會把您的訊息分享給 Tam Dev 公司，了解更多有關升級。[了解更多](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.user.delete_user.not_enabled.app_error",
@@ -6401,7 +6401,7 @@
   },
   {
     "id": "app.system.warn_metric.bot_displayname",
-    "translation": "Mattermost Advisor"
+    "translation": "Tam Dev Advisor"
   },
   {
     "id": "api.templates.warn_metric_ack.body.contact_name_header",
@@ -7029,15 +7029,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "無法升級至企業版。Mattermost 系統使用者 {{.MattermostUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 Mattermost 伺服器上執行下列命令以更新檔案權限：\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "無法升級至企業版。Tam Dev 系統使用者 {{.MattermostUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 Tam Dev 伺服器上執行下列命令以更新檔案權限：\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "無法升級至企業版。Mattermost 系統使用者 {{.MattermostUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 Mattermost 伺服器上執行下列命令以更新檔案權限：\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "無法升級至企業版。Tam Dev 系統使用者 {{.MattermostUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 Tam Dev 伺服器上執行下列命令以更新檔案權限：\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "無法升級至企業版。Mattermost 系統使用者 {{.MattermostUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 Mattermost 伺服器上執行下列命令以更新檔案權限：\n\n```\nchmod +w \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "無法升級至企業版。Tam Dev 系統使用者 {{.MattermostUsername}} 沒有必要執行檔的寫入權限。系統管理員可以在 Tam Dev 伺服器上執行下列命令以更新檔案權限：\n\n```\nchmod +w \"{{.Path}}\"\n```\n\n變更檔案權限後，請重新嘗試升級。當完成升級並重新啟動後，記得還原執行檔權限：\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
@@ -7045,15 +7045,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "正在升級至 Mattermost 企業版。"
+    "translation": "正在升級至 Tam Dev 企業版。"
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "無法升級，目前已運行 Mattermost 企業版。"
+    "translation": "無法升級，目前已運行 Tam Dev 企業版。"
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "已升級至 Mattermost 企業版。請重新啟動伺服器以完成升級。"
+    "translation": "已升級至 Tam Dev 企業版。請重新啟動伺服器以完成升級。"
   },
   {
     "id": "api.templates.warn_metric_ack.body.diagnostic_id_header",
@@ -7065,7 +7065,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "一共有 200 位使用者在此 Mattermost。隨著使用者數量的增長，準備新帳號將耗費更多的時間。我們建議與您組織的 Active Directory/LDAP 進行整合，如此將讓任何有帳號的人存取 Mattermost。\n\n[了解更多有關與 AD/LDAP 整合](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\n當點下聯絡我們時，將會把您的訊息分享給 Mattermost 公司，了解更多有關升級。[了解更多](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "一共有 200 位使用者在此 Tam Dev。隨著使用者數量的增長，準備新帳號將耗費更多的時間。我們建議與您組織的 Active Directory/LDAP 進行整合，如此將讓任何有帳號的人存取 Tam Dev。\n\n[了解更多有關與 AD/LDAP 整合](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\n當點下聯絡我們時，將會把您的訊息分享給 Tam Dev 公司，了解更多有關升級。[了解更多](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.post.search_posts.invalid_body.app_error",
@@ -7161,11 +7161,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "Mattermost 聯絡我們 要求。我的團隊現有 {{.Limit}} 使用者，正在考慮企業版。\n"
+    "translation": "Tam Dev 聯絡我們 要求。我的團隊現有 {{.Limit}} 使用者，正在考慮企業版。\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "Mattermost 聯絡我們 要求。我的團隊現有 {{.Limit}} 使用者，正在考慮企業版。\n"
+    "translation": "Tam Dev 聯絡我們 要求。我的團隊現有 {{.Limit}} 使用者，正在考慮企業版。\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
@@ -7173,11 +7173,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "一共有 200 位使用者在此 Mattermost。隨著使用者數量的增長，準備新帳號將耗費更多的時間。我們建議與您組織的 Active Directory/LDAP 進行整合，如此將讓任何有帳號的人存取 Mattermost。\n\n[了解更多有關與 AD/LDAP 整合](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\n當點下聯絡我們時，將會把您的訊息分享給 Mattermost 公司，了解更多有關升級。[了解更多](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "一共有 200 位使用者在此 Tam Dev。隨著使用者數量的增長，準備新帳號將耗費更多的時間。我們建議與您組織的 Active Directory/LDAP 進行整合，如此將讓任何有帳號的人存取 Tam Dev。\n\n[了解更多有關與 AD/LDAP 整合](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\n當點下聯絡我們時，將會把您的訊息分享給 Tam Dev 公司，了解更多有關升級。[了解更多](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "Mattermost 聯絡我們 要求。我的團隊現有 {{.Limit}} 使用者，正在考慮企業版。\n"
+    "translation": "Tam Dev 聯絡我們 要求。我的團隊現有 {{.Limit}} 使用者，正在考慮企業版。\n"
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",

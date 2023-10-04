@@ -101,13 +101,13 @@ class AxeBuilderExtended {
             const disabledRules: string[] = [];
 
             if (options.disableColorContrast) {
-                // Disabled in pages due to impact to overall theme of Mattermost.
+                // Disabled in pages due to impact to overall theme of Tam Dev.
                 // Option: make use of custom theme to improve color contrast.
                 disabledRules.push('color-contrast');
             }
 
             if (options.disableLinkInTextBlock) {
-                // Disabled in pages due to impact to overall theme of Mattermost.
+                // Disabled in pages due to impact to overall theme of Tam Dev.
                 // Option: make use of custom theme to improve color contrast.
                 disabledRules.push('link-in-text-block');
             }

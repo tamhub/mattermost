@@ -77,7 +77,7 @@ exports[`messageHtmlToComponent Inline markdown image 1`] = `
   className="markdown-inline-img__container"
 >
   <Memo(Connect(MarkdownImage))
-    alt="Mattermost"
+    alt="Tam Dev"
     className="markdown-inline-img"
     imageIsLink={false}
     postId="post_id"
@@ -107,7 +107,7 @@ exports[`messageHtmlToComponent Inline markdown image where image is link 1`] = 
     target="_blank"
   >
     <Memo(Connect(MarkdownImage))
-      alt="Mattermost"
+      alt="Tam Dev"
       className="markdown-inline-img"
       imageIsLink={true}
       postId="post_id"

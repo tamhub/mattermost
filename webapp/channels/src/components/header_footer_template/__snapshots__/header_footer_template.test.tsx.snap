@@ -25,7 +25,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with about link 1
             class="pull-right footer-site-name"
             id="company_name"
           >
-            Mattermost
+            Tam Dev
           </span>
         </div>
         <div
@@ -35,7 +35,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with about link 1
             class="pull-right footer-link copyright"
             id="copyright"
           >
-            © 2015-2017 Mattermost, Inc.
+            © 2015-2017 Tam Dev, Inc.
           </span>
           <span
             class="pull-right"
@@ -83,7 +83,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with all links 1`
             class="pull-right footer-site-name"
             id="company_name"
           >
-            Mattermost
+            Tam Dev
           </span>
         </div>
         <div
@@ -93,7 +93,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with all links 1`
             class="pull-right footer-link copyright"
             id="copyright"
           >
-            © 2015-2017 Mattermost, Inc.
+            © 2015-2017 Tam Dev, Inc.
           </span>
           <span
             class="pull-right"
@@ -175,7 +175,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with children 1`]
             class="pull-right footer-site-name"
             id="company_name"
           >
-            Mattermost
+            Tam Dev
           </span>
         </div>
         <div
@@ -185,7 +185,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with children 1`]
             class="pull-right footer-link copyright"
             id="copyright"
           >
-            © 2015-2017 Mattermost, Inc.
+            © 2015-2017 Tam Dev, Inc.
           </span>
           <span
             class="pull-right"
@@ -222,7 +222,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with help link 1`
             class="pull-right footer-site-name"
             id="company_name"
           >
-            Mattermost
+            Tam Dev
           </span>
         </div>
         <div
@@ -232,7 +232,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with help link 1`
             class="pull-right footer-link copyright"
             id="copyright"
           >
-            © 2015-2017 Mattermost, Inc.
+            © 2015-2017 Tam Dev, Inc.
           </span>
           <span
             class="pull-right"
@@ -280,7 +280,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with privacy poli
             class="pull-right footer-site-name"
             id="company_name"
           >
-            Mattermost
+            Tam Dev
           </span>
         </div>
         <div
@@ -290,7 +290,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with privacy poli
             class="pull-right footer-link copyright"
             id="copyright"
           >
-            © 2015-2017 Mattermost, Inc.
+            © 2015-2017 Tam Dev, Inc.
           </span>
           <span
             class="pull-right"
@@ -338,7 +338,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with term of serv
             class="pull-right footer-site-name"
             id="company_name"
           >
-            Mattermost
+            Tam Dev
           </span>
         </div>
         <div
@@ -348,7 +348,7 @@ exports[`components/HeaderFooterTemplate should match snapshot with term of serv
             class="pull-right footer-link copyright"
             id="copyright"
           >
-            © 2015-2017 Mattermost, Inc.
+            © 2015-2017 Tam Dev, Inc.
           </span>
           <span
             class="pull-right"
@@ -396,7 +396,7 @@ exports[`components/HeaderFooterTemplate should match snapshot without children 
             class="pull-right footer-site-name"
             id="company_name"
           >
-            Mattermost
+            Tam Dev
           </span>
         </div>
         <div
@@ -406,7 +406,7 @@ exports[`components/HeaderFooterTemplate should match snapshot without children 
             class="pull-right footer-link copyright"
             id="copyright"
           >
-            © 2015-2017 Mattermost, Inc.
+            © 2015-2017 Tam Dev, Inc.
           </span>
           <span
             class="pull-right"
@@ -443,7 +443,7 @@ exports[`components/HeaderFooterTemplate should set classes on body and #root on
             class="pull-right footer-site-name"
             id="company_name"
           >
-            Mattermost
+            Tam Dev
           </span>
         </div>
         <div
@@ -453,7 +453,7 @@ exports[`components/HeaderFooterTemplate should set classes on body and #root on
             class="pull-right footer-link copyright"
             id="copyright"
           >
-            © 2015-2017 Mattermost, Inc.
+            © 2015-2017 Tam Dev, Inc.
           </span>
           <span
             class="pull-right"

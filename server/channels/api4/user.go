@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package api4
@@ -3066,7 +3066,7 @@ func migrateAuthToLDAP(c *Context, w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Email auth in Mattermost system is represented by ""
+	// Email auth in Tam Dev system is represented by ""
 	if from == "email" {
 		from = ""
 	}
@@ -3125,7 +3125,7 @@ func migrateAuthToSaml(c *Context, w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Email auth in Mattermost system is represented by ""
+	// Email auth in Tam Dev system is represented by ""
 	if from == "email" {
 		from = ""
 	}

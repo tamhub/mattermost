@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -206,7 +206,7 @@ describe('LDAP guest', () => {
 
                     // # Accept confirmation modal
                     cy.get('#confirmModalButton').should('be.visible').click();
-                    cy.get('.admin-console__header', {timeout: TIMEOUTS.ONE_MIN}).should('be.visible').and('have.text', 'Mattermost Teams');
+                    cy.get('.admin-console__header', {timeout: TIMEOUTS.ONE_MIN}).should('be.visible').and('have.text', 'Tam Dev Teams');
 
                     // # Login as board.one user
                     testSettings.user = userBoard1;

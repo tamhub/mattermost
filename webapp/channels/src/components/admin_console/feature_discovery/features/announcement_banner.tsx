@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -16,7 +16,7 @@ const AnnouncementBannerFeatureDiscovery: React.FC = () => {
             featureName='announcement_banner'
             minimumSKURequiredForFeature={LicenseSkus.Professional}
             titleID='admin.announcement_banner_feature_discovery.title'
-            titleDefault='Create custom announcement banners with Mattermost Professional'
+            titleDefault='Create custom announcement banners with Tam Dev Professional'
             copyID='admin.announcement_banner_feature_discovery.copy'
             copyDefault={'Create announcement banners to notify all members of important information.'}
             learnMoreURL='https://docs.mattermost.com/administration/announcement-banner.html'

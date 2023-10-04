@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -255,7 +255,7 @@ describe('Integrations', () => {
         cy.get('#url').type(commandURL);
         cy.get('#saveCommand').click();
         cy.get('#doneButton').click();
-        cy.findByText('Back to Mattermost').click();
+        cy.findByText('Back to Tam Dev').click();
 
         // # Post slash command
         cy.uiPostMessageQuickly(`/${commandTrigger} `);

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -16,7 +16,7 @@ const OpenIDCustomFeatureDiscovery: React.FC = () => {
             featureName='openid'
             minimumSKURequiredForFeature={LicenseSkus.Professional}
             titleID='admin.openid_custom_feature_discovery.title'
-            titleDefault='Integrate OpenID Connect with Mattermost Professional'
+            titleDefault='Integrate OpenID Connect with Tam Dev Professional'
             copyID='admin.openid_custom_feature_discovery.copy'
             copyDefault={'Use OpenID Connect for authentication and single sign-on (SSO) with any service that supports the OIDC specification such as Apple, Okta, OneLogin, and more.'}
             learnMoreURL='https://docs.mattermost.com/cloud/cloud-administration/sso-openid-connect.html'

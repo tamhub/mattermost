@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package app
@@ -46,7 +46,7 @@ func (s *Server) DoSecurityUpdateCheck() {
 	currentTime := model.GetMillis()
 
 	if (currentTime - lastSecurityTime) > SecurityUpdatePeriod {
-		mlog.Debug("Checking for security update from Mattermost")
+		mlog.Debug("Checking for security update from Tam Dev")
 
 		v := url.Values{}
 
@@ -83,7 +83,7 @@ func (s *Server) DoSecurityUpdateCheck() {
 
 		res, err := http.Get(PropSecurityURL + "/security?" + v.Encode())
 		if err != nil {
-			mlog.Error("Failed to get security update information from Mattermost.")
+			mlog.Error("Failed to get security update information from Tam Dev.")
 			return
 		}
 
@@ -100,7 +100,7 @@ func (s *Server) DoSecurityUpdateCheck() {
 				if props["SecurityBulletin_"+bulletin.Id] == "" {
 					users, userErr := s.Store().User().GetSystemAdminProfiles()
 					if userErr != nil {
-						mlog.Error("Failed to get system admins for security update information from Mattermost.")
+						mlog.Error("Failed to get system admins for security update information from Tam Dev.")
 						return
 					}
 

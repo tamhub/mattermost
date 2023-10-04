@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
@@ -32,7 +32,7 @@ const ssl = (
         }),
         description: formatMessage({
             id: 'admin.reporting.workspace_optimization.configuration.ssl.description',
-            defaultMessage: 'We strongly recommend securing your Mattermost workspace by configuring SSL in production environments.',
+            defaultMessage: 'We strongly recommend securing your Tam Dev workspace by configuring SSL in production environments.',
         }),
         infoUrl: DocLinks.SSL_CERTIFICATE,
         infoText: formatMessage({id: 'admin.reporting.workspace_optimization.cta.learnMore', defaultMessage: 'Learn more'}),

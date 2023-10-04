@@ -1,3 +1,3 @@
-# Mattermost Changelog
+# Tam Dev Changelog
 
-Please see [Mattermost Changelog](http://docs.mattermost.com/administration/changelog.html) in product documentation.
+Please see [Tam Dev Changelog](http://docs.mattermost.com/administration/changelog.html) in product documentation.

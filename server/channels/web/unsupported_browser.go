@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package web
@@ -12,7 +12,7 @@ import (
 	"github.com/mattermost/mattermost/server/v8/platform/shared/templates"
 )
 
-// MattermostApp describes downloads for the Mattermost App
+// MattermostApp describes downloads for the Tam Dev App
 type MattermostApp struct {
 	LogoSrc                string
 	Title                  string
@@ -67,7 +67,7 @@ func renderUnsupportedBrowser(ctx *request.Context, r *http.Request) templates.D
 		data.Props["NoLongerSupportString"] = ctx.T("web.error.unsupported_browser.no_longer_support")
 	}
 
-	// Mattermost app version
+	// Tam Dev app version
 	if isWindows {
 		data.Props["App"] = renderMattermostAppWindows(ctx)
 	} else if isMacOSX {

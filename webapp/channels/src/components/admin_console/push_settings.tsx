@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -183,7 +183,7 @@ export default class PushSettings extends AdminSettings<Props, State> {
             pushServerHelpText = (
                 <FormattedMessage
                     id='admin.email.mhpnsHelp'
-                    defaultMessage='Download <linkIOS>Mattermost iOS app</linkIOS> from iTunes. Download <linkAndroid>Mattermost Android app</linkAndroid> from Google Play. Learn more about the <linkHPNS>Mattermost Hosted Push Notification Service</linkHPNS>.'
+                    defaultMessage='Download <linkIOS>Tam Dev iOS app</linkIOS> from iTunes. Download <linkAndroid>Tam Dev Android app</linkAndroid> from Google Play. Learn more about the <linkHPNS>Tam Dev Hosted Push Notification Service</linkHPNS>.'
                     values={{
                         linkIOS: (msg) => (
                             <ExternalLink
@@ -216,7 +216,7 @@ export default class PushSettings extends AdminSettings<Props, State> {
             pushServerHelpText = (
                 <FormattedMessage
                     id='admin.email.mtpnsHelp'
-                    defaultMessage='Download <linkIOS>Mattermost iOS app</linkIOS> from iTunes. Download <linkAndroid>Mattermost Android app</linkAndroid> from Google Play. Learn more about the <linkHPNS>Mattermost Hosted Push Notification Service</linkHPNS>.'
+                    defaultMessage='Download <linkIOS>Tam Dev iOS app</linkIOS> from iTunes. Download <linkAndroid>Tam Dev Android app</linkAndroid> from Google Play. Learn more about the <linkHPNS>Tam Dev Hosted Push Notification Service</linkHPNS>.'
                     values={{
                         linkIOS: (msg) => (
                             <ExternalLink
@@ -278,7 +278,7 @@ export default class PushSettings extends AdminSettings<Props, State> {
                         />
                         <FormattedMessage
                             id='admin.email.agreeHPNS'
-                            defaultMessage=' I understand and accept the Mattermost Hosted Push Notification Service <linkTerms>Terms of Service</linkTerms> and <linkPrivacy>Privacy Policy</linkPrivacy>.'
+                            defaultMessage=' I understand and accept the Tam Dev Hosted Push Notification Service <linkTerms>Terms of Service</linkTerms> and <linkPrivacy>Privacy Policy</linkPrivacy>.'
                             values={{
                                 linkTerms: (msg) => (
                                     <ExternalLink

@@ -23,7 +23,7 @@ RUN apt-get update \
   tzdata \
   && rm -rf /var/lib/apt/lists/*
 
-# Set mattermost group/user and download Mattermost
+# Set mattermost group/user and download Tam Dev
 RUN mkdir -p /mattermost/data /mattermost/plugins /mattermost/client/plugins \
   && addgroup -gid ${PGID} mattermost \
   && adduser -q --disabled-password --uid ${PUID} --gid ${PGID} --gecos "" --home /mattermost mattermost \

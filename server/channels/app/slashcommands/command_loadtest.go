@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package slashcommands
@@ -23,7 +23,7 @@ import (
 	"github.com/mattermost/mattermost/server/v8/channels/utils"
 )
 
-var usage = `Mattermost testing commands to help configure the system
+var usage = `Tam Dev testing commands to help configure the system
 
 	COMMANDS:
 

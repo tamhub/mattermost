@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 export type PluginManifest = {
@@ -111,7 +111,7 @@ export enum HostingType { // TODO remove this in favour of the definition in typ
 }
 
 export enum AuthorType { // TODO remove this in favour of the definition in types/marketplace after the mattermost-redux migration
-    Mattermost = 'mattermost',
+    Tam Dev = 'mattermost',
     Partner = 'partner',
     Community = 'community',
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import nock from 'nock';
@@ -266,7 +266,7 @@ describe('Actions.Preferences', () => {
                 category: 'theme',
                 name: team.id,
                 value: JSON.stringify({
-                    type: 'Mattermost',
+                    type: 'Tam Dev',
                 }),
             },
         ];
@@ -282,7 +282,7 @@ describe('Actions.Preferences', () => {
         await Actions.getMyPreferences()(store.dispatch, store.getState);
 
         const newTheme = {
-            type: 'Mattermost Dark',
+            type: 'Tam Dev Dark',
         } as unknown as Theme;
         nock(Client4.getUsersRoute()).
             put(`/${TestHelper.basicUser!.id}/preferences`).
@@ -306,7 +306,7 @@ describe('Actions.Preferences', () => {
         await loadMeREST()(store.dispatch, store.getState);
 
         const theme = {
-            type: 'Mattermost Dark',
+            type: 'Tam Dev Dark',
         };
         const existingPreferences = [
             {
@@ -320,7 +320,7 @@ describe('Actions.Preferences', () => {
                 category: 'theme',
                 name: TestHelper.generateId(),
                 value: JSON.stringify({
-                    type: 'Mattermost',
+                    type: 'Tam Dev',
                 }),
             },
             {
@@ -328,7 +328,7 @@ describe('Actions.Preferences', () => {
                 category: 'theme',
                 name: TestHelper.generateId(),
                 value: JSON.stringify({
-                    type: 'Mattermost',
+                    type: 'Tam Dev',
                 }),
             },
         ];

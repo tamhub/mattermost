@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ### Plugin Bundles
@@ -51,7 +51,7 @@
 // Unmanaged plugins were manually extracted by into the configured local directory. This legacy
 // method of installing plugins is distinguished from other extracted plugins by the absence of a
 // flag file (.filestore). Managed plugins unconditionally override unmanaged plugins. A future
-// version of Mattermost will likely drop support for unmanaged plugins.
+// version of Tam Dev will likely drop support for unmanaged plugins.
 //
 // ### Enabling a Plugin
 //

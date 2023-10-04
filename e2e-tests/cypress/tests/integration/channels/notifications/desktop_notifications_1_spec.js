@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -96,8 +96,8 @@ describe('Desktop notifications', () => {
     it('MM-T487 Desktop Notifications - For all activity with apostrophe, emoji, and markdown in notification', () => {
         spyNotificationAs('withNotification', 'granted');
 
-        const actualMsg = '*I\'m* [hungry](http://example.com) :taco: ![Mattermost](https://mattermost.com/wp-content/uploads/2022/02/logoHorizontal.png)';
-        const expected = '@' + otherUser.username + ': I\'m hungry :taco: Mattermost';
+        const actualMsg = '*I\'m* [hungry](http://example.com) :taco: ![Tam Dev](https://mattermost.com/wp-content/uploads/2022/02/logoHorizontal.png)';
+        const expected = '@' + otherUser.username + ': I\'m hungry :taco: Tam Dev';
 
         // # Ensure notifications are set up to fire a desktop notification if are mentioned.
         changeDesktopNotificationAs('#desktopNotificationAllActivity');

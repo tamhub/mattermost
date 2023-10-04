@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package commands
@@ -16,7 +16,7 @@ var VersionCmd = &cobra.Command{
 }
 
 func init() {
-	VersionCmd.Flags().Bool("skip-server-start", false, "Skip the server initialization and return the Mattermost version without the DB version.")
+	VersionCmd.Flags().Bool("skip-server-start", false, "Skip the server initialization and return the Tam Dev version without the DB version.")
 	VersionCmd.Flags().MarkDeprecated("skip-server-start", "This flag is not necessary anymore and the flag will be removed in the future releases. Consider removing it from your scripts.")
 	RootCmd.AddCommand(VersionCmd)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -16,9 +16,9 @@ const SAMLFeatureDiscovery: React.FC = () => {
             featureName='saml'
             minimumSKURequiredForFeature={LicenseSkus.Professional}
             titleID='admin.saml_feature_discovery.title'
-            titleDefault='Integrate SAML 2.0 with Mattermost Professional'
+            titleDefault='Integrate SAML 2.0 with Tam Dev Professional'
             copyID='admin.saml_feature_discovery.copy'
-            copyDefault={'When you connect Mattermost with your organization\'s single sign-on provider, users can access Mattermost without having to re-enter their credentials.'}
+            copyDefault={'When you connect Tam Dev with your organization\'s single sign-on provider, users can access Tam Dev without having to re-enter their credentials.'}
             learnMoreURL='https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=product-feature-discovery&utm_content=saml'
             featureDiscoveryImage={<SamlSVG/>}
         />

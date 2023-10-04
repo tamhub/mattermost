@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -55,7 +55,7 @@ export default class VersionBar extends React.PureComponent <Props, State> {
                         <React.Fragment>
                             <FormattedMessage
                                 id='version_bar.new'
-                                defaultMessage='A new version of Mattermost is available.'
+                                defaultMessage='A new version of Tam Dev is available.'
                             />
                             <a
                                 onClick={this.reloadPage}

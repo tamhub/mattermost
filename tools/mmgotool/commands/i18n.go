@@ -1,4 +1,4 @@
-// Copyright (c) 2016-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2016-present Tam Dev, Inc. All Rights Reserved.
 // See License.txt for license information.
 
 package commands
@@ -38,7 +38,7 @@ type Item struct {
 
 var I18nCmd = &cobra.Command{
 	Use:   "i18n",
-	Short: "Management of Mattermost translations",
+	Short: "Management of Tam Dev translations",
 }
 
 var ExtractCmd = &cobra.Command{
@@ -75,29 +75,29 @@ var CleanEmptyCmd = &cobra.Command{
 
 func init() {
 	ExtractCmd.Flags().Bool("skip-dynamic", false, "Whether to skip dynamically added translations")
-	ExtractCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Mattermost Customer Portal source code")
-	ExtractCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Mattermost enterprise source code")
-	ExtractCmd.Flags().String("server-dir", "./", "Path to folder with the Mattermost server source code")
-	ExtractCmd.Flags().String("model-dir", "../model", "Path to folder with the Mattermost model package source code")
-	ExtractCmd.Flags().String("plugin-dir", "../plugin", "Path to folder with the Mattermost plugin package source code")
+	ExtractCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Tam Dev Customer Portal source code")
+	ExtractCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Tam Dev enterprise source code")
+	ExtractCmd.Flags().String("server-dir", "./", "Path to folder with the Tam Dev server source code")
+	ExtractCmd.Flags().String("model-dir", "../model", "Path to folder with the Tam Dev model package source code")
+	ExtractCmd.Flags().String("plugin-dir", "../plugin", "Path to folder with the Tam Dev plugin package source code")
 	ExtractCmd.Flags().Bool("contributor", false, "Allows contributors safely extract translations from source code without removing enterprise messages keys")
 
 	CheckCmd.Flags().Bool("skip-dynamic", false, "Whether to skip dynamically added translations")
-	CheckCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Mattermost Customer Portal source code")
-	CheckCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Mattermost enterprise source code")
-	CheckCmd.Flags().String("server-dir", "./", "Path to folder with the Mattermost server source code")
-	CheckCmd.Flags().String("model-dir", "../model", "Path to folder with the Mattermost model package source code")
-	CheckCmd.Flags().String("plugin-dir", "../plugin", "Path to folder with the Mattermost plugin package source code")
+	CheckCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Tam Dev Customer Portal source code")
+	CheckCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Tam Dev enterprise source code")
+	CheckCmd.Flags().String("server-dir", "./", "Path to folder with the Tam Dev server source code")
+	CheckCmd.Flags().String("model-dir", "../model", "Path to folder with the Tam Dev model package source code")
+	CheckCmd.Flags().String("plugin-dir", "../plugin", "Path to folder with the Tam Dev plugin package source code")
 
-	CheckEmptySrcCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Mattermost Customer Portal source code")
-	CheckEmptySrcCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Mattermost enterprise source code")
-	CheckEmptySrcCmd.Flags().String("server-dir", "./", "Path to folder with the Mattermost server source code")
+	CheckEmptySrcCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Tam Dev Customer Portal source code")
+	CheckEmptySrcCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Tam Dev enterprise source code")
+	CheckEmptySrcCmd.Flags().String("server-dir", "./", "Path to folder with the Tam Dev server source code")
 
 	CleanEmptyCmd.Flags().Bool("dry-run", false, "Run without applying changes")
 	CleanEmptyCmd.Flags().Bool("check", false, "Throw exit code on empty translation strings")
-	CleanEmptyCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Mattermost Customer Portal source code")
-	CleanEmptyCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Mattermost enterprise source code")
-	CleanEmptyCmd.Flags().String("server-dir", "./", "Path to folder with the Mattermost server source code")
+	CleanEmptyCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Tam Dev Customer Portal source code")
+	CleanEmptyCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Tam Dev enterprise source code")
+	CleanEmptyCmd.Flags().String("server-dir", "./", "Path to folder with the Tam Dev server source code")
 
 	I18nCmd.AddCommand(
 		ExtractCmd,

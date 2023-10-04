@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -19,7 +19,7 @@ describe('System Console', () => {
         cy.apiUpdateConfig({
             EmailSettings: {
                 PushNotificationContents: 'full',
-                FeedbackName: 'Mattermost Test Team',
+                FeedbackName: 'Tam Dev Test Team',
                 FeedbackEmail: 'feedback@mattertest.com',
             },
             SupportSettings: {

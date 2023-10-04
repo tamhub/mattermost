@@ -60,7 +60,7 @@ EOF
 mme2e_log "Starting E2E containers"
 ${MME2E_DC_SERVER} up -d
 if ! mme2e_wait_service_healthy server 60 10; then
-  mme2e_log "Mattermost container not healthy, retry attempts exhausted. Giving up." >&2
+  mme2e_log "Tam Dev container not healthy, retry attempts exhausted. Giving up." >&2
   exit 1
 fi
-mme2e_log "Mattermost container is running and healthy"
+mme2e_log "Tam Dev container is running and healthy"

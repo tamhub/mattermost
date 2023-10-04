@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import classNames from 'classnames';
@@ -128,7 +128,7 @@ const TrueUpReview: React.FC = () => {
             ) : (
                 <FormattedMessage
                     id='admin.billing.trueUpReview.button_share'
-                    defaultMessage='Share to Mattermost'
+                    defaultMessage='Share to Tam Dev'
                 />
             )}
         </button>
@@ -176,7 +176,7 @@ const TrueUpReview: React.FC = () => {
             {dueDate}
             <FormattedMessage
                 id='admin.billing.trueUpReview.share_data_for_review'
-                defaultMessage='Share your system statistics with Mattermost for your quarterly true-up Review. {link}'
+                defaultMessage='Share your system statistics with Tam Dev for your quarterly true-up Review. {link}'
                 values={{
                     link: trueUpDocsLink,
                 }}

@@ -1085,11 +1085,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "این نسخه از مرورگر شما دیگر توسط Mattermost پشتیبانی نمی شود"
+    "translation": "این نسخه از مرورگر شما دیگر توسط Tam Dev پشتیبانی نمی شود"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "این مرورگر دیگر توسط Mattermost پشتیبانی نمی شود"
+    "translation": "این مرورگر دیگر توسط Tam Dev پشتیبانی نمی شود"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -1133,7 +1133,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "برای داشتن تجربه بهتر ، برنامه Mattermost را بارگیری کنید یا از یک مرورگر پشتیبانی شده استفاده کنید."
+    "translation": "برای داشتن تجربه بهتر ، برنامه Tam Dev را بارگیری کنید یا از یک مرورگر پشتیبانی شده استفاده کنید."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -1285,7 +1285,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "شرایط خدمات GitLab به روز شده است. لطفاً برای پذیرش آنها به gitlab.com بروید و دوباره سعی کنید وارد Mattermost شوید."
+    "translation": "شرایط خدمات GitLab به روز شده است. لطفاً برای پذیرش آنها به gitlab.com بروید و دوباره سعی کنید وارد Tam Dev شوید."
   },
   {
     "id": "model.websocket_client.connect_fail.app_error",
@@ -1541,7 +1541,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "بولتن امنیتی Mattermost"
+    "translation": "بولتن امنیتی Tam Dev"
   },
   {
     "id": "manaultesting.test_autolink.unable.app_error",
@@ -1693,7 +1693,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "نام کاربری که قبلاً توسط کاربر Mattermost دیگری استفاده شده است."
+    "translation": "نام کاربری که قبلاً توسط کاربر Tam Dev دیگری استفاده شده است."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -1825,7 +1825,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "جستجوی کاربران در AD/LDAP انجام نشد. اگر سرور Mattermost می تواند به سرور AD/LDAP شما متصل شود تست کنید و دوباره امتحان کنید."
+    "translation": "جستجوی کاربران در AD/LDAP انجام نشد. اگر سرور Tam Dev می تواند به سرور AD/LDAP شما متصل شود تست کنید و دوباره امتحان کنید."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -1865,7 +1865,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "حساب AD/LDAP شما اجازه استفاده از این سرور Mattermost را ندارد. لطفاً از مدیر سیستم خود بخواهید فیلتر کاربر AD/LDAP را بررسی کند."
+    "translation": "حساب AD/LDAP شما اجازه استفاده از این سرور Tam Dev را ندارد. لطفاً از مدیر سیستم خود بخواهید فیلتر کاربر AD/LDAP را بررسی کند."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -3821,7 +3821,7 @@
   },
   {
     "id": "app.system.warn_metric.bot_displayname",
-    "translation": "مشاور Mattermost"
+    "translation": "مشاور Tam Dev"
   },
   {
     "id": "app.system.system_bot.bot_displayname",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "وارد Mattermost شوید"
+    "translation": "وارد Tam Dev شوید"
   },
   {
     "id": "app.notification.footer.info",
@@ -4589,31 +4589,31 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. امضای دیجیتالی پرونده باینری بارگیری شده تأیید نمی شود."
+    "translation": "Tam Dev قادر به ارتقا به نسخه تجاری نبود. امضای دیجیتالی پرونده باینری بارگیری شده تأیید نمی شود."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود."
+    "translation": "Tam Dev قادر به ارتقا به نسخه تجاری نبود."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. این ویژگی فقط در سیستم های لینوکس با معماری x86-64 کار خواهد کرد."
+    "translation": "Tam Dev قادر به ارتقا به نسخه تجاری نبود. این ویژگی فقط در سیستم های لینوکس با معماری x86-64 کار خواهد کرد."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Mattermost {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سروری که Mattermost در آن نصب شده است به روز کند: \n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\n بعد از تغییر مجوزهای فایل ، دوباره سعی کنید Mattermost را به روز کنید. هنگام به روزرسانی و راه اندازی مجدد ، به یاد داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "Tam Dev قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Tam Dev {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سروری که Tam Dev در آن نصب شده است به روز کند: \n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\n بعد از تغییر مجوزهای فایل ، دوباره سعی کنید Tam Dev را به روز کنید. هنگام به روزرسانی و راه اندازی مجدد ، به یاد داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Mattermost {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سروری که Mattermost در آن نصب شده است ، به روز کند: \n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n پس از تغییر مجوزهای فایل ، دوباره سعی کنید Mattermost را ارتقا دهید. هنگام به روزرسانی و راه اندازی مجدد ، به خاطر داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید: \n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Tam Dev قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Tam Dev {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سروری که Tam Dev در آن نصب شده است ، به روز کند: \n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n پس از تغییر مجوزهای فایل ، دوباره سعی کنید Tam Dev را ارتقا دهید. هنگام به روزرسانی و راه اندازی مجدد ، به خاطر داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید: \n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Mattermost {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سرور محل نصب Mattermost به روز کند: \n\n```\nchmod +w \"{{.Path}}\"\n```\n\nپس از تغییر مجوزهای فایل ، دوباره سعی کنید Mattermost را ارتقا دهید. هنگام به روزرسانی و راه اندازی مجدد ، به یاد داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Tam Dev قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Tam Dev {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سرور محل نصب Tam Dev به روز کند: \n\n```\nchmod +w \"{{.Path}}\"\n```\n\nپس از تغییر مجوزهای فایل ، دوباره سعی کنید Tam Dev را ارتقا دهید. هنگام به روزرسانی و راه اندازی مجدد ، به یاد داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود."
+    "translation": "Tam Dev قادر به ارتقا به نسخه تجاری نبود."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
@@ -4625,7 +4625,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "شما قبلاً به Mattermost نسخه تجاری ارتقا داده اید. لطفاً سرور را مجدداً راه اندازی کنید تا به روزرسانی پایان یابد."
+    "translation": "شما قبلاً به Tam Dev نسخه تجاری ارتقا داده اید. لطفاً سرور را مجدداً راه اندازی کنید تا به روزرسانی پایان یابد."
   },
   {
     "id": "api.unmarshal_error",
@@ -4665,7 +4665,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "این آدرس ایمیل برای ایجاد یک حساب کاربری با Mattermost استفاده شده است."
+    "translation": "این آدرس ایمیل برای ایجاد یک حساب کاربری با Tam Dev استفاده شده است."
   },
   {
     "id": "api.templates.welcome_body.button",
@@ -4737,7 +4737,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "این آدرس ایمیل برای ایجاد یک حساب کاربری با Mattermost استفاده شده است."
+    "translation": "این آدرس ایمیل برای ایجاد یک حساب کاربری با Tam Dev استفاده شده است."
   },
   {
     "id": "api.templates.verify_body.button",
@@ -4805,7 +4805,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "مجوز تجاری Mattermost غیرفعال شده است."
+    "translation": "مجوز تجاری Tam Dev غیرفعال شده است."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -4829,11 +4829,11 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
-    "translation": "سررسید فاکتور Mattermost Cloud شماست"
+    "translation": "سررسید فاکتور Tam Dev Cloud شماست"
   },
   {
     "id": "api.templates.payment_failed_no_card.subject",
-    "translation": "پرداخت برای اشتراک Mattermost Cloud شما باید انجام شود"
+    "translation": "پرداخت برای اشتراک Tam Dev Cloud شما باید انجام شود"
   },
   {
     "id": "api.templates.payment_failed_no_card.info3",
@@ -4841,7 +4841,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.info1",
-    "translation": "فاکتور Mattermost Cloud شما برای آخرین دوره صورتحساب پردازش شده است. با این حال، ما جزئیات پرداخت شما را در پرونده نداریم."
+    "translation": "فاکتور Tam Dev Cloud شما برای آخرین دوره صورتحساب پردازش شده است. با این حال، ما جزئیات پرداخت شما را در پرونده نداریم."
   },
   {
     "id": "api.templates.payment_failed_no_card.button",
@@ -4853,11 +4853,11 @@
   },
   {
     "id": "api.templates.payment_failed.subject",
-    "translation": "اقدام مورد نیاز: پرداخت برای Mattermost Cloud انجام نشد"
+    "translation": "اقدام مورد نیاز: پرداخت برای Tam Dev Cloud انجام نشد"
   },
   {
     "id": "api.templates.payment_failed.info3",
-    "translation": "برای اطمینان از اشتراک بدون وقفه در Mattermost Cloud، لطفاً با موسسه مالی خود تماس بگیرید تا مشکل اساسی را برطرف کند یا اطلاعات پرداخت خود را به روز کنید. پس از به‌روزرسانی اطلاعات پرداخت، Mattermost تلاش می‌کند تا هرگونه موجودی معوق را تسویه کند."
+    "translation": "برای اطمینان از اشتراک بدون وقفه در Tam Dev Cloud، لطفاً با موسسه مالی خود تماس بگیرید تا مشکل اساسی را برطرف کند یا اطلاعات پرداخت خود را به روز کنید. پس از به‌روزرسانی اطلاعات پرداخت، Tam Dev تلاش می‌کند تا هرگونه موجودی معوق را تسویه کند."
   },
   {
     "id": "api.templates.payment_failed.info2",
@@ -4865,7 +4865,7 @@
   },
   {
     "id": "api.templates.payment_failed.info1",
-    "translation": "موسسه مالی شما پرداختی از {{.CardBrand}} ****{{.LastFour}} مرتبط با فضای کاری Mattermost Cloud شما را رد کرد."
+    "translation": "موسسه مالی شما پرداختی از {{.CardBrand}} ****{{.LastFour}} مرتبط با فضای کاری Tam Dev Cloud شما را رد کرد."
   },
   {
     "id": "api.templates.password_change_subject",
@@ -4901,7 +4901,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "اشتراک Mattermost شما آماده تمدید است"
+    "translation": "اشتراک Tam Dev شما آماده تمدید است"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle_two",
@@ -4909,7 +4909,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}، اشتراک شما قرار است تا {{.Days}} روز دیگر منقضی شود. ما امیدواریم که همکاری تیمی منعطف و امنی را که Mattermost فعال می‌کند، تجربه کرده باشید. به زودی تمدید کنید تا مطمئن شوید که تیم شما همچنان از این مزایا بهره مند خواهد شد."
+    "translation": "{{.UserName}}، اشتراک شما قرار است تا {{.Days}} روز دیگر منقضی شود. ما امیدواریم که همکاری تیمی منعطف و امنی را که Tam Dev فعال می‌کند، تجربه کرده باشید. به زودی تمدید کنید تا مطمئن شوید که تیم شما همچنان از این مزایا بهره مند خواهد شد."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -4933,7 +4933,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Mattermost چیست؟"
+    "translation": "Tam Dev چیست؟"
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -4941,7 +4941,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost یک پلت فرم پیام رسان متن باز و منعطف است که همکاری تیمی ایمن را امکان پذیر می کند."
+    "translation": "Tam Dev یک پلت فرم پیام رسان متن باز و منعطف است که همکاری تیمی ایمن را امکان پذیر می کند."
   },
   {
     "id": "api.templates.invite_body.title.reminder",
@@ -4953,7 +4953,7 @@
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "شروع به همکاری با تیم خود در Mattermost کنید"
+    "translation": "شروع به همکاری با تیم خود در Tam Dev کنید"
   },
   {
     "id": "api.templates.invite_body.button",
@@ -4985,7 +4985,7 @@
   },
   {
     "id": "api.templates.email_footer_v2",
-    "translation": "© ۲۰۲۱ Mattermost, Inc. ۵۳۰ Lytton Avenue, طبقه دوم, Palo Alto, CA, ۹۴۳۰۱"
+    "translation": "© ۲۰۲۱ Tam Dev, Inc. ۵۳۰ Lytton Avenue, طبقه دوم, Palo Alto, CA, ۹۴۳۰۱"
   },
   {
     "id": "api.templates.email_footer",
@@ -5037,7 +5037,7 @@
   },
   {
     "id": "api.templates.copyright",
-    "translation": "© ۲۰۲۱ Mattermost, Inc. ۵۳۰ Lytton Avenue, طبقه دوم, Palo Alto, CA, ۹۴۳۰۱"
+    "translation": "© ۲۰۲۱ Tam Dev, Inc. ۵۳۰ Lytton Avenue, طبقه دوم, Palo Alto, CA, ۹۴۳۰۱"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -6037,7 +6037,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "درون ریزی گزارش Mattermost Slack\n"
+    "translation": "درون ریزی گزارش Tam Dev Slack\n"
   },
   {
     "id": "api.slackimport.slack_add_users.unable_import",
@@ -6049,11 +6049,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "کاربر Slack با یک کاربر موجود Mattermost با نامه الکترونیکی منطبق {{.Email}} و نام کاربری {{.Username}} ادغام شد ، اما نتوانست کاربر را به تیم خود اضافه کند.\n"
+    "translation": "کاربر Slack با یک کاربر موجود Tam Dev با نامه الکترونیکی منطبق {{.Email}} و نام کاربری {{.Username}} ادغام شد ، اما نتوانست کاربر را به تیم خود اضافه کند.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "کاربر Slack با یک کاربر موجود Mattermost با ایمیل منطبق {{.Email}} و نام کاربری {{.Username}} ادغام شد.\n"
+    "translation": "کاربر Slack با یک کاربر موجود Tam Dev با ایمیل منطبق {{.Email}} و نام کاربری {{.Username}} ادغام شد.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -6065,7 +6065,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "کانال Slack {{.DisplayName}} از قبل به عنوان یک کانال فعال Mattermost فعال است. هر دو کانال ادغام شده اند.\n"
+    "translation": "کانال Slack {{.DisplayName}} از قبل به عنوان یک کانال فعال Tam Dev فعال است. هر دو کانال ادغام شده اند.\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -6093,7 +6093,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
-    "translation": "سیستم Mattermost شما اکنون چندین تیم دارد. بسیاری از تیم ها روش ترجیحی خود را برای هماهنگی و همکاری دارند ، از جمله نحوه ایجاد کانال ها ، افرادی که می توانند از هم تیمی های جدید دعوت کنند و نحوه مدیریت ادغام ها. طرح های لغو تیم به شما امکان می دهد مجوزهای کاربر را در هر تیم برای نیازهای خاص آنها سفارشی کنید. \r\n\r\n [درباره استفاده از مجوزهای پیشرفته بیشتر بدانید](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)\r\n\r\n با کلیک روی شروع آزمایش ، من با [ارزیابی نرم افزار ](https://mattermost.com/software-evaluation-agreement/) ، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول موافقت می کنم ."
+    "translation": "سیستم Tam Dev شما اکنون چندین تیم دارد. بسیاری از تیم ها روش ترجیحی خود را برای هماهنگی و همکاری دارند ، از جمله نحوه ایجاد کانال ها ، افرادی که می توانند از هم تیمی های جدید دعوت کنند و نحوه مدیریت ادغام ها. طرح های لغو تیم به شما امکان می دهد مجوزهای کاربر را در هر تیم برای نیازهای خاص آنها سفارشی کنید. \r\n\r\n [درباره استفاده از مجوزهای پیشرفته بیشتر بدانید](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)\r\n\r\n با کلیک روی شروع آزمایش ، من با [ارزیابی نرم افزار ](https://mattermost.com/software-evaluation-agreement/) ، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول موافقت می کنم ."
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_title",
@@ -6101,11 +6101,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "سیستم Mattermost شما اکنون چندین تیم دارد. بسیاری از تیم ها روش ترجیحی خود را برای هماهنگی و همکاری دارند ، از جمله نحوه ایجاد کانال ها ، افرادی که می توانند از هم تیمی های جدید دعوت کنند و نحوه مدیریت ادغام ها. طرح های لغو تیم به شما امکان می دهد مجوزهای کاربر را در هر تیم برای تأمین نیازهای خاص آنها شخصی سازی کنید.\r\n\r\n [درباره استفاده از مجوزهای پیشرفته بیشتر بدانید](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Mattermost ، Inc به اشتراک خواهید گذاشت. [ بیشتر بیاموزید](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "سیستم Tam Dev شما اکنون چندین تیم دارد. بسیاری از تیم ها روش ترجیحی خود را برای هماهنگی و همکاری دارند ، از جمله نحوه ایجاد کانال ها ، افرادی که می توانند از هم تیمی های جدید دعوت کنند و نحوه مدیریت ادغام ها. طرح های لغو تیم به شما امکان می دهد مجوزهای کاربر را در هر تیم برای تأمین نیازهای خاص آنها شخصی سازی کنید.\r\n\r\n [درباره استفاده از مجوزهای پیشرفته بیشتر بدانید](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Tam Dev ، Inc به اشتراک خواهید گذاشت. [ بیشتر بیاموزید](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
-    "translation": "درخواست تماس Mattermost .من علاقه مندم درباره مجوزهای پیشرفته با برنامه های تیمی بیشتر بدانم.\n"
+    "translation": "درخواست تماس Tam Dev .من علاقه مندم درباره مجوزهای پیشرفته با برنامه های تیمی بیشتر بدانم.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_success.message",
@@ -6113,7 +6113,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
-    "translation": "سیستم Mattermost شما تعداد زیادی پیام دارد. جستجوی پیش فرض پایگاه داده Mattermost شروع به نشان دادن تخریب عملکرد در حدود 2.5 میلیون پست می کند. با بیش از 5 میلیون پست ، Elasticsearch می تواند با جستجو و موارد ذکر شده از مشکلات قابل توجه عملکرد ، مانند وقفه زمانی ، جلوگیری کند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما اطلاع دهید که چگونه می توانیم کمک کنیم. \n\n[درباره بهبود عملکرد بیشتر بدانید](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nبا کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار ](https://mattermost.com/software-evaluation-agreement/) ، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول موافقت می کنم ."
+    "translation": "سیستم Tam Dev شما تعداد زیادی پیام دارد. جستجوی پیش فرض پایگاه داده Tam Dev شروع به نشان دادن تخریب عملکرد در حدود 2.5 میلیون پست می کند. با بیش از 5 میلیون پست ، Elasticsearch می تواند با جستجو و موارد ذکر شده از مشکلات قابل توجه عملکرد ، مانند وقفه زمانی ، جلوگیری کند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما اطلاع دهید که چگونه می توانیم کمک کنیم. \n\n[درباره بهبود عملکرد بیشتر بدانید](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nبا کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار ](https://mattermost.com/software-evaluation-agreement/) ، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول موافقت می کنم ."
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
@@ -6121,11 +6121,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "سیستم Mattermost شما تعداد زیادی پیام دارد. جستجوی پیش فرض پایگاه داده Mattermost شروع به نشان دادن تخریب عملکرد در حدود 2.5 میلیون پست می کند. با بیش از 5 میلیون پست ، Elasticsearch می تواند با جستجو و موارد ذکر شده از مشکلات قابل توجه عملکرد ، مانند وقفه زمانی ، جلوگیری کند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما اطلاع دهید که چگونه می توانیم کمک کنیم.\r\n\r\n [درباره بهبود عملکرد بیشتر بدانید](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Mattermost ، Inc به اشتراک می گذارید [بیشتر بدانید](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "سیستم Tam Dev شما تعداد زیادی پیام دارد. جستجوی پیش فرض پایگاه داده Tam Dev شروع به نشان دادن تخریب عملکرد در حدود 2.5 میلیون پست می کند. با بیش از 5 میلیون پست ، Elasticsearch می تواند با جستجو و موارد ذکر شده از مشکلات قابل توجه عملکرد ، مانند وقفه زمانی ، جلوگیری کند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما اطلاع دهید که چگونه می توانیم کمک کنیم.\r\n\r\n [درباره بهبود عملکرد بیشتر بدانید](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Tam Dev ، Inc به اشتراک می گذارید [بیشتر بدانید](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
-    "translation": "درخواست تماس Mattermost .من علاقه مندم در مورد بهبود عملکرد با Elasticsearch بیشتر بدانم.\n"
+    "translation": "درخواست تماس Tam Dev .من علاقه مندم در مورد بهبود عملکرد با Elasticsearch بیشتر بدانم.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_success.message",
@@ -6133,7 +6133,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
-    "translation": "کانال ها به بهبود ارتباطات کمک می کنند ، اما با پیوستن کاربران در سراسر Mattermost و ایجاد کانال ها ، چالش سازماندهی سیستم افزایش می یابد. مجوزهای پیشرفته شما را قادر می سازد که کدام یک از کاربران یا نقشها می توانند اقدامات خاصی را انجام دهند ، از جمله مدیریت تنظیمات کانال و اعضای آن ، استفاده ازchannel یا @ اینجا برای برچسب گذاری گروههای گسترده ای از کاربران و ایجاد وب بوک های جدید. \r\n\r\n [بیاموزید اطلاعات بیشتر در مورد استفاده از مجوزهای پیشرفته](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\r\n\r\n با کلیک روی شروع آزمایش ، من با [موافقت نامه ارزیابی نرم افزار ](https://mattermost.com/software-evaluation-agreement/) ، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) و دریافت ایمیل محصولات موافقت می کنم ."
+    "translation": "کانال ها به بهبود ارتباطات کمک می کنند ، اما با پیوستن کاربران در سراسر Tam Dev و ایجاد کانال ها ، چالش سازماندهی سیستم افزایش می یابد. مجوزهای پیشرفته شما را قادر می سازد که کدام یک از کاربران یا نقشها می توانند اقدامات خاصی را انجام دهند ، از جمله مدیریت تنظیمات کانال و اعضای آن ، استفاده ازchannel یا @ اینجا برای برچسب گذاری گروههای گسترده ای از کاربران و ایجاد وب بوک های جدید. \r\n\r\n [بیاموزید اطلاعات بیشتر در مورد استفاده از مجوزهای پیشرفته](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\r\n\r\n با کلیک روی شروع آزمایش ، من با [موافقت نامه ارزیابی نرم افزار ](https://mattermost.com/software-evaluation-agreement/) ، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) و دریافت ایمیل محصولات موافقت می کنم ."
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_title",
@@ -6141,11 +6141,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "کانال ها به بهبود ارتباطات کمک می کنند ، اما با پیوستن کاربران در سراسر Mattermost و ایجاد کانال ها ، چالش سازماندهی سیستم افزایش می یابد. مجوزهای پیشرفته به شما امکان می دهد تا تعیین کنید کدام یک از کاربران یا نقش ها می توانند اقدامات خاصی را انجام دهند ، از جمله مدیریت تنظیمات کانال و اعضای آن ، استفاده ازchannel یا @ اینجا برای برچسب گذاری گروه های گسترده ای از کاربران و ایجاد وب بوک های جدید. \r\n\r\n [بیاموزید اطلاعات بیشتر در مورد استفاده از مجوزهای پیشرفته](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Mattermost، Inc به اشتراک خواهید گذاشت. [بیشتر بیاموزید](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "کانال ها به بهبود ارتباطات کمک می کنند ، اما با پیوستن کاربران در سراسر Tam Dev و ایجاد کانال ها ، چالش سازماندهی سیستم افزایش می یابد. مجوزهای پیشرفته به شما امکان می دهد تا تعیین کنید کدام یک از کاربران یا نقش ها می توانند اقدامات خاصی را انجام دهند ، از جمله مدیریت تنظیمات کانال و اعضای آن ، استفاده ازchannel یا @ اینجا برای برچسب گذاری گروه های گسترده ای از کاربران و ایجاد وب بوک های جدید. \r\n\r\n [بیاموزید اطلاعات بیشتر در مورد استفاده از مجوزهای پیشرفته](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Tam Dev، Inc به اشتراک خواهید گذاشت. [بیشتر بیاموزید](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
-    "translation": "درخواست تماس Mattermost .من علاقه مندم در مورد استفاده از مجوزهای پیشرفته با طرح های سیستم بیشتر بیاموزم.\n"
+    "translation": "درخواست تماس Tam Dev .من علاقه مندم در مورد استفاده از مجوزهای پیشرفته با طرح های سیستم بیشتر بیاموزم.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_success.message",
@@ -6153,19 +6153,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
-    "translation": "Mattermost اکیداً توصیه می کند که استقرار بیش از 500 کاربر از ویژگی هایی مانند مدیریت کاربر ، خوشه بندی سرور و نظارت بر عملکرد بهره مند شوند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما بگویید چگونه می توانیم کمک کنیم. \r\n\r\n با کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار](https://mattermost.com/software-evaluation-agreement/) ، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول موافقت می کنم ."
+    "translation": "Tam Dev اکیداً توصیه می کند که استقرار بیش از 500 کاربر از ویژگی هایی مانند مدیریت کاربر ، خوشه بندی سرور و نظارت بر عملکرد بهره مند شوند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما بگویید چگونه می توانیم کمک کنیم. \r\n\r\n با کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار](https://mattermost.com/software-evaluation-agreement/) ، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول موافقت می کنم ."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
-    "translation": "مقیاس گذاری با Mattermost"
+    "translation": "مقیاس گذاری با Tam Dev"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost اکیداً توصیه می کند که استقرار بیش از 500 کاربر از ویژگی هایی مانند مدیریت کاربر ، خوشه بندی سرور و نظارت بر عملکرد بهره مند شوند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما بگویید چگونه می توانیم کمک کنیم.\r\n\r\n با کلیک روی 'تماس با ما' ، اطلاعات خود را با Mattermost ، Inc به اشتراک می گذارید [بیشتر بدانید](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Tam Dev اکیداً توصیه می کند که استقرار بیش از 500 کاربر از ویژگی هایی مانند مدیریت کاربر ، خوشه بندی سرور و نظارت بر عملکرد بهره مند شوند. برای کسب اطلاعات بیشتر با ما تماس بگیرید و به ما بگویید چگونه می توانیم کمک کنیم.\r\n\r\n با کلیک روی 'تماس با ما' ، اطلاعات خود را با Tam Dev ، Inc به اشتراک می گذارید [بیشتر بدانید](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "درخواست تماس Mattermost .تیم من اکنون 500 کاربر دارد و من نسخه Mattermost تجاری را در نظر دارم.\n"
+    "translation": "درخواست تماس Tam Dev .تیم من اکنون 500 کاربر دارد و من نسخه Tam Dev تجاری را در نظر دارم.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_title",
@@ -6177,15 +6177,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_body",
-    "translation": "با وجود مکالمات بسیار زیاد در Mattermost ، دانستن اینکه کجا باید به دنبال اطلاعات مهم بگردید چالش برانگیز است. اگر می خواهید پیامی را برای مخاطبان زیادی پخش کنید ، می توانید کانال های اعلامیه فقط خواندنی را تنظیم کنید که هر کسی می تواند به آنها بپیوندد اما فقط سرپرستان کانال می توانند پیام ارسال کنند. .\r\n\r\n [درباره ایجاد اعلامیه فقط خواندنی بیشتر بدانید](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\r\n\r\n با کلیک روی شروع آزمایش ، من با[توافقنامه ارزیابی نرم افزار ](https://mattermost.com/software-evaluation-agreement/) ، [خط مشی رازداری](https://mattermost.com/pl/privacy-policy/) ، و دريافت نامه های الكترونیکی محصول موافقت می کنم ."
+    "translation": "با وجود مکالمات بسیار زیاد در Tam Dev ، دانستن اینکه کجا باید به دنبال اطلاعات مهم بگردید چالش برانگیز است. اگر می خواهید پیامی را برای مخاطبان زیادی پخش کنید ، می توانید کانال های اعلامیه فقط خواندنی را تنظیم کنید که هر کسی می تواند به آنها بپیوندد اما فقط سرپرستان کانال می توانند پیام ارسال کنند. .\r\n\r\n [درباره ایجاد اعلامیه فقط خواندنی بیشتر بدانید](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\r\n\r\n با کلیک روی شروع آزمایش ، من با[توافقنامه ارزیابی نرم افزار ](https://mattermost.com/software-evaluation-agreement/) ، [خط مشی رازداری](https://mattermost.com/pl/privacy-policy/) ، و دريافت نامه های الكترونیکی محصول موافقت می کنم ."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "با وجود مکالمات بسیار زیاد در Mattermost ، دانستن اینکه کجا باید به دنبال اطلاعات مهم بگردید چالش برانگیز است. اگر می خواهید پیامی را برای مخاطبان زیادی پخش کنید ، می توانید کانال های اعلامیه فقط خواندنی را تنظیم کنید که هر کسی می تواند به آنها بپیوندد اما فقط سرپرستان کانال می توانند پیام ارسال کنند. \r\n\r\n[درباره ایجاد اعلامیه فقط خواندنی بیشتر بدانید ](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\r\n\r\n با کلیک روی تماس با ما ، شما به اشتراک گذاشتن اطلاعات خود با Mattermost، Inc [بیشتر بیاموزید](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "با وجود مکالمات بسیار زیاد در Tam Dev ، دانستن اینکه کجا باید به دنبال اطلاعات مهم بگردید چالش برانگیز است. اگر می خواهید پیامی را برای مخاطبان زیادی پخش کنید ، می توانید کانال های اعلامیه فقط خواندنی را تنظیم کنید که هر کسی می تواند به آنها بپیوندد اما فقط سرپرستان کانال می توانند پیام ارسال کنند. \r\n\r\n[درباره ایجاد اعلامیه فقط خواندنی بیشتر بدانید ](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\r\n\r\n با کلیک روی تماس با ما ، شما به اشتراک گذاشتن اطلاعات خود با Tam Dev، Inc [بیشتر بیاموزید](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
-    "translation": "درخواست تماس Mattermost .من علاقه مندم در مورد ایجاد کانال های اعلامیه فقط خواندنی بیشتر بدانم.\n"
+    "translation": "درخواست تماس Tam Dev .من علاقه مندم در مورد ایجاد کانال های اعلامیه فقط خواندنی بیشتر بدانم.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_success.message",
@@ -6193,19 +6193,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
-    "translation": "سیستم Mattermost شما اکنون 200 کاربر دارد. هنگامی که Mattermost را با ارائه دهنده ورود به سیستم واحد سازمان خود متصل می کنید ، کاربران می توانند بدون نیاز به وارد کردن مجدد اعتبارنامه خود ، به Mattermost دسترسی پیدا کنند. ما به شما توصیه می کنیم ارائه دهنده SAML 2.0 خود را با سرور Mattermost خود ادغام کنید. [درباره ادغام با SAML 2.0 بیشتر بیاموزید](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\r\n\r\n با کلیک بر روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار](https://mattermost.com/software-evaluation-agreement/)، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول موافقت میکنم."
+    "translation": "سیستم Tam Dev شما اکنون 200 کاربر دارد. هنگامی که Tam Dev را با ارائه دهنده ورود به سیستم واحد سازمان خود متصل می کنید ، کاربران می توانند بدون نیاز به وارد کردن مجدد اعتبارنامه خود ، به Tam Dev دسترسی پیدا کنند. ما به شما توصیه می کنیم ارائه دهنده SAML 2.0 خود را با سرور Tam Dev خود ادغام کنید. [درباره ادغام با SAML 2.0 بیشتر بیاموزید](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\r\n\r\n با کلیک بر روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار](https://mattermost.com/software-evaluation-agreement/)، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول موافقت میکنم."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
-    "translation": "مقیاس گذاری با Mattermost"
+    "translation": "مقیاس گذاری با Tam Dev"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "سیستم Mattermost شما اکنون 200 کاربر دارد. هنگامی که Mattermost را با ارائه دهنده ورود به سیستم واحد سازمان خود متصل می کنید ، کاربران می توانند بدون نیاز به وارد کردن مجدد اعتبارنامه خود ، به Mattermost دسترسی پیدا کنند. ما به شما توصیه می کنیم ارائه دهنده SAML 2.0 خود را با سرور Mattermost خود ادغام کنید. [درباره ادغام با SAML 2.0 بیشتر بیاموزید](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Mattermost، Inc به اشتراک می گذارید. [بیشتر بدانید](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "سیستم Tam Dev شما اکنون 200 کاربر دارد. هنگامی که Tam Dev را با ارائه دهنده ورود به سیستم واحد سازمان خود متصل می کنید ، کاربران می توانند بدون نیاز به وارد کردن مجدد اعتبارنامه خود ، به Tam Dev دسترسی پیدا کنند. ما به شما توصیه می کنیم ارائه دهنده SAML 2.0 خود را با سرور Tam Dev خود ادغام کنید. [درباره ادغام با SAML 2.0 بیشتر بیاموزید](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Tam Dev، Inc به اشتراک می گذارید. [بیشتر بدانید](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "درخواست تماس Mattermost.تیم من اکنون 200 کاربر دارد و من نسخه Mattermost تجاری را در نظر دارم.\n"
+    "translation": "درخواست تماس Tam Dev.تیم من اکنون 200 کاربر دارد و من نسخه Tam Dev تجاری را در نظر دارم.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_success.message",
@@ -6213,19 +6213,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
-    "translation": "سیستم Mattermost شما بیش از 100 کاربر دارد. با رشد پایگاه کاربری شما ، تهیه حساب های جدید می تواند زمانبر شود. ما به شما توصیه می کنیم Active Directory / LDAP سازمان خود را یکپارچه کنید ، این امکان را برای هرکسی که دارای حساب کاربری است امکان دسترسی به Mattermost را فراهم می کند. \r\n\r\n[درباره ادغام با AD / LDAP بیشتر بدانید](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\r\n\r\n با کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار مهمترین](https://mattermost.com/software-evaluation-agreement/)، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول. موافقت میکنم."
+    "translation": "سیستم Tam Dev شما بیش از 100 کاربر دارد. با رشد پایگاه کاربری شما ، تهیه حساب های جدید می تواند زمانبر شود. ما به شما توصیه می کنیم Active Directory / LDAP سازمان خود را یکپارچه کنید ، این امکان را برای هرکسی که دارای حساب کاربری است امکان دسترسی به Tam Dev را فراهم می کند. \r\n\r\n[درباره ادغام با AD / LDAP بیشتر بدانید](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\r\n\r\n با کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار مهمترین](https://mattermost.com/software-evaluation-agreement/)، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول. موافقت میکنم."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
-    "translation": "مقیاس گذاری با Mattermost"
+    "translation": "مقیاس گذاری با Tam Dev"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "سیستم Mattermost شما بیش از 100 کاربر دارد. با رشد پایگاه کاربری شما ، تهیه حساب های جدید می تواند زمانبر شود. ما به شما توصیه می کنیم Active Directory /LDAP سازمان خود را یکپارچه کنید ، این امکان را برای هرکسی که دارای یک حساب کاربری است امکان دسترسی به Mattermost را فراهم می کند.\r\n\r\n[اطلاعات بیشتر](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\r\n\r\n با کلیک روی تماس با ما اطلاعات Mattermost را به اشتراک میگذارید.[اطلاعات بیشتر](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "سیستم Tam Dev شما بیش از 100 کاربر دارد. با رشد پایگاه کاربری شما ، تهیه حساب های جدید می تواند زمانبر شود. ما به شما توصیه می کنیم Active Directory /LDAP سازمان خود را یکپارچه کنید ، این امکان را برای هرکسی که دارای یک حساب کاربری است امکان دسترسی به Tam Dev را فراهم می کند.\r\n\r\n[اطلاعات بیشتر](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\r\n\r\n با کلیک روی تماس با ما اطلاعات Tam Dev را به اشتراک میگذارید.[اطلاعات بیشتر](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "درخواست تماس Mattermost . تیم من اکنون 100 کاربر دارد و من نسخه Mattermost تجاری را در نظر دارم.\n"
+    "translation": "درخواست تماس Tam Dev . تیم من اکنون 100 کاربر دارد و من نسخه Tam Dev تجاری را در نظر دارم.\n"
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
@@ -6233,7 +6233,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
-    "translation": "سیستم Mattermost شما احراز هویت چند عاملی را فعال کرده است ، به کاربران این امکان را می دهد تا حساب های خود را با استفاده از ابزارهای تأیید اعتبار اضافی فراتر از رمز عبور ، امن کنند. برای بهبود امنیت در سیستم می توانید از همه احراز هویت چند عاملی استفاده کنید. \r\n\r\n[درباره اعمال احراز هویت چند عاملی بیشتر بدانید](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)\r\n\r\n با کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار مهمترین](https://mattermost.com/software-evaluation-agreement/)موافقت می کنم ، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول."
+    "translation": "سیستم Tam Dev شما احراز هویت چند عاملی را فعال کرده است ، به کاربران این امکان را می دهد تا حساب های خود را با استفاده از ابزارهای تأیید اعتبار اضافی فراتر از رمز عبور ، امن کنند. برای بهبود امنیت در سیستم می توانید از همه احراز هویت چند عاملی استفاده کنید. \r\n\r\n[درباره اعمال احراز هویت چند عاملی بیشتر بدانید](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)\r\n\r\n با کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار مهمترین](https://mattermost.com/software-evaluation-agreement/)موافقت می کنم ، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول."
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",
@@ -6241,11 +6241,11 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "سیستم Mattermost شما احراز هویت چند عاملی را فعال کرده است ، به کاربران این امکان را می دهد تا حساب های خود را با استفاده از ابزارهای تأیید اعتبار اضافی فراتر از رمز عبور ، امن کنند. برای بهبود امنیت در سیستم می توانید از همه احراز هویت چند عاملی استفاده کنید.\r\n\r\n [درباره اعمال احراز هویت چند عاملی بیشتر بدانید](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Mattermost، Inc به اشتراک می گذارید.[اطلاعات بیشتر](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "سیستم Tam Dev شما احراز هویت چند عاملی را فعال کرده است ، به کاربران این امکان را می دهد تا حساب های خود را با استفاده از ابزارهای تأیید اعتبار اضافی فراتر از رمز عبور ، امن کنند. برای بهبود امنیت در سیستم می توانید از همه احراز هویت چند عاملی استفاده کنید.\r\n\r\n [درباره اعمال احراز هویت چند عاملی بیشتر بدانید](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Tam Dev، Inc به اشتراک می گذارید.[اطلاعات بیشتر](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
-    "translation": "درخواست تماس Mattermost .من علاقه مندم در مورد اجرای احراز هویت چند عاملی بیشتر بدانم.\n"
+    "translation": "درخواست تماس Tam Dev .من علاقه مندم در مورد اجرای احراز هویت چند عاملی بیشتر بدانم.\n"
   },
   {
     "id": "api.server.warn_metric.email_us",
@@ -6257,7 +6257,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
-    "translation": "پروژه ها اغلب افراد را در داخل و خارج از سازمان درگیر می كنند. با حساب های مهمان ، می توانید شرکای خارجی را وارد سیستم Mattermost کنید و مشخص کنید که با چه کسانی می توانند کار کنند و چه چیزهایی را می توانند ببینند. \r\n\r\n[درباره فعال کردن حساب های مهمان بیشتر بدانید](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts) \r\n\r\n با کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار مهمترین](https://mattermost.com/software-evaluation-agreement/) موافقت می کنم، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول."
+    "translation": "پروژه ها اغلب افراد را در داخل و خارج از سازمان درگیر می كنند. با حساب های مهمان ، می توانید شرکای خارجی را وارد سیستم Tam Dev کنید و مشخص کنید که با چه کسانی می توانند کار کنند و چه چیزهایی را می توانند ببینند. \r\n\r\n[درباره فعال کردن حساب های مهمان بیشتر بدانید](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts) \r\n\r\n با کلیک روی شروع آزمایش ، من با [توافق نامه ارزیابی نرم افزار مهمترین](https://mattermost.com/software-evaluation-agreement/) موافقت می کنم، [سیاست حفظ حریم خصوصی](https://mattermost.com/pl/privacy-policy/) ، و دریافت ایمیل های محصول."
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_title",
@@ -6265,11 +6265,11 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "پروژه ها اغلب افراد را در داخل و خارج از سازمان درگیر می كنند. با حساب های مهمان ، می توانید شرکای خارجی را وارد سیستم Mattermost کنید و مشخص کنید که با چه کسانی می توانند کار کنند و چه چیزهایی را می توانند ببینند.\r\n\r\n [درباره فعال کردن حساب های مهمان بیشتر بدانید](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts). \r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Mattermost، Inc به اشتراک خواهید گذاشت. [ بیشتر بیاموزید](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "پروژه ها اغلب افراد را در داخل و خارج از سازمان درگیر می كنند. با حساب های مهمان ، می توانید شرکای خارجی را وارد سیستم Tam Dev کنید و مشخص کنید که با چه کسانی می توانند کار کنند و چه چیزهایی را می توانند ببینند.\r\n\r\n [درباره فعال کردن حساب های مهمان بیشتر بدانید](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts). \r\n\r\n با کلیک روی تماس با ما ، اطلاعات خود را با Tam Dev، Inc به اشتراک خواهید گذاشت. [ بیشتر بیاموزید](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
-    "translation": "درخواست تماس با ما Mattermost. من علاقه مندم درباره استفاده از حساب های مهمان بیشتر بیاموزم.\n"
+    "translation": "درخواست تماس با ما Tam Dev. من علاقه مندم درباره استفاده از حساب های مهمان بیشتر بیاموزم.\n"
   },
   {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
@@ -6277,7 +6277,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
-    "translation": "از اینکه با Mattermost تماس گرفتید متشکریم ما به زودی با شما در ارتباط خواهیم بود."
+    "translation": "از اینکه با Tam Dev تماس گرفتید متشکریم ما به زودی با شما در ارتباط خواهیم بود."
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_failure.message",
@@ -6755,7 +6755,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "برای درخواست مجوز باید توافق نامه ارزیابی نرم افزار و سیاست حفظ حریم خصوصی Mattermost را بپذیرید."
+    "translation": "برای درخواست مجوز باید توافق نامه ارزیابی نرم افزار و سیاست حفظ حریم خصوصی Tam Dev را بپذیرید."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -6931,11 +6931,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "برنامه Mattermost را دانلود کنید"
+    "translation": "برنامه Tam Dev را دانلود کنید"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Mattermost را باز کنید"
+    "translation": "Tam Dev را باز کنید"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -7274,7 +7274,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Mattermost را باز کنید"
+    "translation": "Tam Dev را باز کنید"
   },
   {
     "id": "api.email_batching.add_notification_email_to_batch.disabled.app_error",
@@ -7538,7 +7538,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "یک نمونه خارجی Mattermost را به کانال مشترک فعلی دعوت می کند"
+    "translation": "یک نمونه خارجی Tam Dev را به کانال مشترک فعلی دعوت می کند"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -7562,7 +7562,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "کانال فعلی را با یک نمونه خارجی Mattermost به اشتراک می گذارد."
+    "translation": "کانال فعلی را با یک نمونه خارجی Tam Dev به اشتراک می گذارد."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -7794,7 +7794,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "خروج از Mattermost"
+    "translation": "خروج از Tam Dev"
   },
   {
     "id": "api.command_leave.name",
@@ -8289,7 +8289,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "برای تیم Mattermost خود از طریق ایمیل دعوت کنید"
+    "translation": "برای تیم Tam Dev خود از طریق ایمیل دعوت کنید"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -8613,7 +8613,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "لطفاً مرا به تیم ها و کانال هایی اضافه کنید که می خواهید در آنها تعامل داشته باشم. برای این کار از مرورگر یا نرم افزار دستکاپ Mattermost استفاده کنید."
+    "translation": "لطفاً مرا به تیم ها و کانال هایی اضافه کنید که می خواهید در آنها تعامل داشته باشم. برای این کار از مرورگر یا نرم افزار دستکاپ Tam Dev استفاده کنید."
   },
   {
     "id": "api.bot.create_disabled",
@@ -8649,7 +8649,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - آزمایش تنظیمات ایمیل"
+    "translation": "Tam Dev - آزمایش تنظیمات ایمیل"
   },
   {
     "id": "api.admin.test_email.reenter_password",
@@ -8661,7 +8661,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "به نظر می رسد ایمیل Mattermost شما به درستی تنظیم شده است!"
+    "translation": "به نظر می رسد ایمیل Tam Dev شما به درستی تنظیم شده است!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -8809,7 +8809,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "دعوتنامه رمزگذاری شده AES 256 بیتی زیر را به همراه رمز عبور به مدیر سیستم خارجی Mattermost ارسال کنید. آنها از دستور اسلش `{{.Command}}` برای پذیرش دعوت استفاده خواهند کرد.\n\n```\n{{.Invitation}}\n```\n\n**مطمئن شوید که اتصال ایمن می تواند به نمونه Mattermost شما از طریق ** {{.SiteURL}} دسترسی داشته باشد."
+    "translation": "دعوتنامه رمزگذاری شده AES 256 بیتی زیر را به همراه رمز عبور به مدیر سیستم خارجی Tam Dev ارسال کنید. آنها از دستور اسلش `{{.Command}}` برای پذیرش دعوت استفاده خواهند کرد.\n\n```\n{{.Invitation}}\n```\n\n**مطمئن شوید که اتصال ایمن می تواند به نمونه Tam Dev شما از طریق ** {{.SiteURL}} دسترسی داشته باشد."
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -8861,7 +8861,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "از اتصالات امن برای ارتباط در سراسر موارد Mattermost دعوت کنید."
+    "translation": "از اتصالات امن برای ارتباط در سراسر موارد Tam Dev دعوت کنید."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -8885,7 +8885,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "دعوت از یک نمونه خارجی Mattermost را بپذیرید"
+    "translation": "دعوت از یک نمونه خارجی Tam Dev را بپذیرید"
   },
   {
     "id": "api.command_open.name",

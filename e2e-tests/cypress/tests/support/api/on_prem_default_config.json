@@ -79,7 +79,7 @@
         "CollapsedThreads": "disabled"
     },
     "TeamSettings": {
-        "SiteName": "Mattermost",
+        "SiteName": "Tam Dev",
         "MaxUsersPerTeam": 2000,
         "EnableUserCreation": true,
         "EnableOpenServer": true,

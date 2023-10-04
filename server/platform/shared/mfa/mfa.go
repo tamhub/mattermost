@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package mfa
@@ -45,7 +45,7 @@ func newRandomBase32String(size int) string {
 }
 
 func getIssuerFromURL(uri string) string {
-	issuer := "Mattermost"
+	issuer := "Tam Dev"
 	siteURL := strings.TrimSpace(uri)
 
 	if siteURL != "" {

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import type {Channel} from '@mattermost/types/channels';
@@ -454,7 +454,7 @@ export const getSearchResults: (state: GlobalState) => Post[] = createSelector(
 );
 
 // Returns the matched text from the search results, if the server has provided them.
-// These matches will only be present if the server is running Mattermost 5.1 or higher
+// These matches will only be present if the server is running Tam Dev 5.1 or higher
 // with Elasticsearch enabled to search posts. Otherwise, null will be returned.
 export function getSearchMatches(state: GlobalState): {
     [x: string]: string[];

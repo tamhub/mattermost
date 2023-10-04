@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import moment from 'moment-timezone';
@@ -38,7 +38,7 @@ describe('components/admin_console/license_settings/enterprise_edition/enterpris
         ExpiresAt: '1620335443650',
         SkuShortName: 'Enterprise',
         Name: 'LicenseName',
-        Company: 'Mattermost Inc.',
+        Company: 'Tam Dev Inc.',
         Users: '1000',
     };
 

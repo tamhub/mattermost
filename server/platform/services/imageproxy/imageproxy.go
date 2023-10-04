@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package imageproxy
@@ -19,7 +19,7 @@ import (
 
 var ErrNotEnabled = Error{errors.New("imageproxy.ImageProxy: image proxy not enabled")}
 
-// An ImageProxy is the public interface for Mattermost's image proxy. An instance of ImageProxy should be created
+// An ImageProxy is the public interface for Tam Dev's image proxy. An instance of ImageProxy should be created
 // using MakeImageProxy which requires a configService and an HTTPService provided by the server.
 type ImageProxy struct {
 	ConfigService    configservice.ConfigService

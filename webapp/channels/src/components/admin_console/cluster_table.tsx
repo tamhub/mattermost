@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React, {PureComponent} from 'react';
@@ -75,7 +75,7 @@ export default class ClusterTable extends PureComponent<Props> {
                         <WarningIcon/>
                         <FormattedMessage
                             id='admin.cluster.version_mismatch_warning'
-                            defaultMessage='WARNING: Multiple versions of Mattermost has been detected in your HA cluster. Unless you are currently performing an upgrade please ensure all nodes in your cluster are running the same Mattermost version to avoid platform disruption.'
+                            defaultMessage='WARNING: Multiple versions of Tam Dev has been detected in your HA cluster. Unless you are currently performing an upgrade please ensure all nodes in your cluster are running the same Tam Dev version to avoid platform disruption.'
                         />
                     </div>
                 );

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package app
@@ -84,13 +84,13 @@ func getOSName(ua *uasurfer.UserAgent) string {
 }
 
 func getBrowserVersion(ua *uasurfer.UserAgent, userAgentString string) string {
-	if index := strings.Index(userAgentString, "Mattermost Mobile/"); index != -1 {
-		afterVersion := userAgentString[index+len("Mattermost Mobile/"):]
+	if index := strings.Index(userAgentString, "Tam Dev Mobile/"); index != -1 {
+		afterVersion := userAgentString[index+len("Tam Dev Mobile/"):]
 		return strings.Fields(afterVersion)[0]
 	}
 
-	if index := strings.Index(userAgentString, "Mattermost/"); index != -1 {
-		afterVersion := userAgentString[index+len("Mattermost/"):]
+	if index := strings.Index(userAgentString, "Tam Dev/"); index != -1 {
+		afterVersion := userAgentString[index+len("Tam Dev/"):]
 		return strings.Fields(afterVersion)[0]
 	}
 
@@ -129,11 +129,11 @@ func getBrowserName(ua *uasurfer.UserAgent, userAgentString string) string {
 	browser := ua.Browser.Name
 
 	if strings.Contains(userAgentString, "Electron") ||
-		(strings.Contains(userAgentString, "Mattermost") && !strings.Contains(userAgentString, "Mattermost Mobile")) {
+		(strings.Contains(userAgentString, "Tam Dev") && !strings.Contains(userAgentString, "Tam Dev Mobile")) {
 		return "Desktop App"
 	}
 
-	if strings.Contains(userAgentString, "Mattermost Mobile") {
+	if strings.Contains(userAgentString, "Tam Dev Mobile") {
 		return "Mobile App"
 	}
 

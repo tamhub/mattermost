@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2019-present Tam Dev, Inc. All Rights Reserved.
 // See License for license information.
 
 package poster
@@ -27,7 +27,7 @@ type Poster interface {
 	// DMUpdatePost substitute one post with another
 	UpdatePost(post *model.Post) error
 
-	// UpdatePosterID updates the Mattermost User ID of the poster
+	// UpdatePosterID updates the Tam Dev User ID of the poster
 	UpdatePosterID(id string)
 }
 

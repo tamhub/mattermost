@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package app
@@ -1315,7 +1315,7 @@ func TestGetImagesForPost(t *testing.T) {
 		assert.Equal(t, images, map[string]*model.PostImage{})
 	})
 
-	t.Run("should not process OpenGraph image that's a Mattermost permalink", func(t *testing.T) {
+	t.Run("should not process OpenGraph image that's a Tam Dev permalink", func(t *testing.T) {
 		th := SetupWithStoreMock(t)
 		defer th.TearDown()
 
@@ -1343,7 +1343,7 @@ func TestGetImagesForPost(t *testing.T) {
 
 		mockPostStore := mocks.PostStore{}
 		mockPostStore.On("GetSingle", "qwertyuiopasdfghjklzxcvbnm", false).RunFn = func(args mock.Arguments) {
-			assert.Fail(t, "should not have tried to process Mattermost permalink in OG image URL")
+			assert.Fail(t, "should not have tried to process Tam Dev permalink in OG image URL")
 		}
 
 		mockLinkMetadataStore := mocks.LinkMetadataStore{}

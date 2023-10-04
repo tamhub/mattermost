@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package telemetry
@@ -512,7 +512,7 @@ func (ts *TelemetryService) trackConfig() {
 		"teammate_name_display":                   *cfg.TeamSettings.TeammateNameDisplay,
 		"experimental_view_archived_channels":     *cfg.TeamSettings.ExperimentalViewArchivedChannels,
 		"lock_teammate_name_display":              *cfg.TeamSettings.LockTeammateNameDisplay,
-		"isdefault_site_name":                     isDefault(cfg.TeamSettings.SiteName, "Mattermost"),
+		"isdefault_site_name":                     isDefault(cfg.TeamSettings.SiteName, "Tam Dev"),
 		"isdefault_custom_brand_text":             isDefault(*cfg.TeamSettings.CustomBrandText, model.TeamSettingsDefaultCustomBrandText),
 		"isdefault_custom_description_text":       isDefault(*cfg.TeamSettings.CustomDescriptionText, model.TeamSettingsDefaultCustomDescriptionText),
 		"isdefault_user_status_away_timeout":      isDefault(*cfg.TeamSettings.UserStatusAwayTimeout, model.TeamSettingsDefaultUserStatusAwayTimeout),

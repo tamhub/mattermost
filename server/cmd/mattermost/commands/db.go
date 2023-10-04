@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package commands
@@ -47,7 +47,7 @@ This command should be run using a database configuration DSN.`,
 var ResetCmd = &cobra.Command{
 	Use:   "reset",
 	Short: "Reset the database to initial state",
-	Long:  "Completely erases the database causing the loss of all data. This will reset Mattermost to its initial state.",
+	Long:  "Completely erases the database causing the loss of all data. This will reset Tam Dev to its initial state.",
 	RunE:  resetCmdF,
 }
 

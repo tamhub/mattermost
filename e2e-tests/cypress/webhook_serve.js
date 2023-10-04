@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 /* eslint-disable camelcase, no-console */
@@ -273,7 +273,7 @@ function getWebhookResponse(body, {responseType, username, iconUrl}) {
 \`\`\`
 #### Outgoing Webhook Payload
 ${payload}
-#### Webhook override to Mattermost instance
+#### Webhook override to Tam Dev instance
 - response_type: "${responseType}"
 - type: ""
 - username: "${username}"

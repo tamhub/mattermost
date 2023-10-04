@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 /* eslint-disable max-lines */
@@ -586,7 +586,7 @@ class NotificationsTab extends React.PureComponent<Props, State> {
                             <div className='mt-5'>
                                 <FormattedMessage
                                     id='user.settings.push_notification.info'
-                                    defaultMessage='Notification alerts are pushed to your mobile device when there is activity in Mattermost.'
+                                    defaultMessage='Notification alerts are pushed to your mobile device when there is activity in Tam Dev.'
                                 />
                             </div>
                         </fieldset>

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {mount} from 'enzyme';
@@ -24,7 +24,7 @@ const preferenceKeys = {
 
 const openGraphData = {
     audios: null,
-    description: 'Mattermost is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.',
+    description: 'Tam Dev is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.',
     determiner: '',
     images: [{
         height: 1256,
@@ -34,8 +34,8 @@ const openGraphData = {
         width: 2400}],
     locale: '',
     locales_alternate: null,
-    site_name: 'Mattermost.com',
-    title: 'Mattermost | Open Source Collaboration for Developers',
+    site_name: 'Tam Dev.com',
+    title: 'Tam Dev | Open Source Collaboration for Developers',
     type: 'website',
     url: 'https://www.mattermost.com',
     videos: null,
@@ -102,8 +102,8 @@ describe('PostAttachmentOpenGraph', () => {
                 secure_url: '',
                 url: imageUrl,
             }],
-            site_name: 'Mattermost',
-            title: 'Mattermost Private Cloud Messaging',
+            site_name: 'Tam Dev',
+            title: 'Tam Dev Private Cloud Messaging',
         },
         toggleEmbedVisibility,
         actions: {

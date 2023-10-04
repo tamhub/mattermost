@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import classNames from 'classnames';
@@ -878,7 +878,7 @@ export default class PluginManagement extends AdminSettings<Props, State> {
                     helpText={
                         <FormattedMessage
                             id='admin.plugins.settings.enableDesc'
-                            defaultMessage='When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more.'
+                            defaultMessage='When true, enables plugins on your Tam Dev server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Tam Dev server. See <link>documentation</link> to learn more.'
                             values={{
                                 link: (msg: React.ReactNode) => (
                                     <ExternalLink
@@ -1008,7 +1008,7 @@ export default class PluginManagement extends AdminSettings<Props, State> {
                         <p className='help-text'>
                             <FormattedMessage
                                 id='admin.plugin.installedDesc'
-                                defaultMessage='Installed plugins on your Mattermost server.'
+                                defaultMessage='Installed plugins on your Tam Dev server.'
                             />
                         </p>
                         <br/>
@@ -1024,7 +1024,7 @@ export default class PluginManagement extends AdminSettings<Props, State> {
             uploadHelpText = (
                 <FormattedMessage
                     id='admin.plugin.uploadDesc'
-                    defaultMessage='Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more.'
+                    defaultMessage='Upload a plugin for your Tam Dev server. See <link>documentation</link> to learn more.'
                     values={{
                         link: (msg: React.ReactNode) => (
                             <ExternalLink
@@ -1107,7 +1107,7 @@ export default class PluginManagement extends AdminSettings<Props, State> {
                                     helpText={
                                         <FormattedMessage
                                             id='admin.plugins.settings.requirePluginSignatureDesc'
-                                            defaultMessage='When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more.'
+                                            defaultMessage='When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Tam Dev server startup and initialization. See <link>documentation</link> to learn more.'
                                             values={{
                                                 link: (msg: React.ReactNode) => (
                                                     <ExternalLink

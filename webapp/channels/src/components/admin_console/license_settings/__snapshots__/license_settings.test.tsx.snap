@@ -24,7 +24,7 @@ exports[`components/admin_console/license_settings/LicenseSettings load screen a
           isLicenseExpired={false}
           license={
             Object {
-              "Company": "Mattermost Inc.",
+              "Company": "Tam Dev Inc.",
               "ExpiresAt": "1620335443650",
               "IsLicensed": "true",
               "IssuedAt": "1517714643650",
@@ -129,7 +129,7 @@ exports[`components/admin_console/license_settings/LicenseSettings load screen w
           isLicenseExpired={false}
           license={
             Object {
-              "Company": "Mattermost Inc.",
+              "Company": "Tam Dev Inc.",
               "ExpiresAt": "1620335443650",
               "IsLicensed": "true",
               "IssuedAt": "1517714643650",
@@ -234,7 +234,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
           isLicenseExpired={false}
           license={
             Object {
-              "Company": "Mattermost Inc.",
+              "Company": "Tam Dev Inc.",
               "ExpiresAt": "1620335443650",
               "IsLicensed": "true",
               "IssuedAt": "1517714643650",
@@ -268,7 +268,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -315,7 +315,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -370,7 +370,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
           isLicenseExpired={false}
           license={
             Object {
-              "Company": "Mattermost Inc.",
+              "Company": "Tam Dev Inc.",
               "ExpiresAt": "1620335443650",
               "IsLicensed": "true",
               "IssuedAt": "1517714643650",
@@ -404,7 +404,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -451,7 +451,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -494,7 +494,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
           isLicenseExpired={false}
           license={
             Object {
-              "Company": "Mattermost Inc.",
+              "Company": "Tam Dev Inc.",
               "ExpiresAt": "1620335443650",
               "IsLicensed": "true",
               "IssuedAt": "1517714643650",
@@ -528,7 +528,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -575,7 +575,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -618,7 +618,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
           isLicenseExpired={false}
           license={
             Object {
-              "Company": "Mattermost Inc.",
+              "Company": "Tam Dev Inc.",
               "ExpiresAt": "1620335443650",
               "IsLicensed": "true",
               "IssuedAt": "1517714643650",
@@ -652,7 +652,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -699,7 +699,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -742,7 +742,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
           isLicenseExpired={false}
           license={
             Object {
-              "Company": "Mattermost Inc.",
+              "Company": "Tam Dev Inc.",
               "ExpiresAt": "1620335443650",
               "IsLicensed": "true",
               "IssuedAt": "1517714643650",
@@ -776,7 +776,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -823,7 +823,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -866,7 +866,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
           isLicenseExpired={false}
           license={
             Object {
-              "Company": "Mattermost Inc.",
+              "Company": "Tam Dev Inc.",
               "ExpiresAt": "1620335443650",
               "IsLicensed": "true",
               "IssuedAt": "1517714643650",
@@ -900,7 +900,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -947,7 +947,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620335443650",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -1315,7 +1315,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
           isLicenseExpired={false}
           license={
             Object {
-              "Company": "Mattermost Inc.",
+              "Company": "Tam Dev Inc.",
               "ExpiresAt": "1620335443650",
               "IsLicensed": "true",
               "IssuedAt": "1517714643650",
@@ -1648,7 +1648,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               license={
                 Object {
                   "Cloud": "true",
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620993600000",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -1696,7 +1696,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               license={
                 Object {
                   "Cloud": "true",
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620993600000",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -1739,7 +1739,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
           isLicenseExpired={false}
           license={
             Object {
-              "Company": "Mattermost Inc.",
+              "Company": "Tam Dev Inc.",
               "ExpiresAt": "1620993600000",
               "IsLicensed": "true",
               "IssuedAt": "1517714643650",
@@ -1773,7 +1773,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620993600000",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",
@@ -1820,7 +1820,7 @@ exports[`components/admin_console/license_settings/LicenseSettings should match 
               isTrialLicense={false}
               license={
                 Object {
-                  "Company": "Mattermost Inc.",
+                  "Company": "Tam Dev Inc.",
                   "ExpiresAt": "1620993600000",
                   "IsLicensed": "true",
                   "IssuedAt": "1517714643650",

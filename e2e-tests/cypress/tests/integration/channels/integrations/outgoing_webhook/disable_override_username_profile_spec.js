@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -137,7 +137,7 @@ describe('Outgoing webhook', () => {
         verifyProfileNameAndIcon({username: sysadmin.username, userIcon: overriddenIcon});
     });
 
-    it('MM-T2036 overridden username and profile pic (using Mattermost UI)', () => {
+    it('MM-T2036 overridden username and profile pic (using Tam Dev UI)', () => {
         // # Go to test channel and post a message
         cy.visit(testChannelUrl);
         cy.postMessage('hello');

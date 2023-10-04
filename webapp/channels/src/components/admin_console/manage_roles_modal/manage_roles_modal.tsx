@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -201,7 +201,7 @@ export default class ManageRolesModal extends React.PureComponent<Props, State> 
                             </strong>
                             <FormattedMessage
                                 id='admin.manage_roles.postAllRole'
-                                defaultMessage='Access to post to all Mattermost channels including direct messages.'
+                                defaultMessage='Access to post to all Tam Dev channels including direct messages.'
                             />
                         </label>
                     </div>
@@ -221,7 +221,7 @@ export default class ManageRolesModal extends React.PureComponent<Props, State> 
                             </strong>
                             <FormattedMessage
                                 id='admin.manage_roles.postAllPublicRole'
-                                defaultMessage='Access to post to all Mattermost public channels.'
+                                defaultMessage='Access to post to all Tam Dev public channels.'
                             />
                         </label>
                     </div>

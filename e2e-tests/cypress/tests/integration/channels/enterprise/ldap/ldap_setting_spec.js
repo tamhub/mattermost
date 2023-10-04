@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -70,7 +70,7 @@ describe('LDAP settings', () => {
                 username: 'test.two',
                 password: 'Password1',
             },
-            siteName: 'Mattermost',
+            siteName: 'Tam Dev',
         };
 
         // # Login as a new LDAP user

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -145,7 +145,7 @@ export default class Integrations extends React.PureComponent <Props> {
                         description={
                             <FormattedMessage
                                 id='integrations.oauthApps.description'
-                                defaultMessage='Auth 2.0 allows external applications to make authorized requests to the Mattermost API'
+                                defaultMessage='Auth 2.0 allows external applications to make authorized requests to the Tam Dev API'
                             />
                         }
                         link={'/' + this.props.team.name + '/integrations/oauth2-apps'}
@@ -170,7 +170,7 @@ export default class Integrations extends React.PureComponent <Props> {
                     description={
                         <FormattedMessage
                             id='bots.manage.description'
-                            defaultMessage='Use bot accounts to integrate with Mattermost through plugins or the API'
+                            defaultMessage='Use bot accounts to integrate with Tam Dev through plugins or the API'
                         />
                     }
                     link={'/' + this.props.team.name + '/integrations/bots'}
@@ -191,7 +191,7 @@ export default class Integrations extends React.PureComponent <Props> {
                 <div className='backstage-list__help'>
                     <FormattedMessage
                         id='integrations.help'
-                        defaultMessage='Visit the {appDirectory} to find self-hosted, third-party apps and integrations for Mattermost.'
+                        defaultMessage='Visit the {appDirectory} to find self-hosted, third-party apps and integrations for Tam Dev.'
                         values={{
                             appDirectory: (
                                 <ExternalLink

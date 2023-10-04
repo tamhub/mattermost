@@ -26,7 +26,7 @@ func Init(r *mux.Router, panel Panel) {
 }
 
 func (sh *handler) handleAction(w http.ResponseWriter, r *http.Request) {
-	mattermostUserID := r.Header.Get("Mattermost-User-ID")
+	mattermostUserID := r.Header.Get("Tam Dev-User-ID")
 	if mattermostUserID == "" {
 		common.SlackAttachmentError(w, errors.New("Not authorized"))
 		return

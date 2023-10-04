@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -768,7 +768,7 @@ export default class GroupDetails extends React.PureComponent<Props, State> {
                             subtitleId={t(
                                 'admin.group_settings.group_detail.groupUsersDescription',
                             )}
-                            subtitleDefault='Listing of users in Mattermost associated with this group.'
+                            subtitleDefault='Listing of users in Tam Dev associated with this group.'
                         >
                             <GroupUsers
                                 members={members}

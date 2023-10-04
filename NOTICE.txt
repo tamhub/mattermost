@@ -1,11 +1,11 @@
-Mattermost Server
+Tam Dev Server
 
-©2015-present Mattermost,Inc. All Rights Reserved. See LICENSE for license information.
+©2015-present Tam Dev,Inc. All Rights Reserved. See LICENSE for license information.
 
 NOTICES:
 --------
 
-This document includes a list of open source components used in Mattermost Server, including those that have been modified.
+This document includes a list of open source components used in Tam Dev Server, including those that have been modified.
 
 --------
 
@@ -2836,7 +2836,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## mattermost/go-i18n
 
-This product contains 'mattermost/go-i18n' by Mattermost.
+This product contains 'mattermost/go-i18n' by Tam Dev.
 
 Translate your Go program into multiple languages.
 
@@ -2867,7 +2867,7 @@ THE SOFTWARE.
 
 ## mattermost/gziphandler
 
-This product contains 'mattermost/gziphandler' by Mattermost.
+This product contains 'mattermost/gziphandler' by Tam Dev.
 
 * HOMEPAGE:
   * https://github.com/mattermost/gziphandler
@@ -3081,7 +3081,7 @@ This product contains 'mattermost/gziphandler' by Mattermost.
 
 ## mattermost/ldap
 
-This product contains 'mattermost/ldap' by Mattermost.
+This product contains 'mattermost/ldap' by Tam Dev.
 
 Basic LDAP v3 functionality for the GO programming language.
 
@@ -3115,7 +3115,7 @@ SOFTWARE.
 
 ## mattermost/logr
 
-This product contains 'mattermost/logr' by Mattermost.
+This product contains 'mattermost/logr' by Tam Dev.
 
 Fully asynchronous, structured, pluggable logging for Go.
 
@@ -3148,7 +3148,7 @@ SOFTWARE.
 
 ## mattermost/morph
 
-This product contains 'mattermost/morph' by Mattermost.
+This product contains 'mattermost/morph' by Tam Dev.
 
 * LICENSE: Other
 
@@ -3180,7 +3180,7 @@ THE SOFTWARE.
 
 ## mattermost/rsc
 
-This product contains 'rsc' by Mattermost (forked from original GitHub repo 'petar/rsc' owned by Petar Maymounkov).
+This product contains 'rsc' by Tam Dev (forked from original GitHub repo 'petar/rsc' owned by Petar Maymounkov).
 
 fork of Russ Cox's code.google.com/p/rsc
 
@@ -3221,7 +3221,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## mattermost/squirrel
 
-This product contains 'mattermost/squirrel' by Mattermost.
+This product contains 'mattermost/squirrel' by Tam Dev.
 
 To house a custom fork of github.com/Masterminds/squirrel aka Fluent SQL generation for golang
 

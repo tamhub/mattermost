@@ -4,7 +4,7 @@ info:
     There is also a work-in-progress [Postman API
     reference](https://documenter.getpostman.com/view/4508214/RW8FERUn).
   version: 4.0.0
-  title: Mattermost API Reference
+  title: Tam Dev API Reference
   termsOfService: https://about.mattermost.com/default-terms/
   contact:
     email: feedback@mattermost.com
@@ -14,7 +14,7 @@ info:
 tags:
   - name: introduction
     description: >
-      The Mattermost Web Services API is used by Mattermost clients and third
+      The Tam Dev Web Services API is used by Tam Dev clients and third
       party applications to interact with the server. [JavaScript and Golang
       drivers for](/#tag/drivers) connecting to the APIs are also available.
 
@@ -22,10 +22,10 @@ tags:
       ### Support
 
 
-      Mattermost core committers work with the community to keep the API documentation up-to-date.
+      Tam Dev core committers work with the community to keep the API documentation up-to-date.
 
 
-      If you have questions on API routes not listed in this reference, please [join the Mattermost community server](https://community.mattermost.com) to ask questions in the Developers channel, [or post questions to our Developer Discussion forum](https://forum.mattermost.org/c/dev).
+      If you have questions on API routes not listed in this reference, please [join the Tam Dev community server](https://community.mattermost.com) to ask questions in the Developers channel, [or post questions to our Developer Discussion forum](https://forum.mattermost.org/c/dev).
 
 
       [Bug reports](https://github.com/mattermost/mattermost/issues) in the documentation or the API are also welcome, as are pull requests to fix the issues.
@@ -51,25 +51,25 @@ tags:
       When using endpoints that require a user id, the string `me` can be used in place of the user id to indicate the action is to be taken for the logged in user.
   - name: drivers
     description: >
-      The easiest way to interact with the Mattermost Web Service API is through
+      The easiest way to interact with the Tam Dev Web Service API is through
       a language specific driver.
 
 
       #### Official Drivers
 
-      * [Mattermost JavaScript Driver](https://github.com/mattermost/mattermost-redux/blob/master/src/client/client4.ts)
+      * [Tam Dev JavaScript Driver](https://github.com/mattermost/mattermost-redux/blob/master/src/client/client4.ts)
 
-      * [Mattermost Golang Driver](https://github.com/mattermost/mattermost/blob/master/server/public/model/client4.go)
+      * [Tam Dev Golang Driver](https://github.com/mattermost/mattermost/blob/master/server/public/model/client4.go)
 
       #### Community-built Drivers
 
       For community-built drivers and API wrappers, see [our app directory](https://mattermost.com/marketplace/).
   - name: authentication
     description: >
-      There are multiple ways to authenticate against the Mattermost API.
+      There are multiple ways to authenticate against the Tam Dev API.
 
 
-      All examples assume there is a Mattermost instance running at http://localhost:8065.
+      All examples assume there is a Tam Dev instance running at http://localhost:8065.
 
 
       #### Session Token
@@ -160,13 +160,13 @@ tags:
       #### OAuth 2.0
 
 
-      Mattermost has the ability to act as an [OAuth 2.0](https://tools.ietf.org/html/rfc6749) service provider.
+      Tam Dev has the ability to act as an [OAuth 2.0](https://tools.ietf.org/html/rfc6749) service provider.
 
 
-      The official documentation for [using your Mattermost server as an OAuth 2.0 service provider can be found here.](https://docs.mattermost.com/developer/oauth-2-0-applications.html)
+      The official documentation for [using your Tam Dev server as an OAuth 2.0 service provider can be found here.](https://docs.mattermost.com/developer/oauth-2-0-applications.html)
 
 
-      For an example on how to register an OAuth 2.0 app with your Mattermost instance, please see the [Mattermost-Zapier integration documentation](https://docs.mattermost.com/integrations/zapier.html#register-zapier-as-an-oauth-2-0-application).
+      For an example on how to register an OAuth 2.0 app with your Tam Dev instance, please see the [Tam Dev-Zapier integration documentation](https://docs.mattermost.com/integrations/zapier.html#register-zapier-as-an-oauth-2-0-application).
   - name: errors
     description: >
       All errors will return an appropriate HTTP response code along with the
@@ -185,7 +185,7 @@ tags:
       ```
   - name: rate limiting
     description: >
-      Whenever you make an HTTP request to the Mattermost API you might notice
+      Whenever you make an HTTP request to the Tam Dev API you might notice
       the following headers included in the response:
 
       ```
@@ -234,17 +234,17 @@ tags:
       ```
   - name: WebSocket
     description: >
-      In addition to the HTTP RESTful web service, Mattermost also offers a
+      In addition to the HTTP RESTful web service, Tam Dev also offers a
       WebSocket event delivery system and some API functionality.
 
 
-      To connect to the WebSocket follow the standard opening handshake as [defined by the RFC specification](https://tools.ietf.org/html/rfc6455#section-1.3) to the `/api/v4/websocket` endpoint of Mattermost.
+      To connect to the WebSocket follow the standard opening handshake as [defined by the RFC specification](https://tools.ietf.org/html/rfc6455#section-1.3) to the `/api/v4/websocket` endpoint of Tam Dev.
 
 
       #### Authentication
 
 
-      The Mattermost WebSocket can be authenticated using [the standard API authentication methods](/#tag/authentication) (by a cookie or with an explicit Authorization header) or through an authentication challenge. If you're authenticating from a browser and have logged in with the Mattermost API, your authentication cookie should already be set. This is how the Mattermost webapp authenticates with the WebSocket.
+      The Tam Dev WebSocket can be authenticated using [the standard API authentication methods](/#tag/authentication) (by a cookie or with an explicit Authorization header) or through an authentication challenge. If you're authenticating from a browser and have logged in with the Tam Dev API, your authentication cookie should already be set. This is how the Tam Dev webapp authenticates with the WebSocket.
 
 
       To authenticate with an authentication challenge, first connect the WebSocket and then send the following JSON over the connection:
@@ -282,7 +282,7 @@ tags:
       #### Events
 
 
-      WebSocket events are primarily used to alert the client to changes in Mattermost, such as delivering new posts or alerting the client that another user is typing in a channel.
+      WebSocket events are primarily used to alert the client to changes in Tam Dev, such as delivering new posts or alerting the client that another user is typing in a channel.
 
 
       Events on the WebSocket will have the form:
@@ -310,7 +310,7 @@ tags:
       The `event` field indicates the event type, `data` contains any data relevant to the event and `broadcast` contains information about who the event was sent to. For example, the above example has `user_id` set to "ay5sq51sebfh58ktrce5ijtcwy" meaning that only the user with that ID received this event broadcast. The `omit_users` field can contain an array of user IDs that were specifically omitted from receiving the event.
 
 
-      The list of Mattermost WebSocket events are:
+      The list of Tam Dev WebSocket events are:
 
       - added_to_team
 
@@ -404,7 +404,7 @@ tags:
       #### WebSocket API
 
 
-      Mattermost has some basic support for WebSocket APIs. A connected WebSocket can make requests by sending the following over the connection:
+      Tam Dev has some basic support for WebSocket APIs. A connected WebSocket can make requests by sending the following over the connection:
 
 
       ```
@@ -472,18 +472,18 @@ tags:
       To see how these actions work, please refer to either the [Golang WebSocket driver](https://github.com/mattermost/mattermost-server/blob/master/model/websocket_client.go) or our [JavaScript WebSocket driver](https://github.com/mattermost/mattermost-redux/blob/master/src/client/websocket_client.ts).
   - name: APIv3 Deprecation
     description: >
-      Since Mattermost 4.6 released on January 16, 2018, API v3 has no longer
-      been supported and it will be removed in Mattermost Server v5.0 on June
+      Since Tam Dev 4.6 released on January 16, 2018, API v3 has no longer
+      been supported and it will be removed in Tam Dev Server v5.0 on June
       16, 2018. Follow these simple steps to migrate your integrations and apps
       to API v4. Otherwise your integrations may break once you upgrade to
-      Mattermost 5.0
+      Tam Dev 5.0
 
 
       1. Set your server's log level to `DEBUG` in **System Console > General > Logging > File Log Level** to print detailed logs for API requests.
 
       2. In **System Console > Logs**, search for requests hitting `/api/v3/` endpoints. Any requests hitting these endpoints are from integrations that should be migrated to API v4.
         - For in-house or self-built integrations, update them to use v4 with the help of [this API reference](https://api.mattermost.com). Most v3 endpoints have direct counterparts in v4 and should be migrated easily.
-        - For third-party integrations, visit their homepage (on GitHub, GitLab, etc.). Check if they already have a version that uses the Mattermost v4 API. If they do not, consider opening an issue asking them if support is planned.
+        - For third-party integrations, visit their homepage (on GitHub, GitLab, etc.). Check if they already have a version that uses the Tam Dev v4 API. If they do not, consider opening an issue asking them if support is planned.
       3. Once all integrations have been migrated to API v4, review the server logs with log level set to `DEBUG`. Confirm no requests hit `/api/v3/` endpoints.
 
       4. Set **Allow use of API v3 endpoints** to `false` in **System Console > General > Configuration**, or set `EnableAPIv3` to `false` in `config.json`. This setting disables API v3 on your server. Any time a v3 endpoint is used, an error is logged in **System Console > Logs**.
@@ -543,7 +543,7 @@ tags:
       for more information.
   - name: OAuth
     description:
-      Endpoints for configuring and interacting with Mattermost as an OAuth 2.0
+      Endpoints for configuring and interacting with Tam Dev as an OAuth 2.0
       service provider.
   - name: SAML
     description: Endpoints for configuring and interacting with SAML.

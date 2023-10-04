@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package filestore
@@ -41,7 +41,7 @@ type S3FileBackend struct {
 	skipVerify     bool
 	timeout        time.Duration
 	presignExpires time.Duration
-	isCloud        bool // field to indicate whether this is running under Mattermost cloud or not.
+	isCloud        bool // field to indicate whether this is running under Tam Dev cloud or not.
 }
 
 type S3FileBackendAuthError struct {
@@ -88,7 +88,7 @@ func (s *S3FileBackendNoBucketError) Error() string {
 	return "no such bucket"
 }
 
-// NewS3FileBackend returns an instance of an S3FileBackend and determine if we are in Mattermost cloud or not.
+// NewS3FileBackend returns an instance of an S3FileBackend and determine if we are in Tam Dev cloud or not.
 func NewS3FileBackend(settings FileBackendSettings) (*S3FileBackend, error) {
 	return newS3FileBackend(settings, os.Getenv("MM_CLOUD_FILESTORE_BIFROST") != "")
 }

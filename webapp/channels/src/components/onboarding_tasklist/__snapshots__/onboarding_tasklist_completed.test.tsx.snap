@@ -22,7 +22,7 @@ exports[`components/onboarding_tasklist/onboarding_tasklist_completed.tsx should
         className="completed-subtitle"
       >
         <MemoizedFormattedMessage
-          defaultMessage="We hope Mattermost is more familiar now."
+          defaultMessage="We hope Tam Dev is more familiar now."
           id="onboardingTask.checklist.completed_subtitle"
         />
       </span>
@@ -74,7 +74,7 @@ exports[`components/onboarding_tasklist/onboarding_tasklist_completed.tsx should
       >
         <span>
           <MemoizedFormattedMessage
-            defaultMessage="By clicking “Start trial”, I agree to the <linkEvaluation>Mattermost Software and Services License Agreement</linkEvaluation>, <linkPrivacy>privacy policy</linkPrivacy> and receiving product emails."
+            defaultMessage="By clicking “Start trial”, I agree to the <linkEvaluation>Tam Dev Software and Services License Agreement</linkEvaluation>, <linkPrivacy>privacy policy</linkPrivacy> and receiving product emails."
             id="onboardingTask.checklist.disclaimer"
             values={
               Object {

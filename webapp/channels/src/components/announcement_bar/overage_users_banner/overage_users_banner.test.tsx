@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -95,7 +95,7 @@ describe('components/overage_users_banner', () => {
                     ExpiresAt: '1620335443650',
                     SkuShortName: 'Enterprise',
                     Name: 'LicenseName',
-                    Company: 'Mattermost Inc.',
+                    Company: 'Tam Dev Inc.',
                     Users: String(seatsPurchased),
                     Email: 'test@mattermost.com',
                     Id: licenseId,

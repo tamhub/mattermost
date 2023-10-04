@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -56,7 +56,7 @@ describe('/poll', () => {
             // * Poll displays as expected in center
             cy.findByLabelText('matterpoll').should('be.visible');
 
-            // * Mattermost URL renders as a live link
+            // * Tam Dev URL renders as a live link
             cy.contains('a', 'https://mattermost.com').
                 should('have.attr', 'href', 'https://mattermost.com');
 

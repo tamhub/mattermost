@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package model
@@ -205,7 +205,7 @@ func TestIsLegacyTrialRequest(t *testing.T) {
 		Email:         "test@mattermost.com",
 		TermsAccepted: true,
 		SiteURL:       "https://mattermost.com",
-		SiteName:      "Mattermost",
+		SiteName:      "Tam Dev",
 		Users:         100,
 	}
 	t.Run("legacy trial request", func(t *testing.T) {

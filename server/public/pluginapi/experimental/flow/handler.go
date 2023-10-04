@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2019-present Tam Dev, Inc. All Rights Reserved.
 // See License for license information.
 
 package flow
@@ -15,7 +15,7 @@ import (
 )
 
 func (f *Flow) handleButtonHTTP(w http.ResponseWriter, r *http.Request) {
-	userID := r.Header.Get("Mattermost-User-ID")
+	userID := r.Header.Get("Tam Dev-User-ID")
 	if userID == "" {
 		common.SlackAttachmentError(w, errors.New("Not authorized"))
 		return
@@ -47,7 +47,7 @@ func (f *Flow) handleButtonHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func (f *Flow) handleDialogHTTP(w http.ResponseWriter, r *http.Request) {
-	userID := r.Header.Get("Mattermost-User-ID")
+	userID := r.Header.Get("Tam Dev-User-ID")
 	if userID == "" {
 		common.DialogError(w, errors.New("not authorized"))
 		return

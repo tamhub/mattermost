@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -198,7 +198,7 @@ export default function DeleteWorkspaceModal(props: Props) {
             <div className='DeleteWorkspaceModal__Usage'>
                 <FormattedMessage
                     id='admin.billing.subscription.deleteWorkspaceModal.usage'
-                    defaultMessage='As part of your subscription to Mattermost {sku} you have created '
+                    defaultMessage='As part of your subscription to Tam Dev {sku} you have created '
                     values={{
                         sku: product?.name,
                     }}

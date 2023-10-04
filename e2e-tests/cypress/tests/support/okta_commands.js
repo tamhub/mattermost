@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import * as TIMEOUTS from '../fixtures/timeouts';
@@ -31,7 +31,7 @@ Cypress.Commands.add('oktaCreateUser', (user = {}) => {
                 password: {value: user.password},
                 recovery_question: {
                     question: 'What is the best open source messaging platform for developers?',
-                    answer: 'Mattermost',
+                    answer: 'Tam Dev',
                 },
             },
         },

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -19,9 +19,9 @@ const TeamEdition: React.FC<TeamEditionProps> = ({openEELicenseModal, currentPla
             </div>
             <hr/>
             <div>
-                <p>{'When using Mattermost Team Edition, the software is offered under a Mattermost MIT Compiled License. See MIT-COMPILED-LICENSE.md in your root install directory for details.'}</p>
+                <p>{'When using Tam Dev Team Edition, the software is offered under a Tam Dev MIT Compiled License. See MIT-COMPILED-LICENSE.md in your root install directory for details.'}</p>
                 <p>
-                    {'When using Mattermost Enterprise Edition, the software is offered under a commercial license. See '}
+                    {'When using Tam Dev Enterprise Edition, the software is offered under a commercial license. See '}
                     <a
                         role='button'
                         onClick={openEELicenseModal}

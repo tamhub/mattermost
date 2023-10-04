@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package commands
@@ -50,7 +50,7 @@ var SystemClearBusyCmd = &cobra.Command{
 var SystemVersionCmd = &cobra.Command{
 	Use:     "version",
 	Short:   "Prints the remote server version",
-	Long:    "Prints the server version of the currently connected Mattermost instance",
+	Long:    "Prints the server version of the currently connected Tam Dev instance",
 	Example: `  system version`,
 	Args:    cobra.NoArgs,
 	RunE:    withClient(systemVersionCmdF),

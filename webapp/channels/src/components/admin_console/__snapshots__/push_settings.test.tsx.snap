@@ -90,7 +90,7 @@ exports[`components/PushSettings should match snapshot, licensed 1`] = `
             type="checkbox"
           />
           <MemoizedFormattedMessage
-            defaultMessage=" I understand and accept the Mattermost Hosted Push Notification Service <linkTerms>Terms of Service</linkTerms> and <linkPrivacy>Privacy Policy</linkPrivacy>."
+            defaultMessage=" I understand and accept the Tam Dev Hosted Push Notification Service <linkTerms>Terms of Service</linkTerms> and <linkPrivacy>Privacy Policy</linkPrivacy>."
             id="admin.email.agreeHPNS"
             values={
               Object {
@@ -105,7 +105,7 @@ exports[`components/PushSettings should match snapshot, licensed 1`] = `
         disabled={true}
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="Download <linkIOS>Mattermost iOS app</linkIOS> from iTunes. Download <linkAndroid>Mattermost Android app</linkAndroid> from Google Play. Learn more about the <linkHPNS>Mattermost Hosted Push Notification Service</linkHPNS>."
+            defaultMessage="Download <linkIOS>Tam Dev iOS app</linkIOS> from iTunes. Download <linkAndroid>Tam Dev Android app</linkAndroid> from Google Play. Learn more about the <linkHPNS>Tam Dev Hosted Push Notification Service</linkHPNS>."
             id="admin.email.mhpnsHelp"
             values={
               Object {

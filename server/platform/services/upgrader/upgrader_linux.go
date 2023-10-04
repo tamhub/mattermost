@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package upgrader
@@ -105,19 +105,19 @@ func verifySignature(filename string, sigfilename string, publicKey []byte) erro
 
 	mattermost_tar, err := os.Open(filename)
 	if err != nil {
-		mlog.Debug("Unable to open the Mattermost .tar file to verify the file signature", mlog.Err(err))
+		mlog.Debug("Unable to open the Tam Dev .tar file to verify the file signature", mlog.Err(err))
 		return NewInvalidSignature()
 	}
 
 	signature, err := os.Open(sigfilename)
 	if err != nil {
-		mlog.Debug("Unable to open the Mattermost .sig file verify the file signature", mlog.Err(err))
+		mlog.Debug("Unable to open the Tam Dev .sig file verify the file signature", mlog.Err(err))
 		return NewInvalidSignature()
 	}
 
 	_, err = openpgp.CheckDetachedSignature(keyring, mattermost_tar, signature)
 	if err != nil {
-		mlog.Debug("Unable to verify the Mattermost file signature", mlog.Err(err))
+		mlog.Debug("Unable to verify the Tam Dev file signature", mlog.Err(err))
 		return NewInvalidSignature()
 	}
 	return nil
@@ -179,7 +179,7 @@ func CanIUpgradeToE0() error {
 	}
 	if model.BuildEnterpriseReady == "true" {
 		mlog.Warn("Unable to upgrade from TE to E0. The server is already running E0.")
-		return errors.New("you cannot upgrade your server from TE to E0 because you are already running Mattermost Enterprise Edition")
+		return errors.New("you cannot upgrade your server from TE to E0 because you are already running Tam Dev Enterprise Edition")
 	}
 	return nil
 }
@@ -197,7 +197,7 @@ func UpgradeToE0() error {
 	executablePath, err := os.Executable()
 	if err != nil {
 		setUpgradeError(errors.New("error getting the executable path"))
-		mlog.Error("Unable to get the path of the Mattermost executable", mlog.Err(err))
+		mlog.Error("Unable to get the path of the Tam Dev executable", mlog.Err(err))
 		setUpgradePercentage(0)
 		return err
 	}
@@ -207,8 +207,8 @@ func UpgradeToE0() error {
 		if filename != "" {
 			os.Remove(filename)
 		}
-		setUpgradeError(fmt.Errorf("error downloading the new Mattermost server binary file (percentage: %d)", getUpgradePercentage()))
-		mlog.Error("Unable to download the Mattermost server binary file", mlog.Int64("percentage", getUpgradePercentage()), mlog.String("url", getCurrentVersionTgzURL()), mlog.Err(err))
+		setUpgradeError(fmt.Errorf("error downloading the new Tam Dev server binary file (percentage: %d)", getUpgradePercentage()))
+		mlog.Error("Unable to download the Tam Dev server binary file", mlog.Int64("percentage", getUpgradePercentage()), mlog.String("url", getCurrentVersionTgzURL()), mlog.Err(err))
 		setUpgradePercentage(0)
 		return err
 	}
@@ -220,7 +220,7 @@ func UpgradeToE0() error {
 			os.Remove(sigfilename)
 		}
 		setUpgradeError(errors.New("error downloading the signature file of the new server"))
-		mlog.Error("Unable to download the signature file of the new Mattermost server", mlog.String("url", getCurrentVersionTgzURL()+".sig"), mlog.Err(err))
+		mlog.Error("Unable to download the signature file of the new Tam Dev server", mlog.String("url", getCurrentVersionTgzURL()+".sig"), mlog.Err(err))
 		setUpgradePercentage(0)
 		return err
 	}
@@ -310,7 +310,7 @@ func extractBinary(executablePath string, filename string) error {
 		header, err := tarReader.Next()
 
 		if err == io.EOF {
-			return errors.New("unable to find the Mattermost binary in the downloaded version")
+			return errors.New("unable to find the Tam Dev binary in the downloaded version")
 		}
 
 		if err != nil {

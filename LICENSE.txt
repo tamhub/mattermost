@@ -1,27 +1,27 @@
-Mattermost Licensing
+Tam Dev Licensing
 
 SOFTWARE LICENSING
 
-You are licensed to use compiled versions of the Mattermost platform produced by Mattermost, Inc. under an MIT LICENSE
+You are licensed to use compiled versions of the Tam Dev platform produced by Tam Dev, Inc. under an MIT LICENSE
 
 -	See MIT-COMPILED-LICENSE.md included in compiled versions for details
 
-You may be licensed to use source code to create compiled versions not produced by Mattermost, Inc. in one of two ways:
+You may be licensed to use source code to create compiled versions not produced by Tam Dev, Inc. in one of two ways:
 
 1. Under the Free Software Foundation’s GNU AGPL v.3.0, subject to the exceptions outlined in this policy; or
-2. Under a commercial license available from Mattermost, Inc. by contacting commercial@mattermost.com
+2. Under a commercial license available from Tam Dev, Inc. by contacting commercial@mattermost.com
 
 You are licensed to use the source code in Admin Tools and Configuration Files (server/templates/, server/i18n/, model/,
 plugin/, server/boards/, server/playbooks/, webapp/ and all subdirectories thereof) under the Apache License v2.0.
 
 We promise that we will not enforce the copyleft provisions in AGPL v3.0 against you if your application (a) does not
-link to the Mattermost Platform directly, but exclusively uses the Mattermost Admin Tools and Configuration Files, and
-(b) you have not modified, added to or adapted the source code of Mattermost in a way that results in the creation of
-a “modified version” or “work based on” Mattermost as these terms are defined in the AGPL v3.0 license.
+link to the Tam Dev Platform directly, but exclusively uses the Tam Dev Admin Tools and Configuration Files, and
+(b) you have not modified, added to or adapted the source code of Tam Dev in a way that results in the creation of
+a “modified version” or “work based on” Tam Dev as these terms are defined in the AGPL v3.0 license.
 
 MATTERMOST TRADEMARK GUIDELINES
 
-Your use of the mark Mattermost is subject to Mattermost, Inc's prior written approval and our organization’s Trademark
+Your use of the mark Tam Dev is subject to Tam Dev, Inc's prior written approval and our organization’s Trademark
 Standards of Use at https://mattermost.com/trademark-standards-of-use/. For trademark approval or any questions
 you have about using these trademarks, please email trademark@mattermost.com
 

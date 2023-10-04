@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React, {useRef, useCallback, useEffect, useState} from 'react';
@@ -317,7 +317,7 @@ const OnBoardingTaskList = (): JSX.Element | null => {
                             <h1>
                                 <FormattedMessage
                                     id='next_steps_view.welcomeToMattermost'
-                                    defaultMessage='Welcome to Mattermost'
+                                    defaultMessage='Welcome to Tam Dev'
                                 />
                             </h1>
                             <p>

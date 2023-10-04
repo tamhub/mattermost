@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package slackimport
@@ -328,7 +328,7 @@ func (si *SlackImporter) slackAddPosts(teamId string, channel *model.Channel, po
 				continue
 			}
 			if users[sPost.User] == nil {
-				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Mattermost.", mlog.String("user", sPost.User))
+				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Tam Dev.", mlog.String("user", sPost.User))
 				continue
 			}
 			newPost := model.Post{
@@ -369,7 +369,7 @@ func (si *SlackImporter) slackAddPosts(teamId string, channel *model.Channel, po
 				continue
 			}
 			if users[sPost.Comment.User] == nil {
-				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Mattermost.", mlog.String("user", sPost.User))
+				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Tam Dev.", mlog.String("user", sPost.User))
 				continue
 			}
 			newPost := model.Post{
@@ -414,7 +414,7 @@ func (si *SlackImporter) slackAddPosts(teamId string, channel *model.Channel, po
 				continue
 			}
 			if users[sPost.User] == nil {
-				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Mattermost.", mlog.String("user", sPost.User))
+				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Tam Dev.", mlog.String("user", sPost.User))
 				continue
 			}
 
@@ -442,7 +442,7 @@ func (si *SlackImporter) slackAddPosts(teamId string, channel *model.Channel, po
 				continue
 			}
 			if users[sPost.User] == nil {
-				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Mattermost.", mlog.String("user", sPost.User))
+				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Tam Dev.", mlog.String("user", sPost.User))
 				continue
 			}
 			newPost := model.Post{
@@ -462,7 +462,7 @@ func (si *SlackImporter) slackAddPosts(teamId string, channel *model.Channel, po
 				continue
 			}
 			if users[sPost.User] == nil {
-				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Mattermost.", mlog.String("user", sPost.User))
+				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Tam Dev.", mlog.String("user", sPost.User))
 				continue
 			}
 			newPost := model.Post{
@@ -479,7 +479,7 @@ func (si *SlackImporter) slackAddPosts(teamId string, channel *model.Channel, po
 				continue
 			}
 			if users[sPost.User] == nil {
-				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Mattermost.", mlog.String("user", sPost.User))
+				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Tam Dev.", mlog.String("user", sPost.User))
 				continue
 			}
 			newPost := model.Post{
@@ -496,7 +496,7 @@ func (si *SlackImporter) slackAddPosts(teamId string, channel *model.Channel, po
 				continue
 			}
 			if users[sPost.User] == nil {
-				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Mattermost.", mlog.String("user", sPost.User))
+				mlog.Debug("Slack Import: Unable to add the message as the Slack user does not exist in Tam Dev.", mlog.String("user", sPost.User))
 				continue
 			}
 			newPost := model.Post{

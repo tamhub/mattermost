@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package mfa
@@ -60,8 +60,8 @@ func TestGetIssuerFromURL(t *testing.T) {
 		{"http://somewebsite.com/chat", url.QueryEscape("somewebsite.com/chat")},
 		{"somewebsite.com ", url.QueryEscape("somewebsite.com")},
 		{"http://localhost:8065", url.QueryEscape("localhost:8065")},
-		{"", "Mattermost"},
-		{"  ", "Mattermost"},
+		{"", "Tam Dev"},
+		{"  ", "Tam Dev"},
 	}
 
 	for _, c := range cases {

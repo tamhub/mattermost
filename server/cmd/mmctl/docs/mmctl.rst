@@ -9,7 +9,7 @@ Synopsis
 ~~~~~~~~
 
 
-Mattermost offers workplace messaging across web, PC and phones with archiving, search and integration with your existing systems. Documentation available at https://docs.mattermost.com
+Tam Dev offers workplace messaging across web, PC and phones with archiving, search and integration with your existing systems. Documentation available at https://docs.mattermost.com
 
 Options
 ~~~~~~~
@@ -30,7 +30,7 @@ Options
 SEE ALSO
 ~~~~~~~~
 
-* `mmctl auth <mmctl_auth.rst>`_ 	 - Manages the credentials of the remote Mattermost instances
+* `mmctl auth <mmctl_auth.rst>`_ 	 - Manages the credentials of the remote Tam Dev instances
 * `mmctl bot <mmctl_bot.rst>`_ 	 - Management of bots
 * `mmctl channel <mmctl_channel.rst>`_ 	 - Management of channels
 * `mmctl command <mmctl_command.rst>`_ 	 - Management of slash commands

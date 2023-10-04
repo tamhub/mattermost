@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package commands
@@ -32,7 +32,7 @@ var SlackImportCmd = &cobra.Command{
 var BulkImportCmd = &cobra.Command{
 	Use:     "bulk [file]",
 	Short:   "Import bulk data.",
-	Long:    "Import data from a Mattermost Bulk Import File.",
+	Long:    "Import data from a Tam Dev Bulk Import File.",
 	Example: "  import bulk bulk_data.json",
 	RunE:    bulkImportCmdF,
 }

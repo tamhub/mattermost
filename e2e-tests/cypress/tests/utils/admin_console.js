@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 export const adminConsoleNavigation = [
@@ -48,7 +48,7 @@ export const adminConsoleNavigation = [
     },
     {
         type: ['team', 'e20', 'cloud_enterprise'],
-        header: 'Mattermost Users',
+        header: 'Tam Dev Users',
         sidebar: 'Users',
         url: 'admin_console/user_management/users',
     },
@@ -60,13 +60,13 @@ export const adminConsoleNavigation = [
     },
     {
         type: ['team', 'e20', 'cloud_enterprise'],
-        header: 'Mattermost Teams',
+        header: 'Tam Dev Teams',
         sidebar: 'Teams',
         url: 'admin_console/user_management/teams',
     },
     {
         type: ['team', 'e20', 'cloud_enterprise'],
-        header: 'Mattermost Channels',
+        header: 'Tam Dev Channels',
         team_header: 'Channels',
         sidebar: 'Channels',
         url: 'admin_console/user_management/channels',

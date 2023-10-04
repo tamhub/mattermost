@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package imageproxy
@@ -133,13 +133,13 @@ func TestGetAtmosCamoImageURL(t *testing.T) {
 			Expected: defaultSiteURL,
 		},
 		{
-			Name:     "should not proxy an image on the Mattermost server",
+			Name:     "should not proxy an image on the Tam Dev server",
 			Input:    "https://mattermost.example.com/static/logo.png",
 			SiteURL:  defaultSiteURL,
 			Expected: "https://mattermost.example.com/static/logo.png",
 		},
 		{
-			Name:     "should not proxy an image on the Mattermost server when a subpath is set",
+			Name:     "should not proxy an image on the Tam Dev server when a subpath is set",
 			Input:    "https://mattermost.example.com/static/logo.png",
 			SiteURL:  defaultSiteURL + "/static",
 			Expected: "https://mattermost.example.com/static/logo.png",

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -105,7 +105,7 @@ describe('Keyboard shortcut CTRL/CMD+Shift+\\ for adding reaction to last messag
     });
 
     it('MM-T4059_3 Do not open emoji picker if any modal is open', () => {
-        cy.uiOpenProductMenu('About Mattermost');
+        cy.uiOpenProductMenu('About Tam Dev');
         verifyEmojiPickerNotOpen();
 
         cy.uiOpenTeamMenu('View Members');

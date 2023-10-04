@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package app
@@ -423,7 +423,7 @@ func TestHandlePluginRequest(t *testing.T) {
 	r.Header.Add("Authorization", "Bearer "+token.Token)
 	assertions = func(r *http.Request) {
 		assert.Equal(t, "/bar", r.URL.Path)
-		assert.Equal(t, th.BasicUser.Id, r.Header.Get("Mattermost-User-Id"))
+		assert.Equal(t, th.BasicUser.Id, r.Header.Get("Tam Dev-User-Id"))
 	}
 	router.ServeHTTP(nil, r)
 
@@ -431,7 +431,7 @@ func TestHandlePluginRequest(t *testing.T) {
 	assertions = func(r *http.Request) {
 		assert.Equal(t, "/bar", r.URL.Path)
 		assert.Equal(t, "a=b&c=d", r.URL.RawQuery)
-		assert.Equal(t, th.BasicUser.Id, r.Header.Get("Mattermost-User-Id"))
+		assert.Equal(t, th.BasicUser.Id, r.Header.Get("Tam Dev-User-Id"))
 	}
 	router.ServeHTTP(nil, r)
 
@@ -439,7 +439,7 @@ func TestHandlePluginRequest(t *testing.T) {
 	assertions = func(r *http.Request) {
 		assert.Equal(t, "/bar", r.URL.Path)
 		assert.Equal(t, "a=b&c=d", r.URL.RawQuery)
-		assert.Empty(t, r.Header.Get("Mattermost-User-Id"))
+		assert.Empty(t, r.Header.Get("Tam Dev-User-Id"))
 	}
 	router.ServeHTTP(nil, r)
 }

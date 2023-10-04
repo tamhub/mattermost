@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -16,7 +16,7 @@ const GuestAccessFeatureDiscovery: React.FC = () => {
             featureName='guest_access'
             minimumSKURequiredForFeature={LicenseSkus.Professional}
             titleID='admin.guest_access_feature_discovery.title'
-            titleDefault='Enable guest accounts with Mattermost Professional'
+            titleDefault='Enable guest accounts with Tam Dev Professional'
             copyID='admin.guest_access_feature_discovery.copy'
             copyDefault={'Collaborate with users outside of your organization while tightly controlling their access channels and team members.'}
             learnMoreURL='https://docs.mattermost.com/deployment/guest-accounts.html'

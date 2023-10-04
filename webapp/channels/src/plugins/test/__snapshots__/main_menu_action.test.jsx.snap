@@ -409,7 +409,7 @@ exports[`plugins/MainMenuActions should match snapshot in mobile view with some 
         id="about"
         modalId="about"
         show={true}
-        text="About Mattermost"
+        text="About Tam Dev"
       />
     </MenuGroup>
     <MenuGroup>

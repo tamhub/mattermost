@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import merge from 'deepmerge';
@@ -180,7 +180,7 @@ const defaultServerConfig: AdminConfig = {
         AllowSyncedDrafts: true,
     },
     TeamSettings: {
-        SiteName: 'Mattermost',
+        SiteName: 'Tam Dev',
         MaxUsersPerTeam: 50,
         EnableJoinLeaveMessageByDefault: true,
         EnableUserCreation: true,

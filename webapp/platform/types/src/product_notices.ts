@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 export enum Action {
@@ -10,10 +10,10 @@ export type ProductNotice = {
     /** Unique identifier for this notice. Can be a running number. Used for storing 'viewed' state on the server. */
     id: string;
 
-    /** Notice title. Use {{Mattermost}} instead of plain text to support white-labeling. Text supports Markdown. */
+    /** Notice title. Use {{Tam Dev}} instead of plain text to support white-labeling. Text supports Markdown. */
     title: string;
 
-    /** Notice content. Use {{Mattermost}} instead of plain text to support white-labeling. Text supports Markdown. */
+    /** Notice content. Use {{Tam Dev}} instead of plain text to support white-labeling. Text supports Markdown. */
     description: string;
     image?: string;
 

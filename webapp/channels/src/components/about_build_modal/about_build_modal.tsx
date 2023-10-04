@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -55,7 +55,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
         const config = this.props.config;
         const license = this.props.license;
 
-        if (license.Cloud === 'true') {
+        if (license.Cloud === 'false') {
             return (
                 <AboutBuildModalCloud
                     {...this.props}
@@ -83,11 +83,11 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
             <div>
                 <FormattedMessage
                     id='about.teamEditionLearn'
-                    defaultMessage='Join the Mattermost community at '
+                    defaultMessage='Join TAM at'
                 />
                 <ExternalLink
                     location='about_build_modal'
-                    href='https://mattermost.com/community/'
+                    href='https://runaway.com'
                 >
                     {'mattermost.com/community/'}
                 </ExternalLink>
@@ -99,7 +99,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
             title = (
                 <FormattedMessage
                     id='about.teamEditiont1'
-                    defaultMessage='Enterprise Edition'
+                    defaultMessage='TAM Edition'
                 />
             );
 
@@ -129,7 +129,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                 title = (
                     <FormattedMessage
                         id='about.enterpriseEditione1'
-                        defaultMessage='Enterprise Edition'
+                        defaultMessage='TAM Editione'
                     />
                 );
                 licensee = (
@@ -206,7 +206,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <FormattedMessage
                             id='about.title'
                             values={{
-                                appTitle: config.SiteName || 'Mattermost',
+                                appTitle: config.SiteName || 'Tam Dev',
                             }}
                             defaultMessage='About {appTitle}'
                         />
@@ -220,7 +220,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <div>
                             <h3 className='about-modal__title'>
                                 <strong>
-                                    {'Mattermost'} {title}
+                                    {'Tam Dev'} {title}
                                 </strong>
                             </h3>
                             <p className='about-modal__subtitle pb-2'>
@@ -230,7 +230,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                 <div data-testid='aboutModalVersion'>
                                     <FormattedMessage
                                         id='about.version'
-                                        defaultMessage='Mattermost Version:'
+                                        defaultMessage='TAM Version:'
                                     />
                                     <span id='versionString'>
                                         {'\u00a0' + mmversion}
@@ -263,7 +263,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                             <div className='about-modal__copyright'>
                                 <FormattedMessage
                                     id='about.copyright'
-                                    defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
+                                    defaultMessage='TAM devlopment company.'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}
@@ -280,7 +280,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                         <p>
                             <FormattedMessage
                                 id='about.notice'
-                                defaultMessage='Mattermost is made possible by the open source software used in our <linkServer>server</linkServer>, <linkDesktop>desktop</linkDesktop> and <linkMobile>mobile</linkMobile> apps.'
+                                defaultMessage='Tam Dev is made possible by the open source software used in our <linkServer>server</linkServer>, <linkDesktop>desktop</linkDesktop> and <linkMobile>mobile</linkMobile> apps.'
                                 values={{
                                     linkServer: (msg: React.ReactNode) => (
                                         <ExternalLink

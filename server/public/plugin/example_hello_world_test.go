@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package plugin_test
@@ -10,7 +10,7 @@ import (
 	"github.com/mattermost/mattermost/server/public/plugin"
 )
 
-// HelloWorldPlugin implements the interface expected by the Mattermost server to communicate
+// HelloWorldPlugin implements the interface expected by the Tam Dev server to communicate
 // between the server and plugin processes.
 type HelloWorldPlugin struct {
 	plugin.MattermostPlugin

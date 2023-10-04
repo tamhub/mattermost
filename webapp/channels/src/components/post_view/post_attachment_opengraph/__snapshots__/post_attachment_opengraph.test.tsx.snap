@@ -30,8 +30,8 @@ exports[`PostAttachmentOpenGraph should match snapshot 1`] = `
             "url": "http://mattermost.com/OpenGraphImage.jpg",
           },
         ],
-        "site_name": "Mattermost",
-        "title": "Mattermost Private Cloud Messaging",
+        "site_name": "Tam Dev",
+        "title": "Tam Dev Private Cloud Messaging",
       }
     }
     post={

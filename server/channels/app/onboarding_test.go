@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package app
@@ -17,7 +17,7 @@ func TestOnboardingSavesOrganizationName(t *testing.T) {
 	defer th.TearDown()
 
 	err := th.App.CompleteOnboarding(&request.Context{}, &mm_model.CompleteOnboardingRequest{
-		Organization: "Mattermost In Tests",
+		Organization: "Tam Dev In Tests",
 	})
 	require.Nil(t, err)
 	defer func() {
@@ -26,5 +26,5 @@ func TestOnboardingSavesOrganizationName(t *testing.T) {
 
 	sys, storeErr := th.App.Srv().Store().System().GetByName(mm_model.SystemOrganizationName)
 	require.NoError(t, storeErr)
-	require.Equal(t, "Mattermost In Tests", sys.Value)
+	require.Equal(t, "Tam Dev In Tests", sys.Value)
 }

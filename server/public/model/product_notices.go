@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package model
@@ -59,9 +59,9 @@ type NoticeMessageInternal struct {
 	Action      *NoticeAction `json:"action,omitempty"`      // Optional action to perform on action button click. (defaults to closing the notice)
 	ActionParam *string       `json:"actionParam,omitempty"` // Optional action parameter.; Example: {"action": "url", actionParam: "/console/some-page"}
 	ActionText  *string       `json:"actionText,omitempty"`  // Optional override for the action button text (defaults to OK)
-	Description string        `json:"description"`           // Notice content. Use {{Mattermost}} instead of plain text to support white-labeling. Text; supports Markdown.
+	Description string        `json:"description"`           // Notice content. Use {{Tam Dev}} instead of plain text to support white-labeling. Text; supports Markdown.
 	Image       *string       `json:"image,omitempty"`
-	Title       string        `json:"title"` // Notice title. Use {{Mattermost}} instead of plain text to support white-labeling. Text; supports Markdown.
+	Title       string        `json:"title"` // Notice title. Use {{Tam Dev}} instead of plain text to support white-labeling. Text; supports Markdown.
 }
 type NoticeMessages []NoticeMessage
 

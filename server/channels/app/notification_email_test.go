@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package app
@@ -936,33 +936,33 @@ func TestMarkdownConversion(t *testing.T) {
 		},
 		{
 			name: "markdown: strong",
-			args: "This is **Mattermost**",
-			want: "This is <strong>Mattermost</strong>",
+			args: "This is **Tam Dev**",
+			want: "This is <strong>Tam Dev</strong>",
 		},
 		{
 			name: "markdown: blockquote",
 			args: "Below is blockquote\n" +
-				"> This is Mattermost blockquote\n" +
+				"> This is Tam Dev blockquote\n" +
 				"> on multiple lines!",
 			want: "<blockquote>\n" +
-				"<p>This is Mattermost blockquote\n" +
+				"<p>This is Tam Dev blockquote\n" +
 				"on multiple lines!</p>\n" +
 				"</blockquote>",
 		},
 		{
 			name: "markdown: emphasis",
-			args: "This is *Mattermost*",
-			want: "This is <em>Mattermost</em>",
+			args: "This is *Tam Dev*",
+			want: "This is <em>Tam Dev</em>",
 		},
 		{
 			name: "markdown: links",
-			args: "This is [Mattermost](https://mattermost.com)",
-			want: "This is <a href=\"https://mattermost.com\">Mattermost</a>",
+			args: "This is [Tam Dev](https://mattermost.com)",
+			want: "This is <a href=\"https://mattermost.com\">Tam Dev</a>",
 		},
 		{
 			name: "markdown: strikethrough",
-			args: "This is ~~Mattermost~~",
-			want: "This is <del>Mattermost</del>",
+			args: "This is ~~Tam Dev~~",
+			want: "This is <del>Tam Dev</del>",
 		},
 		{
 			name: "markdown: table",

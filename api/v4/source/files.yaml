@@ -201,7 +201,7 @@
       summary: Get a public file link
       description: >
         Gets a public link for a file that can be accessed without logging into
-        Mattermost.
+        Tam Dev.
 
         ##### Permissions
 

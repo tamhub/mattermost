@@ -97,7 +97,7 @@ To set up a new package:
 
 The following is the rough process for releasing these packages. They'll require someone with write access on our NPM organization to run them, and they'll likely change over time as we improve this process.
 
-For full releases accompanying new versions of Mattermost:
+For full releases accompanying new versions of Tam Dev:
 
 1. Clean the repo.
 

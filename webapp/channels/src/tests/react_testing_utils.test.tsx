@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -126,10 +126,10 @@ describe('renderWithFullContext', () => {
         };
 
         const {rerender} = renderWithFullContext(
-            <TestComponent appTitle='Mattermost'/>,
+            <TestComponent appTitle='Tam Dev'/>,
         );
 
-        expect(screen.getByText('About Mattermost')).toBeInTheDocument();
+        expect(screen.getByText('About Tam Dev')).toBeInTheDocument();
 
         rerender(
             <TestComponent appTitle='Mattermots'/>,

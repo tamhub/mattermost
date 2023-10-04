@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package commands
@@ -18,7 +18,7 @@ import (
 
 var JobserverCmd = &cobra.Command{
 	Use:   "jobserver",
-	Short: "Start the Mattermost job server",
+	Short: "Start the Tam Dev job server",
 	RunE:  jobserverCmdF,
 }
 
@@ -44,8 +44,8 @@ func jobserverCmdF(command *cobra.Command, args []string) error {
 	a.Srv().LoadLicense()
 
 	// Run jobs
-	mlog.Info("Starting Mattermost job server")
-	defer mlog.Info("Stopped Mattermost job server")
+	mlog.Info("Starting Tam Dev job server")
+	defer mlog.Info("Stopped Tam Dev job server")
 
 	if !noJobs {
 		a.Srv().Jobs.StartWorkers()
@@ -66,7 +66,7 @@ func jobserverCmdF(command *cobra.Command, args []string) error {
 	<-signalChan
 
 	// Cleanup anything that isn't handled by a defer statement
-	mlog.Info("Stopping Mattermost job server")
+	mlog.Info("Stopping Tam Dev job server")
 
 	return nil
 }

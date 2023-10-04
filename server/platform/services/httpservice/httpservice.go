@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package httpservice
@@ -23,7 +23,7 @@ type HTTPService interface {
 	// implementation provides:
 	// - A shorter timeout for dial and TLS handshake (defined as constant "ConnectTimeout")
 	// - A timeout for end-to-end requests
-	// - A Mattermost-specific user agent header
+	// - A Tam Dev-specific user agent header
 	// - Additional security for untrusted and insecure connections
 	MakeTransport(trustURLs bool) *MattermostTransport
 }

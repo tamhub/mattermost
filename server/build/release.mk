@@ -138,7 +138,7 @@ endif
 		cp bin/manifest.txt $(DIST_PATH); \
 	fi
 
-	@# Import Mattermost plugin public key
+	@# Import Tam Dev plugin public key
 	gpg --import build/plugin-production-public-key.gpg
 
 	@# Download prepackaged plugins

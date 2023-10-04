@@ -1,6 +1,6 @@
 # Tools
 
-This directory aims to provide a set of tools that simplify and enhance various development tasks. This README file serves as a guide to help you understand the directory, features of these tools, and how to get started using it. This is a collection of utilities and scripts designed to streamline common development tasks for Mattermost. These tools aim to help automate repetitive tasks and improve productivity.
+This directory aims to provide a set of tools that simplify and enhance various development tasks. This README file serves as a guide to help you understand the directory, features of these tools, and how to get started using it. This is a collection of utilities and scripts designed to streamline common development tasks for Tam Dev. These tools aim to help automate repetitive tasks and improve productivity.
 
 ## Included tools
 

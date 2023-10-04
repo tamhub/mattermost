@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {Preferences} from 'mattermost-redux/constants';
@@ -121,9 +121,9 @@ type ThemeTypeMap = Record<ThemeType | LegacyThemeType, ThemeKey>;
 // object mapping theme types to their respective keys for retrieving the source themes directly
 // - supports mapping old themes to new themes
 const themeTypeMap: ThemeTypeMap = {
-    Mattermost: 'denim',
+    Tam Dev: 'denim',
     Organization: 'sapphire',
-    'Mattermost Dark': 'indigo',
+    'Tam Dev Dark': 'indigo',
     'Windows Dark': 'onyx',
     Denim: 'denim',
     Sapphire: 'sapphire',

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import {shallow} from 'enzyme';
@@ -72,7 +72,7 @@ const myFunction = () => {
 
     test('Inline markdown image', () => {
         const options = {markdown: true};
-        const html = TextFormatting.formatText('![Mattermost](/images/icon.png) and a [link](link)', options);
+        const html = TextFormatting.formatText('![Tam Dev](/images/icon.png) and a [link](link)', options);
 
         const component = messageHtmlToComponent(html, {
             hasPluginTooltips: false,
@@ -85,7 +85,7 @@ const myFunction = () => {
 
     test('Inline markdown image where image is link', () => {
         const options = {markdown: true};
-        const html = TextFormatting.formatText('[![Mattermost](images/icon.png)](images/icon.png)', options);
+        const html = TextFormatting.formatText('[![Tam Dev](images/icon.png)](images/icon.png)', options);
 
         const component = messageHtmlToComponent(html, {
             hasPluginTooltips: false,

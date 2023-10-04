@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -21,7 +21,7 @@ export type HeaderProps = {
 const Header = ({alternateLink, backButtonURL, onBackButtonClick}: HeaderProps) => {
     const {EnableCustomBrand, SiteName} = useSelector(getConfig);
 
-    const ariaLabel = EnableCustomBrand === 'true' && SiteName ? SiteName : 'Mattermost';
+    const ariaLabel = EnableCustomBrand === 'true' && SiteName ? SiteName : 'Tam Dev';
 
     return (
         <div className='hfroute-header'>
@@ -31,7 +31,7 @@ const Header = ({alternateLink, backButtonURL, onBackButtonClick}: HeaderProps) 
                     to='/'
                     aria-label={ariaLabel}
                 >
-                    {EnableCustomBrand === 'true' || SiteName !== 'Mattermost' ? SiteName : <Logo/>}
+                    {EnableCustomBrand === 'true' || SiteName !== 'Tam Dev' ? SiteName : <Logo/>}
                 </Link>
                 {alternateLink}
             </div>

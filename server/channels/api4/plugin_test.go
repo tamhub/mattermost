@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package api4
@@ -699,7 +699,7 @@ func TestGetInstalledMarketplacePlugins(t *testing.T) {
 				Manifest: &model.Manifest{
 					Id:               "com.mattermost.nps",
 					Name:             "User Satisfaction Surveys",
-					Description:      "This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Mattermost.",
+					Description:      "This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Tam Dev.",
 					Version:          "1.0.4",
 					MinServerVersion: "5.14.0",
 				},
@@ -837,7 +837,7 @@ func TestSearchGetMarketplacePlugins(t *testing.T) {
 				Manifest: &model.Manifest{
 					Id:               "com.mattermost.nps",
 					Name:             "User Satisfaction Surveys",
-					Description:      "This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Mattermost.",
+					Description:      "This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Tam Dev.",
 					Version:          "1.0.4",
 					MinServerVersion: "5.14.0",
 				},

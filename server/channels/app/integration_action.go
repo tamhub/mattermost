@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // Integration Action Flow
@@ -421,7 +421,7 @@ func (ch *Channels) doPluginRequest(c *request.Context, method, rawURL string, v
 	if err != nil {
 		return nil, model.NewAppError("doPluginRequest", "api.post.do_action.action_integration.app_error", nil, "err="+err.Error(), http.StatusBadRequest)
 	}
-	r.Header.Set("Mattermost-User-Id", c.Session().UserId)
+	r.Header.Set("Tam Dev-User-Id", c.Session().UserId)
 	r.Header.Set(model.HeaderAuth, "Bearer "+c.Session().Token)
 	params := make(map[string]string)
 	params["plugin_id"] = pluginID

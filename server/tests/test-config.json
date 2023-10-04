@@ -64,7 +64,7 @@
         "ExperimentalEnableHardenedMode": false
     },
     "TeamSettings": {
-        "SiteName": "Mattermost",
+        "SiteName": "Tam Dev",
         "MaxUsersPerTeam": 50,
         "EnableUserCreation": true,
         "EnableOpenServer": false,

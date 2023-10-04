@@ -714,7 +714,7 @@ exports[`components/marketplace/ should render with plugins available 1`] = `
                     "homepage_url": "https://github.com/mattermost/mattermost-plugin-nps",
                     "installed_version": "",
                     "manifest": Object {
-                      "description": "This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Mattermost",
+                      "description": "This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Tam Dev",
                       "id": "com.mattermost.nps",
                       "min_server_version": "5.14.0",
                       "name": "User Satisfaction Surveys",
@@ -877,7 +877,7 @@ exports[`components/marketplace/ should render with plugins installed 1`] = `
                     "homepage_url": "https://github.com/mattermost/mattermost-plugin-nps",
                     "installed_version": "",
                     "manifest": Object {
-                      "description": "This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Mattermost",
+                      "description": "This plugin sends quarterly user satisfaction surveys to gather feedback and help improve Tam Dev",
                       "id": "com.mattermost.nps",
                       "min_server_version": "5.14.0",
                       "name": "User Satisfaction Surveys",

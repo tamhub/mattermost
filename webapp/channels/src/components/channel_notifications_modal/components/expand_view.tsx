@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React, {useMemo, useRef} from 'react';
@@ -372,7 +372,7 @@ export default function ExpandView({
                     <div className='mt-5'>
                         <FormattedMessage
                             id='channel_notifications.sound_info'
-                            defaultMessage='Notification sounds are available on Firefox, Edge, Safari, Chrome and Mattermost Desktop Apps.'
+                            defaultMessage='Notification sounds are available on Firefox, Edge, Safari, Chrome and Tam Dev Desktop Apps.'
                         />
                     </div>
                 </fieldset>

@@ -1,6 +1,6 @@
-# Mattermost Types
+# Tam Dev Types
 
-This package contains shared type definitions used by [the Mattermost web app](https://github.com/mattermost/mattermost-webapp) and related projects.
+This package contains shared type definitions used by [the Tam Dev web app](https://github.com/mattermost/mattermost-webapp) and related projects.
 
 ## Usage
 
@@ -26,7 +26,7 @@ In your Jest config, you can use the `moduleNameMapper` field to add that alias.
 
 ## Compilation and Packaging
 
-As a member of Mattermost with write access to our NPM organization, you can build and publish this package by running the following commands:
+As a member of Tam Dev with write access to our NPM organization, you can build and publish this package by running the following commands:
 
 ```bash
 npm run build --workspace=platform/types

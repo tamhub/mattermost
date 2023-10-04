@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -313,7 +313,7 @@ export default class LicenseSettings extends React.PureComponent<Props, State> {
             );
         } else {
             // Note: DO NOT LOCALISE THESE STRINGS. Legally we can not since the license is in English.
-            // This is Mattermost Starter (Already downloaded the binary but no license has been set, or ended the trial period)
+            // This is Tam Dev Starter (Already downloaded the binary but no license has been set, or ended the trial period)
             leftPanel = (
                 <StarterLeftPanel
                     openEELicenseModal={this.openEELicenseModal}

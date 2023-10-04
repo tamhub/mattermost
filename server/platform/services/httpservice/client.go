@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package httpservice
@@ -20,7 +20,7 @@ const (
 var reservedIPRanges []*net.IPNet
 
 // IsReservedIP checks whether the target IP belongs to reserved IP address ranges to avoid SSRF attacks to the internal
-// network of the Mattermost server
+// network of the Tam Dev server
 func IsReservedIP(ip net.IP) bool {
 	for _, ipRange := range reservedIPRanges {
 		if ipRange.Contains(ip) {
@@ -84,7 +84,7 @@ func init() {
 		}
 		reservedIPRanges = append(reservedIPRanges, parsed)
 	}
-	defaultUserAgent = "Mattermost-Bot/1.1"
+	defaultUserAgent = "Tam Dev-Bot/1.1"
 }
 
 type DialContextFunction func(ctx context.Context, network, addr string) (net.Conn, error)

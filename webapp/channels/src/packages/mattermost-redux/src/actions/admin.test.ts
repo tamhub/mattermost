@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import fs from 'fs';
@@ -89,7 +89,7 @@ describe('Actions.Admin', () => {
             get('/config').
             reply(200, {
                 TeamSettings: {
-                    SiteName: 'Mattermost',
+                    SiteName: 'Tam Dev',
                 },
             });
 
@@ -109,7 +109,7 @@ describe('Actions.Admin', () => {
         const config = state.entities.admin.config;
         expect(config).toBeTruthy();
         expect(config.TeamSettings).toBeTruthy();
-        expect(config.TeamSettings.SiteName === 'Mattermost').toBeTruthy();
+        expect(config.TeamSettings.SiteName === 'Tam Dev').toBeTruthy();
     });
 
     it('updateConfig', async () => {
@@ -117,7 +117,7 @@ describe('Actions.Admin', () => {
             get('/config').
             reply(200, {
                 TeamSettings: {
-                    SiteName: 'Mattermost',
+                    SiteName: 'Tam Dev',
                 },
             });
 

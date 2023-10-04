@@ -1,4 +1,4 @@
-// Copyright (c) 2019-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2019-present Tam Dev, Inc. All Rights Reserved.
 // See License for license information.
 
 package oauther
@@ -18,7 +18,7 @@ func (o *oAuther) oauth2Connect(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
 		return
 	}
-	userID := r.Header.Get("Mattermost-User-ID")
+	userID := r.Header.Get("Tam Dev-User-ID")
 	if userID == "" {
 		o.logger.Debugf("oauth2Connect: reached by non authed user")
 		http.Error(w, "Not authorized", http.StatusUnauthorized)

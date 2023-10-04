@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 /// <reference types="cypress" />
@@ -19,7 +19,7 @@ declare namespace Cypress {
     interface Chainable {
 
         /**
-         * Synchronize any user attribute changes in the configured AD/LDAP server with Mattermost.
+         * Synchronize any user attribute changes in the configured AD/LDAP server with Tam Dev.
          * See https://api.mattermost.com/#operation/SyncLdap
          *
          * @example

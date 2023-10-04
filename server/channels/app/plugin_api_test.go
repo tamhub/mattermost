@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package app
@@ -1508,7 +1508,7 @@ func TestInterpluginPluginHTTP(t *testing.T) {
 					return
 				}
 
-				if r.Header.Get("Mattermost-Plugin-ID") != "testplugininterclient" {
+				if r.Header.Get("Tam Dev-Plugin-ID") != "testplugininterclient" {
 					return
 				}
 
@@ -1551,7 +1551,7 @@ func TestInterpluginPluginHTTP(t *testing.T) {
 			if err != nil {
 				return nil, err.Error()
 			}
-			req.Header.Add("Mattermost-User-Id", "userid")
+			req.Header.Add("Tam Dev-User-Id", "userid")
 			resp := p.API.PluginHTTP(req)
 			if resp == nil {
 				return nil, "Nil resp"

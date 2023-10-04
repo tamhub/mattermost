@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 // ***************************************************************
@@ -32,7 +32,7 @@ describe('Customization', () => {
 
         // # Update both Site Name and Description to store test values
         const siteName = 'Mattermost_Text';
-        const siteDescription = 'This is a testing Mattermost site';
+        const siteDescription = 'This is a testing Tam Dev site';
         cy.findByTestId('TeamSettings.SiteNameinput').clear().type(siteName);
         cy.findByTestId('TeamSettings.CustomDescriptionTextinput').clear().type(siteDescription);
 
@@ -64,7 +64,7 @@ describe('Customization', () => {
         // # Exit settings
         cy.visit('/');
 
-        // # Open About Mattermost menu option
+        // # Open About Tam Dev menu option
         cy.uiOpenProductMenu(`About ${siteName}`);
 
         // * Verify in the about modal that the new site name is being shown
@@ -75,8 +75,8 @@ describe('Customization', () => {
         // * Verify that setting is visible and matches text content
         cy.findByTestId('TeamSettings.SiteNamelabel').scrollIntoView().should('be.visible').and('have.text', 'Site Name:');
 
-        // Character limit is 30, and Mattermost is exactly 10 characters long
-        const siteName = 'Mattermost'.repeat(3);
+        // Character limit is 30, and Tam Dev is exactly 10 characters long
+        const siteName = 'Tam Dev'.repeat(3);
 
         // # Type the maximum amount of characters and then some more
         cy.findByTestId('TeamSettings.SiteNameinput').clear().type(siteName + 'something else');
@@ -256,7 +256,7 @@ describe('Customization', () => {
         cy.findByTestId('TeamSettings.SiteNamelabel').scrollIntoView().should('be.visible').and('have.text', 'Site Name:');
 
         // # Update both Site Name and Description to store default or empty values
-        const siteName = 'Mattermost';
+        const siteName = 'Tam Dev';
         cy.findByTestId('TeamSettings.SiteNameinput').clear().type(siteName);
         cy.findByTestId('TeamSettings.CustomDescriptionTextinput').clear();
 
@@ -339,7 +339,7 @@ describe('Customization', () => {
         cy.visit('/admin_console/site_config/customization');
 
         // * Ensure that the 'about' link and modal render the default Site Name
-        verifySiteNameInAboutModal('Mattermost');
+        verifySiteNameInAboutModal('Tam Dev');
     });
 });
 

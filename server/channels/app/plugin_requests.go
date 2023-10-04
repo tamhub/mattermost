@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package app
@@ -79,7 +79,7 @@ func (a *App) ServeInterPluginRequest(w http.ResponseWriter, r *http.Request, so
 		UserAgent: r.UserAgent(),
 	}
 
-	r.Header.Set("Mattermost-Plugin-ID", sourcePluginId)
+	r.Header.Set("Tam Dev-Plugin-ID", sourcePluginId)
 
 	hooks.ServeHTTP(context, w, r)
 }
@@ -147,10 +147,10 @@ func (ch *Channels) servePluginRequest(w http.ResponseWriter, r *http.Request, h
 		token = r.URL.Query().Get("access_token")
 	}
 
-	// Mattermost-Plugin-ID can only be set by inter-plugin requests
-	r.Header.Del("Mattermost-Plugin-ID")
+	// Tam Dev-Plugin-ID can only be set by inter-plugin requests
+	r.Header.Del("Tam Dev-Plugin-ID")
 
-	r.Header.Del("Mattermost-User-Id")
+	r.Header.Del("Tam Dev-User-Id")
 	if token != "" {
 		session, err := New(ServerConnector(ch)).GetSession(token)
 		defer ch.srv.platform.ReturnSessionToPool(session)
@@ -206,7 +206,7 @@ func (ch *Channels) servePluginRequest(w http.ResponseWriter, r *http.Request, h
 		}
 
 		if (session != nil && session.Id != "") && err == nil && csrfCheckPassed {
-			r.Header.Set("Mattermost-User-Id", session.UserId)
+			r.Header.Set("Tam Dev-User-Id", session.UserId)
 			context.SessionId = session.Id
 		}
 	}

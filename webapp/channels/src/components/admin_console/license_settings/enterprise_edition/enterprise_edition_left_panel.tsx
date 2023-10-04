@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import classNames from 'classnames';
@@ -125,7 +125,7 @@ const EnterpriseEditionLeftPanel = ({
                         />
                     </div>
                     <div className='title'>
-                        {`Mattermost ${skuName}`}
+                        {`Tam Dev ${skuName}`}
                         {isTrialLicense && (
                             <Tag
                                 text={formatMessage({
@@ -144,7 +144,7 @@ const EnterpriseEditionLeftPanel = ({
             <div className='subtitle'>
                 <FormattedMessage
                     id='admin.license.enterpriseEdition.subtitle'
-                    defaultMessage='This is an Enterprise Edition for the Mattermost {skuName} plan'
+                    defaultMessage='This is an Enterprise Edition for the Tam Dev {skuName} plan'
                     values={{skuName}}
                 />
             </div>
@@ -181,7 +181,7 @@ const EnterpriseEditionLeftPanel = ({
             <div className='license-notices'>
                 {upgradedFromTE ? <>
                     <p>
-                        {'When using Mattermost Enterprise Edition, the software is offered under a commercial license. See '}
+                        {'When using Tam Dev Enterprise Edition, the software is offered under a commercial license. See '}
                         <a
                             role='button'
                             onClick={openEELicenseModal}
@@ -274,7 +274,7 @@ const renderLicenseContent = (
 ) => {
     // Note: DO NOT LOCALISE THESE STRINGS. Legally we can not since the license is in English.
 
-    const sku = license.SkuShortName ? <>{`Mattermost ${toTitleCase(skuName)}${isTrialLicense ? ' License Trial' : ''}`}</> : null;
+    const sku = license.SkuShortName ? <>{`Tam Dev ${toTitleCase(skuName)}${isTrialLicense ? ' License Trial' : ''}`}</> : null;
 
     const users = <FormattedNumber value={parseInt(license.Users, 10)}/>;
     const activeUsers = <FormattedNumber value={statsActiveUsers}/>;
@@ -350,7 +350,7 @@ const renderRemoveButton = (
     let removeButtonText = (
         <FormattedMessage
             id='admin.license.keyRemove'
-            defaultMessage='Remove license and downgrade to Mattermost Free'
+            defaultMessage='Remove license and downgrade to Tam Dev Free'
         />
     );
     if (removing) {

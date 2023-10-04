@@ -23,5 +23,5 @@ ${MME2E_DC_SERVER} exec -T -- server mmctl config set TeamSettings.MaxUsersPerTe
 ${MME2E_DC_SERVER} exec -T -- server mmctl sampledata -u 60 --local
 ${MME2E_DC_SERVER} exec -T -- openldap bash -c 'ldapadd -x -D "cn=admin,dc=mm,dc=test,dc=com" -w mostest' <../../server/tests/test-data.ldif
 ${MME2E_DC_SERVER} exec -T -- minio sh -c 'mkdir -p /data/mattermost-test'
-mme2e_log "Mattermost is running and ready for E2E testing"
+mme2e_log "Tam Dev is running and ready for E2E testing"
 mme2e_log "You can use the test data credentials for logging in (username=sysadmin password=Sys@dmin-sample1)"

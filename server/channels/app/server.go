@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 package app
@@ -340,7 +340,7 @@ func NewServer(options ...Option) (*Server, error) {
 	s.pushNotificationClient = s.httpService.MakeClient(true)
 
 	if err2 := utils.TranslationsPreInit(); err2 != nil {
-		return nil, errors.Wrapf(err2, "unable to load Mattermost translation files")
+		return nil, errors.Wrapf(err2, "unable to load Tam Dev translation files")
 	}
 	model.AppErrorInit(i18n.T)
 
@@ -358,7 +358,7 @@ func NewServer(options ...Option) (*Server, error) {
 	s.createPushNotificationsHub(request.EmptyContext(s.Log()))
 
 	if err2 := i18n.InitTranslations(*s.platform.Config().LocalizationSettings.DefaultServerLocale, *s.platform.Config().LocalizationSettings.DefaultClientLocale); err2 != nil {
-		return nil, errors.Wrapf(err2, "unable to load Mattermost translation files")
+		return nil, errors.Wrapf(err2, "unable to load Tam Dev translation files")
 	}
 
 	templatesDir, ok := templates.GetTemplateDirectory()
@@ -1408,7 +1408,7 @@ func (s *Server) doLicenseExpirationCheck() {
 
 	users, err := s.Store().User().GetSystemAdminProfiles()
 	if err != nil {
-		mlog.Error("Failed to get system admins for license expired message from Mattermost.")
+		mlog.Error("Failed to get system admins for license expired message from Tam Dev.")
 		return
 	}
 

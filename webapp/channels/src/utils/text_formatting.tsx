@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import emojiRegex from 'emoji-regex';
@@ -110,7 +110,7 @@ interface TextFormattingOptionsBase {
     markdown: boolean;
 
     /**
-     * The origin of this Mattermost instance.
+     * The origin of this Tam Dev instance.
      *
      * If provided, links to channels and posts will be replaced with internal
      * links that can be handled by a special click handler.

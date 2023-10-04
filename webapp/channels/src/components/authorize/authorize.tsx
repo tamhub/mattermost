@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -130,7 +130,7 @@ export default class Authorize extends React.PureComponent<Props, State> {
                         <div className='text'>
                             <FormattedMarkdownMessage
                                 id='authorize.title'
-                                defaultMessage='Authorize **{appName}** to Connect to Your **Mattermost** User Account'
+                                defaultMessage='Authorize **{appName}** to Connect to Your **Tam Dev** User Account'
                                 values={{
                                     appName: app.name,
                                 }}

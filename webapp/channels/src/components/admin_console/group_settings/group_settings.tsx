@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// Copyright (c) 2015-present Tam Dev, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
 import React from 'react';
@@ -53,7 +53,7 @@ const GroupSettings = ({isDisabled}: Props) => {
                         titleId={t('admin.group_settings.ldapGroupsTitle')}
                         titleDefault='AD/LDAP Groups'
                         subtitleId={t('admin.group_settings.ldapGroupsDescription')}
-                        subtitleDefault={'Connect AD/LDAP and create groups in Mattermost. To get started, configure group attributes on the <link>AD/LDAP</link> configuration page.'}
+                        subtitleDefault={'Connect AD/LDAP and create groups in Tam Dev. To get started, configure group attributes on the <link>AD/LDAP</link> configuration page.'}
                         subtitleValues={{
                             link: (msg: React.ReactNode) => (
                                 <ExternalLink

@@ -1,11 +1,11 @@
-Mattermost Web App
+Tam Dev Web App
 
-© 2017-present Mattermost, Inc.  All Rights Reserved.  See LICENSE.txt for license information.
+© 2017-present Tam Dev, Inc.  All Rights Reserved.  See LICENSE.txt for license information.
 
 NOTICES:
 --------
 
-This document includes a list of open source components used in Mattermost Web App, including those that have been modified.
+This document includes a list of open source components used in Tam Dev Web App, including those that have been modified.
 
 --------
 
@@ -147,7 +147,7 @@ SOFTWARE.
 
 This product contains '@mattermost/client'.
 
-JavaScript/TypeScript client for Mattermost
+JavaScript/TypeScript client for Tam Dev
 
 * HOMEPAGE:
   * https://github.com/mattermost/mattermost-webapp/tree/master/packages/client#readme
@@ -362,7 +362,7 @@ JavaScript/TypeScript client for Mattermost
 
 ## @mattermost/compass-components
 
-This product contains '@mattermost/compass-components' by Mattermost.
+This product contains '@mattermost/compass-components' by Tam Dev.
 
 The compass components package is the implementation of the compass design system meant (but not limited) to be used in the mattermost products: Messaging, Playbooks and Focalboard.
 
@@ -376,7 +376,7 @@ The compass components package is the implementation of the compass design syste
 
 ## @mattermost/compass-icons
 
-This product contains '@mattermost/compass-icons' by Mattermost.
+This product contains '@mattermost/compass-icons' by Tam Dev.
 
 Simple steps to adding new icons to the Compass Icons font.
 
@@ -394,7 +394,7 @@ Simple steps to adding new icons to the Compass Icons font.
 
 This product contains '@mattermost/types'.
 
-Shared type definitions used by the Mattermost web app
+Shared type definitions used by the Tam Dev web app
 
 * HOMEPAGE:
   * https://github.com/mattermost/mattermost-webapp/tree/master/packages/types#readme
@@ -1412,7 +1412,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## dynamic-virtualized-list
 
-This product contains 'dynamic-virtualized-list' by Mattermost.
+This product contains 'dynamic-virtualized-list' by Tam Dev.
 
 React components for efficiently rendering dynamically sized lists
 
@@ -1423,7 +1423,7 @@ React components for efficiently rendering dynamically sized lists
 
 MIT License
 
-Copyright (c) 2020 Mattermost
+Copyright (c) 2020 Tam Dev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

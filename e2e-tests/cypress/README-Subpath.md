@@ -8,7 +8,7 @@ Two mattermost servers running on the same machine must be served from different
 
 #### Example set up using NGINX:
 
-You'll need to run two Mattermost servers.
+You'll need to run two Tam Dev servers.
 
 1. Set the `SiteURL` and the listening port for the first server:
 
@@ -28,7 +28,7 @@ The DB `DataSource` will need to be different for both servers.
 
 3. Install NGINX -  exact steps depend on your OS
 
-4. Update your NGINX site configuration. The specific details for each setting can be found in the [Mattermost docs](https://docs.mattermost.com/install/config-proxy-nginx.html)
+4. Update your NGINX site configuration. The specific details for each setting can be found in the [Tam Dev docs](https://docs.mattermost.com/install/config-proxy-nginx.html)
 
 ```
 upstream backend1 {
@@ -129,4 +129,4 @@ server {
 
 6. In the `cypress.json` file, set `baseURL` to  `"http://localhost/company/mattermost1"` and `secondServerURL` to `"http://localhost/company/mattermost2"`
 
-7. Start both Mattermost tests and run the e2e tests.
+7. Start both Tam Dev tests and run the e2e tests.
